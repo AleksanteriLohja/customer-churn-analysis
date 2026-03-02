@@ -1,0 +1,2001 @@
+CustomerID,Gender,Age,Country,TenureMonths,ContractType,PaymentMethod,InternetService,HasPhoneService,AddonStreaming,MonthlyCharges,TotalCharges,SupportTicketsLast6M,IsActiveAppUser,SatisfactionScore,Churn,ChurnReason
+C0001,Male,45,Germany,69,Month-to-month,Credit card,DSL,Yes,No,44.83,3105.62,1,No,5,0,
+C0002,Female,24,Sweden,16,Month-to-month,Bank transfer,Fiber,Yes,Yes,104.5,1695.53,4,Yes,3,0,
+C0003,Female,52,Germany,25,Month-to-month,Credit card,DSL,No,No,34.06,869.01,1,No,5,0,
+C0004,Female,72,Norway,20,One year,Direct debit,Fiber,Yes,Yes,68.85,1380.56,3,No,4,0,
+C0005,Male,45,Finland,71,Two year,Direct debit,Fiber,Yes,Yes,89.12,6315.26,1,No,4,1,Competitor
+C0006,Male,31,Sweden,20,Month-to-month,Bank transfer,Fiber,Yes,Yes,88.59,1775.31,3,Yes,4,1,Moving
+C0007,Male,73,Finland,120,Month-to-month,Electronic invoice,DSL,Yes,No,56.13,6740.26,2,Yes,5,1,Other
+C0008,Female,27,Finland,10,Month-to-month,Electronic invoice,Mobile,Yes,No,31.65,335.93,2,Yes,4,1,Competitor
+C0009,Female,33,Norway,37,Two year,Bank transfer,DSL,Yes,No,25.0,879.98,3,Yes,4,0,
+C0010,Female,33,Finland,71,One year,Direct debit,Fiber,Yes,Yes,59.95,4227.85,0,Yes,5,0,
+C0011,Male,71,Finland,105,Month-to-month,Direct debit,Mobile,Yes,No,47.7,5013.23,2,No,5,0,
+C0012,Other,48,Sweden,87,Month-to-month,Electronic invoice,Mobile,Yes,No,56.19,4895.18,1,No,5,1,Competitor
+C0013,Female,59,Germany,34,One year,Bank transfer,Fiber,No,Yes,60.77,2048.84,0,Yes,5,0,
+C0014,Male,42,Denmark,118,Month-to-month,Bank transfer,DSL,Yes,No,25.74,3044.47,0,Yes,5,0,
+C0015,Male,30,Denmark,13,One year,Bank transfer,Fiber,Yes,No,59.76,790.45,1,No,4,0,
+C0016,Male,23,Finland,118,Month-to-month,Electronic invoice,DSL,Yes,Yes,54.99,6484.93,1,Yes,5,1,Competitor
+C0017,Male,61,Denmark,13,One year,Credit card,DSL,Yes,Yes,54.23,733.58,1,No,4,0,
+C0018,Female,26,Denmark,9,Month-to-month,Credit card,Fiber,Yes,Yes,106.41,990.02,2,No,4,1,Competitor
+C0019,Male,62,Norway,11,Month-to-month,Bank transfer,Fiber,Yes,No,92.14,1015.98,3,No,4,0,
+C0020,Male,53,Germany,37,Month-to-month,Credit card,Fiber,Yes,No,76.39,2843.25,2,Yes,4,0,
+C0021,Female,73,Finland,107,Two year,Direct debit,Fiber,Yes,Yes,91.38,9743.73,0,Yes,5,0,
+C0022,Male,60,Germany,118,Two year,Credit card,None,Yes,Yes,40.7,4824.07,1,Yes,5,0,
+C0023,Male,37,Germany,109,Two year,Bank transfer,None,No,No,48.07,5268.95,1,Yes,5,0,
+C0024,Male,35,Finland,33,One year,Electronic invoice,Fiber,Yes,No,60.58,1978.83,4,No,4,1,Other
+C0025,Male,75,Sweden,40,One year,Bank transfer,DSL,Yes,No,31.51,1272.73,0,Yes,5,0,
+C0026,Female,60,Germany,9,Two year,Direct debit,Fiber,No,No,45.19,369.24,2,Yes,4,0,
+C0027,Male,74,Finland,16,One year,Credit card,DSL,Yes,No,41.11,642.02,4,No,4,1,Other
+C0028,Female,38,Sweden,16,Month-to-month,Credit card,Fiber,Yes,No,68.54,1086.23,4,Yes,4,0,
+C0029,Female,21,Germany,66,Two year,Electronic invoice,Fiber,Yes,Yes,69.35,4547.6,2,Yes,4,0,
+C0030,Male,67,Norway,61,One year,Direct debit,Fiber,Yes,No,56.0,3411.24,1,No,5,1,Moving
+C0031,Female,50,Finland,94,Month-to-month,Bank transfer,Fiber,Yes,Yes,78.49,7371.98,2,Yes,4,1,Moving
+C0032,Male,44,Norway,114,Month-to-month,Electronic invoice,DSL,Yes,Yes,33.28,3806.26,0,Yes,5,0,
+C0033,Male,24,Finland,0,Month-to-month,Electronic invoice,Fiber,Yes,No,80.87,0.0,1,Yes,4,1,Competitor
+C0034,Female,23,Sweden,11,One year,Electronic invoice,Fiber,Yes,Yes,70.43,787.2,2,Yes,4,0,
+C0035,Other,80,Finland,102,Month-to-month,Bank transfer,Fiber,No,Yes,93.1,9480.42,1,Yes,4,0,
+C0036,Female,32,Norway,3,Month-to-month,Credit card,Fiber,Yes,No,83.65,225.38,1,Yes,4,0,
+C0037,Male,35,Sweden,41,Month-to-month,Direct debit,Fiber,No,Yes,74.75,3060.82,0,Yes,4,1,Competitor
+C0038,Male,49,Denmark,12,One year,Direct debit,Fiber,No,Yes,71.11,868.37,0,Yes,4,0,
+C0039,Female,73,Norway,97,Two year,Credit card,Fiber,Yes,No,77.99,7555.35,3,Yes,4,0,
+C0040,Male,28,Sweden,105,One year,Direct debit,DSL,No,No,22.44,2366.48,2,No,5,1,Moving
+C0041,Male,37,Norway,84,Month-to-month,Credit card,DSL,Yes,Yes,53.12,4467.66,2,No,4,1,Other
+C0042,Female,41,Finland,85,Month-to-month,Bank transfer,Fiber,No,No,76.09,6530.34,1,No,4,0,
+C0043,Male,32,Norway,120,Two year,Bank transfer,DSL,Yes,Yes,52.96,6348.95,2,Yes,5,0,
+C0044,Female,65,Finland,3,Month-to-month,Direct debit,Fiber,Yes,No,69.36,204.75,4,Yes,4,1,Other
+C0045,Male,24,Germany,81,One year,Bank transfer,Mobile,Yes,Yes,66.49,5407.85,0,No,5,1,Other
+C0046,Female,38,Finland,68,Month-to-month,Electronic invoice,Mobile,Yes,No,22.21,1509.25,4,No,4,1,Competitor
+C0047,Male,59,Sweden,18,One year,Direct debit,None,No,Yes,45.81,829.6,1,No,4,0,
+C0048,Female,43,Norway,1,Month-to-month,Direct debit,DSL,No,Yes,69.37,34.24,1,Yes,4,0,
+C0049,Female,61,Sweden,11,Month-to-month,Electronic invoice,None,Yes,Yes,65.14,714.1,1,Yes,4,0,
+C0050,Male,73,Finland,80,Month-to-month,Direct debit,Fiber,No,No,49.76,3966.7,0,No,5,0,
+C0051,Other,31,Norway,73,One year,Electronic invoice,Fiber,Yes,No,66.27,4828.12,3,No,4,0,
+C0052,Female,74,Norway,97,Two year,Credit card,DSL,Yes,Yes,34.31,3333.2,0,No,5,0,
+C0053,Female,54,Denmark,5,One year,Bank transfer,Mobile,Yes,No,44.32,220.5,3,No,4,0,
+C0054,Female,75,Sweden,7,One year,Credit card,DSL,Yes,Yes,48.73,356.55,1,No,4,0,
+C0055,Female,38,Norway,50,Two year,Credit card,Mobile,Yes,No,36.19,1828.58,2,No,4,1,Moving
+C0056,Female,35,Sweden,10,Month-to-month,Electronic invoice,DSL,Yes,Yes,58.08,577.26,2,Yes,4,0,
+C0057,Male,22,Norway,62,One year,Credit card,Fiber,Yes,No,62.61,3887.81,0,No,5,0,
+C0058,Male,20,Norway,56,Two year,Bank transfer,Fiber,Yes,No,53.94,2979.97,1,Yes,5,0,
+C0059,Male,40,Sweden,11,Month-to-month,Direct debit,DSL,Yes,No,46.08,513.17,1,Yes,4,1,Moving
+C0060,Male,43,Finland,72,Two year,Direct debit,DSL,Yes,Yes,46.07,3338.1,1,No,5,0,
+C0061,Male,54,Finland,1,Month-to-month,Bank transfer,Fiber,Yes,Yes,82.4,64.2,2,No,4,0,
+C0062,Male,41,Finland,7,Month-to-month,Direct debit,DSL,No,No,38.06,281.53,1,No,4,0,
+C0063,Female,66,Finland,10,One year,Credit card,Fiber,No,Yes,46.97,460.66,0,Yes,5,0,
+C0064,Male,36,Sweden,52,Two year,Bank transfer,Fiber,Yes,Yes,72.35,3750.67,3,Yes,4,0,
+C0065,Male,68,Norway,99,Two year,Direct debit,Mobile,Yes,Yes,31.57,3153.91,1,No,5,1,Moving
+C0066,Female,42,Finland,9,Month-to-month,Direct debit,Fiber,No,Yes,70.46,633.48,2,No,4,1,Other
+C0067,Male,38,Germany,84,Two year,Bank transfer,DSL,Yes,Yes,42.02,3547.02,3,Yes,4,0,
+C0068,Female,29,Finland,83,One year,Electronic invoice,Fiber,Yes,No,71.42,5888.81,0,Yes,5,1,Moving
+C0069,Male,74,Denmark,111,One year,Bank transfer,DSL,Yes,No,36.46,4034.86,1,No,5,0,
+C0070,Other,78,Norway,7,Two year,Bank transfer,Mobile,Yes,No,25.4,192.03,3,Yes,4,0,
+C0071,Female,58,Sweden,35,Two year,Credit card,Mobile,Yes,Yes,37.47,1313.94,2,Yes,4,0,
+C0072,Male,50,Finland,92,Month-to-month,Direct debit,Fiber,Yes,No,45.37,4170.36,1,Yes,5,0,
+C0073,Male,67,Norway,105,Two year,Direct debit,DSL,Yes,No,25.32,2670.68,1,Yes,5,0,
+C0074,Female,70,Sweden,75,Month-to-month,Credit card,Mobile,Yes,No,47.64,3556.37,2,Yes,4,1,Moving
+C0075,Female,21,Germany,13,Month-to-month,Bank transfer,Mobile,No,Yes,62.74,839.96,2,Yes,4,0,
+C0076,Female,80,Sweden,111,One year,Direct debit,Mobile,Yes,No,25.16,2788.51,5,Yes,4,0,
+C0077,Female,59,Germany,53,Two year,Bank transfer,Mobile,Yes,No,32.49,1705.66,2,Yes,5,0,
+C0078,Male,74,Finland,113,Month-to-month,Credit card,Fiber,Yes,No,69.18,7802.34,6,Yes,4,0,
+C0079,Male,24,Denmark,84,Two year,Direct debit,DSL,Yes,Yes,37.74,3168.53,0,No,5,0,
+C0080,Male,39,Norway,85,Month-to-month,Credit card,Fiber,No,Yes,78.79,6688.62,0,No,5,0,
+C0081,Female,72,Denmark,20,One year,Electronic invoice,Fiber,Yes,Yes,85.33,1717.12,0,Yes,4,1,Other
+C0082,Female,50,Finland,107,One year,Credit card,Fiber,No,No,64.11,6858.84,2,Yes,4,0,
+C0083,Male,34,Norway,49,Two year,Direct debit,Fiber,Yes,Yes,71.54,3498.34,3,Yes,4,0,
+C0084,Male,41,Sweden,93,Month-to-month,Bank transfer,DSL,Yes,No,35.74,3330.89,1,No,5,1,Competitor
+C0085,Male,78,Denmark,38,Two year,Electronic invoice,Fiber,Yes,No,33.8,1273.81,2,Yes,4,0,
+C0086,Male,78,Finland,19,Two year,Credit card,Fiber,Yes,No,73.69,1409.94,2,No,4,0,
+C0087,Female,51,Germany,87,Two year,Direct debit,DSL,No,No,51.12,4453.97,1,No,5,1,Competitor
+C0088,Female,45,Finland,86,One year,Direct debit,Fiber,Yes,No,64.82,5580.22,2,No,4,0,
+C0089,Female,75,Denmark,6,Two year,Bank transfer,Mobile,Yes,No,37.05,215.14,3,Yes,4,0,
+C0090,Male,60,Germany,8,Month-to-month,Bank transfer,Mobile,No,Yes,36.99,283.33,1,No,4,0,
+C0091,Male,58,Denmark,0,Month-to-month,Direct debit,Fiber,Yes,No,37.66,16.17,2,No,4,1,Other
+C0092,Female,56,Sweden,25,Two year,Electronic invoice,Fiber,No,No,50.81,1282.53,1,Yes,4,0,
+C0093,Female,39,Sweden,37,Month-to-month,Credit card,DSL,Yes,Yes,60.93,2234.25,1,Yes,4,1,Moving
+C0094,Female,66,Germany,37,One year,Credit card,Fiber,Yes,No,84.38,3113.4,1,Yes,4,1,Competitor
+C0095,Female,34,Finland,117,Month-to-month,Electronic invoice,Fiber,Yes,Yes,77.85,9135.24,3,Yes,4,0,
+C0096,Female,51,Sweden,60,One year,Credit card,Fiber,Yes,Yes,72.2,4351.68,2,No,4,0,
+C0097,Female,23,Norway,43,Two year,Electronic invoice,Mobile,Yes,Yes,60.65,2584.55,3,No,4,0,
+C0098,Male,63,Denmark,85,One year,Direct debit,Fiber,Yes,Yes,66.0,5610.24,1,Yes,5,0,
+C0099,Male,23,Finland,43,One year,Direct debit,DSL,Yes,No,32.01,1384.81,3,Yes,4,0,
+C0100,Male,51,Norway,73,Month-to-month,Credit card,DSL,Yes,No,30.69,2260.24,1,No,5,1,Competitor
+C0101,Male,18,Denmark,118,One year,Credit card,Fiber,Yes,No,59.4,7011.74,2,Yes,5,0,
+C0102,Female,27,Finland,61,Month-to-month,Direct debit,Fiber,No,No,79.98,4888.46,1,Yes,4,0,
+C0103,Male,38,Germany,5,One year,Electronic invoice,Mobile,Yes,Yes,49.44,265.83,0,Yes,5,1,Competitor
+C0104,Female,22,Finland,16,Month-to-month,Electronic invoice,Fiber,Yes,Yes,92.76,1505.47,3,No,4,1,Other
+C0105,Female,19,Sweden,50,Two year,Credit card,Fiber,Yes,No,88.24,4408.38,2,No,4,0,
+C0106,Male,39,Finland,113,One year,Credit card,Fiber,Yes,No,91.43,10332.5,2,Yes,4,0,
+C0107,Male,65,Finland,37,One year,Credit card,Fiber,No,Yes,50.58,1856.3,0,Yes,5,0,
+C0108,Female,74,Germany,23,One year,Electronic invoice,Fiber,Yes,No,61.13,1400.53,3,Yes,4,0,
+C0109,Male,19,Sweden,50,One year,Credit card,Fiber,No,No,76.06,3794.85,0,Yes,4,0,
+C0110,Male,27,Sweden,9,Month-to-month,Credit card,Fiber,Yes,No,33.19,294.94,1,No,5,0,
+C0111,Male,51,Finland,119,Month-to-month,Credit card,DSL,Yes,Yes,65.12,7747.4,2,Yes,4,0,
+C0112,Male,33,Norway,71,One year,Bank transfer,Mobile,Yes,No,51.68,3685.55,2,Yes,4,0,
+C0113,Female,65,Norway,20,Month-to-month,Electronic invoice,Fiber,No,No,75.42,1515.39,1,Yes,4,0,
+C0114,Female,68,Sweden,119,Month-to-month,Bank transfer,DSL,No,No,30.72,3630.08,2,Yes,5,0,
+C0115,Female,78,Finland,69,One year,Credit card,DSL,Yes,Yes,39.24,2718.57,3,No,4,0,
+C0116,Female,56,Germany,84,Month-to-month,Bank transfer,DSL,No,No,35.29,2953.38,0,Yes,5,0,
+C0117,Female,39,Sweden,56,Month-to-month,Bank transfer,Fiber,Yes,No,76.5,4262.21,3,Yes,4,1,Competitor
+C0118,Male,29,Sweden,38,Month-to-month,Credit card,DSL,No,Yes,43.27,1621.41,0,No,5,1,Moving
+C0119,Female,41,Finland,87,Month-to-month,Credit card,DSL,Yes,Yes,28.15,2452.45,3,Yes,5,0,
+C0120,Female,64,Denmark,32,Month-to-month,Direct debit,Fiber,Yes,No,45.9,1490.02,1,Yes,5,1,Other
+C0121,Female,57,Sweden,58,Two year,Credit card,Fiber,Yes,No,91.52,5303.94,2,Yes,4,0,
+C0122,Female,55,Sweden,17,Month-to-month,Credit card,DSL,No,No,47.07,818.94,0,Yes,5,0,
+C0123,Male,77,Finland,55,Two year,Bank transfer,Fiber,No,Yes,87.42,4809.81,1,No,4,0,
+C0124,Male,76,Germany,91,Month-to-month,Direct debit,Mobile,No,No,42.43,3818.02,3,Yes,4,0,
+C0125,Male,27,Finland,56,Two year,Direct debit,None,No,No,41.59,2341.28,2,Yes,4,0,
+C0126,Male,52,Denmark,115,Month-to-month,Direct debit,Fiber,Yes,Yes,49.2,5647.16,3,No,4,1,Other
+C0127,Female,68,Sweden,95,Two year,Direct debit,DSL,No,No,33.95,3209.04,4,Yes,4,1,Competitor
+C0128,Female,80,Finland,75,Two year,Direct debit,Mobile,No,Yes,48.01,3613.11,2,No,4,0,
+C0129,Male,66,Denmark,47,Month-to-month,Credit card,Fiber,Yes,Yes,79.29,3729.31,2,Yes,4,1,Moving
+C0130,Female,49,Finland,41,Two year,Electronic invoice,DSL,Yes,No,30.75,1259.4,4,Yes,4,1,Other
+C0131,Male,24,Germany,26,One year,Credit card,Mobile,Yes,No,15.84,413.78,0,Yes,5,0,
+C0132,Male,38,Germany,73,Month-to-month,Bank transfer,Fiber,No,Yes,75.63,5504.05,0,Yes,5,1,Competitor
+C0133,Male,37,Germany,109,Two year,Direct debit,None,No,Yes,32.62,3590.98,3,Yes,5,1,Moving
+C0134,Male,43,Finland,120,Two year,Bank transfer,Mobile,No,Yes,46.15,5541.45,1,Yes,5,0,
+C0135,Female,80,Denmark,51,One year,Electronic invoice,Fiber,No,Yes,60.95,3111.62,3,Yes,4,1,Moving
+C0136,Male,21,Sweden,41,One year,Bank transfer,Mobile,No,No,20.45,836.71,2,Yes,5,1,Other
+C0137,Female,63,Germany,31,Two year,Electronic invoice,Fiber,Yes,No,56.92,1732.19,1,Yes,4,0,
+C0138,Female,69,Norway,105,Two year,Electronic invoice,Fiber,Yes,Yes,72.66,7615.81,1,Yes,5,0,
+C0139,Male,39,Denmark,25,Two year,Electronic invoice,Mobile,Yes,No,40.91,998.27,1,Yes,5,0,
+C0140,Other,32,Sweden,24,Two year,Electronic invoice,Fiber,Yes,Yes,72.63,1716.73,1,Yes,4,0,
+C0141,Other,73,Sweden,74,Month-to-month,Electronic invoice,Mobile,Yes,No,51.38,3771.29,4,Yes,4,0,
+C0142,Male,57,Finland,22,Two year,Direct debit,Mobile,No,No,20.26,433.02,1,No,5,0,
+C0143,Female,38,Denmark,97,Month-to-month,Bank transfer,None,Yes,No,21.58,2093.67,7,Yes,4,0,
+C0144,Male,32,Sweden,56,Month-to-month,Credit card,Mobile,Yes,Yes,55.55,3082.36,4,Yes,4,1,Competitor
+C0145,Male,39,Sweden,51,One year,Direct debit,Fiber,Yes,No,41.78,2144.78,0,Yes,5,1,Moving
+C0146,Male,69,Denmark,103,One year,Electronic invoice,DSL,Yes,No,40.2,4146.55,1,Yes,5,0,
+C0147,Female,45,Norway,86,Month-to-month,Direct debit,Mobile,Yes,No,51.92,4460.49,1,No,5,0,
+C0148,Female,31,Finland,92,Two year,Electronic invoice,DSL,Yes,No,47.94,4453.72,1,Yes,5,0,
+C0149,Male,44,Norway,30,One year,Electronic invoice,DSL,Yes,No,44.7,1336.19,0,Yes,5,0,
+C0150,Male,78,Sweden,63,One year,Credit card,DSL,Yes,No,42.99,2724.33,2,Yes,4,0,
+C0151,Female,58,Sweden,70,Two year,Credit card,Mobile,Yes,No,26.39,1851.49,4,No,4,0,
+C0152,Male,57,Finland,103,One year,Bank transfer,Mobile,Yes,No,28.33,2946.76,1,Yes,5,0,
+C0153,Male,75,Finland,32,Month-to-month,Credit card,Fiber,Yes,No,49.98,1621.05,1,No,4,0,
+C0154,Female,45,Finland,84,Month-to-month,Direct debit,Fiber,Yes,No,88.53,7430.52,0,Yes,4,0,
+C0155,Other,43,Denmark,1,One year,Electronic invoice,Fiber,Yes,No,50.63,45.36,2,Yes,4,0,
+C0156,Male,66,Finland,17,Month-to-month,Direct debit,Fiber,Yes,No,53.27,878.76,2,Yes,4,0,
+C0157,Female,80,Sweden,46,One year,Bank transfer,Fiber,No,No,78.01,3590.78,1,Yes,4,0,
+C0158,Female,19,Germany,32,One year,Credit card,Fiber,Yes,Yes,78.38,2521.25,0,Yes,4,0,
+C0159,Male,42,Finland,100,One year,Bank transfer,Fiber,Yes,No,92.45,9243.76,1,Yes,4,0,
+C0160,Female,73,Sweden,97,Month-to-month,Bank transfer,Fiber,Yes,No,83.83,8159.52,0,Yes,5,1,Other
+C0161,Male,79,Denmark,83,One year,Bank transfer,Fiber,Yes,Yes,56.27,4673.31,4,Yes,4,0,
+C0162,Female,20,Germany,34,One year,Credit card,Fiber,Yes,Yes,96.37,3301.53,1,Yes,4,1,Other
+C0163,Female,25,Denmark,50,Two year,Bank transfer,None,Yes,No,31.66,1579.74,2,Yes,5,0,
+C0164,Female,61,Denmark,113,Month-to-month,Credit card,DSL,Yes,No,26.59,2981.48,2,Yes,5,1,Other
+C0165,Male,50,Denmark,117,One year,Electronic invoice,Fiber,Yes,Yes,65.72,7676.74,1,Yes,5,0,
+C0166,Female,59,Sweden,17,Month-to-month,Credit card,Fiber,Yes,No,81.99,1393.19,1,Yes,4,0,
+C0167,Male,69,Denmark,109,One year,Credit card,DSL,Yes,No,55.16,5997.45,1,Yes,5,0,
+C0168,Male,52,Finland,87,Two year,Credit card,Fiber,Yes,No,98.31,8519.87,3,No,4,0,
+C0169,Male,23,Germany,71,Month-to-month,Bank transfer,DSL,No,Yes,64.69,4552.94,4,Yes,4,1,Other
+C0170,Female,56,Sweden,29,Month-to-month,Direct debit,Fiber,Yes,No,38.03,1123.15,0,No,5,1,Other
+C0171,Female,69,Norway,43,Two year,Direct debit,Fiber,Yes,No,79.89,3442.98,0,No,4,0,
+C0172,Male,40,Finland,52,One year,Bank transfer,Mobile,Yes,Yes,55.67,2900.35,5,No,4,0,
+C0173,Female,42,Denmark,9,Month-to-month,Direct debit,Fiber,No,Yes,107.85,974.02,0,Yes,4,1,Moving
+C0174,Male,76,Finland,86,Month-to-month,Bank transfer,DSL,Yes,No,34.99,2998.19,4,No,4,0,
+C0175,Female,67,Germany,51,Month-to-month,Direct debit,Mobile,Yes,No,21.49,1111.88,0,No,5,0,
+C0176,Male,60,Denmark,48,Month-to-month,Credit card,DSL,Yes,Yes,65.49,3108.73,3,No,4,0,
+C0177,Female,36,Finland,10,Month-to-month,Bank transfer,Mobile,Yes,No,32.66,284.92,0,Yes,5,0,
+C0178,Male,22,Denmark,65,One year,Direct debit,Mobile,Yes,No,34.76,2255.37,2,No,5,0,
+C0179,Female,68,Denmark,57,Two year,Electronic invoice,Fiber,Yes,No,74.28,4236.55,4,No,4,0,
+C0180,Male,28,Norway,89,Month-to-month,Direct debit,Mobile,Yes,No,33.88,2997.64,1,Yes,5,1,Other
+C0181,Male,73,Sweden,35,One year,Credit card,Mobile,Yes,No,42.31,1448.98,1,No,5,0,
+C0182,Male,29,Finland,32,Month-to-month,Credit card,Mobile,Yes,No,25.92,841.25,0,Yes,5,0,
+C0183,Female,27,Finland,46,One year,Electronic invoice,Fiber,Yes,Yes,84.16,3863.13,2,No,4,0,
+C0184,Female,25,Finland,12,Month-to-month,Credit card,DSL,Yes,Yes,30.76,383.0,0,No,5,0,
+C0185,Male,41,Germany,39,Two year,Credit card,Mobile,Yes,No,24.37,976.54,1,Yes,5,0,
+C0186,Female,77,Finland,88,Two year,Credit card,DSL,No,Yes,40.65,3545.13,2,No,5,0,
+C0187,Female,45,Denmark,67,Two year,Bank transfer,DSL,Yes,No,49.95,3350.92,1,No,5,1,Competitor
+C0188,Female,58,Finland,41,Two year,Credit card,DSL,No,Yes,42.92,1764.71,1,Yes,5,1,Competitor
+C0189,Female,53,Sweden,18,Month-to-month,Bank transfer,Fiber,Yes,Yes,99.89,1812.91,1,Yes,4,1,Moving
+C0190,Male,54,Denmark,81,One year,Bank transfer,Fiber,Yes,No,70.29,5682.82,3,No,4,0,
+C0191,Male,38,Germany,100,Month-to-month,Electronic invoice,Mobile,Yes,No,37.13,3714.12,1,Yes,5,0,
+C0192,Female,25,Finland,93,One year,Credit card,Mobile,Yes,No,37.85,3534.72,0,Yes,5,0,
+C0193,Female,72,Sweden,18,Two year,Bank transfer,DSL,Yes,Yes,49.72,903.72,1,No,4,0,
+C0194,Female,26,Sweden,57,Month-to-month,Direct debit,None,Yes,Yes,42.31,2442.85,1,No,5,0,
+C0195,Male,64,Finland,22,Two year,Direct debit,Mobile,Yes,No,39.29,847.01,0,Yes,5,0,
+C0196,Male,32,Finland,53,One year,Bank transfer,DSL,Yes,Yes,36.33,1929.63,0,Yes,5,0,
+C0197,Female,65,Sweden,79,Two year,Electronic invoice,Fiber,Yes,No,90.83,7173.84,2,Yes,4,0,
+C0198,Female,63,Sweden,64,Two year,Credit card,Mobile,Yes,Yes,58.99,3771.23,1,No,4,0,
+C0199,Female,57,Denmark,11,One year,Electronic invoice,Fiber,Yes,Yes,63.26,707.62,1,No,4,0,
+C0200,Female,35,Sweden,23,One year,Bank transfer,Mobile,No,No,36.06,831.69,2,Yes,4,0,
+C0201,Female,59,Sweden,33,One year,Credit card,Mobile,No,No,55.62,1814.14,3,Yes,4,0,
+C0202,Male,77,Sweden,52,Two year,Electronic invoice,Fiber,Yes,No,47.44,2485.93,1,Yes,5,0,
+C0203,Male,37,Denmark,120,Two year,Direct debit,DSL,Yes,No,49.7,5975.81,2,No,5,0,
+C0204,Female,23,Germany,7,One year,Credit card,Fiber,No,No,49.68,377.25,0,Yes,5,0,
+C0205,Female,29,Sweden,17,One year,Credit card,DSL,No,No,40.93,710.35,0,No,5,0,
+C0206,Male,19,Denmark,56,Two year,Credit card,Fiber,Yes,No,72.69,4066.37,2,Yes,4,0,
+C0207,Male,24,Finland,111,Two year,Direct debit,Mobile,No,Yes,50.97,5653.55,0,No,5,0,
+C0208,Female,33,Sweden,4,Month-to-month,Credit card,Fiber,Yes,Yes,96.21,405.56,1,Yes,4,0,
+C0209,Male,20,Finland,25,Two year,Credit card,None,Yes,No,56.31,1392.41,2,No,4,1,Other
+C0210,Male,62,Sweden,29,One year,Credit card,Fiber,Yes,Yes,83.47,2402.53,0,No,4,0,
+C0211,Female,20,Denmark,53,Month-to-month,Direct debit,Mobile,Yes,Yes,47.89,2542.58,2,No,4,1,Other
+C0212,Female,44,Germany,12,Month-to-month,Electronic invoice,Fiber,No,No,59.66,686.04,1,No,4,1,Moving
+C0213,Female,67,Finland,82,One year,Direct debit,None,Yes,No,45.32,3723.21,2,Yes,5,0,
+C0214,Male,60,Norway,28,Month-to-month,Credit card,Mobile,Yes,No,44.65,1259.59,1,Yes,4,1,Other
+C0215,Female,57,Norway,2,Month-to-month,Electronic invoice,DSL,Yes,Yes,69.05,133.17,0,Yes,4,1,Other
+C0216,Male,55,Finland,89,One year,Direct debit,None,Yes,No,51.81,4639.25,2,Yes,4,0,
+C0217,Male,50,Finland,103,Month-to-month,Electronic invoice,Fiber,Yes,No,64.98,6715.5,1,Yes,5,1,Competitor
+C0218,Female,45,Finland,57,One year,Bank transfer,DSL,No,No,25.42,1433.38,1,No,5,1,Other
+C0219,Female,18,Finland,75,Two year,Bank transfer,Fiber,Yes,Yes,84.42,6344.62,1,No,4,1,Moving
+C0220,Female,72,Finland,1,One year,Direct debit,Mobile,Yes,Yes,50.93,70.62,1,Yes,4,0,
+C0221,Female,25,Finland,74,Two year,Credit card,Fiber,No,Yes,85.25,6310.16,2,No,4,1,Competitor
+C0222,Female,54,Finland,107,Two year,Bank transfer,Fiber,Yes,Yes,66.43,7099.37,1,Yes,5,0,
+C0223,Male,49,Denmark,27,Two year,Electronic invoice,Mobile,No,Yes,61.83,1647.23,2,No,4,0,
+C0224,Male,77,Norway,81,Month-to-month,Electronic invoice,Mobile,Yes,Yes,23.01,1852.65,0,Yes,5,1,Moving
+C0225,Male,65,Germany,76,Two year,Electronic invoice,Fiber,Yes,No,60.2,4553.47,5,Yes,4,1,Moving
+C0226,Male,60,Sweden,100,Two year,Direct debit,DSL,Yes,No,46.52,4670.25,0,Yes,5,0,
+C0227,Other,54,Denmark,85,One year,Credit card,DSL,No,No,46.95,3985.65,3,No,4,0,
+C0228,Male,21,Germany,75,Month-to-month,Credit card,Mobile,Yes,Yes,46.98,3533.93,3,No,4,1,Other
+C0229,Female,47,Norway,1,Month-to-month,Bank transfer,Mobile,Yes,No,42.86,68.07,2,Yes,4,1,Other
+C0230,Female,23,Sweden,100,Month-to-month,Bank transfer,DSL,Yes,Yes,43.81,4385.24,4,Yes,4,1,Competitor
+C0231,Female,63,Denmark,6,One year,Credit card,Fiber,Yes,No,40.59,267.08,4,No,4,0,
+C0232,Female,71,Finland,25,Month-to-month,Credit card,DSL,Yes,No,26.5,655.49,2,Yes,4,1,Moving
+C0233,Female,36,Finland,89,One year,Direct debit,Mobile,No,No,49.09,4376.74,1,Yes,5,0,
+C0234,Female,49,Sweden,87,One year,Direct debit,DSL,No,No,28.91,2519.28,4,Yes,4,0,
+C0235,Male,26,Norway,75,Month-to-month,Electronic invoice,DSL,Yes,No,24.52,1824.97,0,No,5,0,
+C0236,Female,29,Finland,15,Month-to-month,Direct debit,DSL,Yes,No,47.29,703.16,2,Yes,4,1,Moving
+C0237,Male,28,Germany,22,One year,Direct debit,Fiber,Yes,No,69.8,1563.9,1,Yes,4,1,Other
+C0238,Male,63,Norway,39,Two year,Direct debit,Fiber,Yes,No,70.82,2755.08,1,Yes,4,0,
+C0239,Female,72,Sweden,59,Two year,Electronic invoice,DSL,No,No,54.46,3179.89,0,No,5,1,Moving
+C0240,Male,33,Germany,72,One year,Direct debit,Mobile,No,No,48.81,3507.4,1,Yes,5,1,Moving
+C0241,Female,18,Sweden,31,Two year,Electronic invoice,DSL,No,No,32.52,993.06,1,No,5,0,
+C0242,Female,80,Germany,14,Month-to-month,Electronic invoice,Fiber,Yes,No,62.73,887.34,0,Yes,4,0,
+C0243,Female,62,Sweden,100,One year,Electronic invoice,Mobile,Yes,Yes,47.49,4761.3,5,Yes,4,0,
+C0244,Male,72,Finland,12,Month-to-month,Bank transfer,Fiber,Yes,No,54.73,663.92,2,No,4,0,
+C0245,Male,70,Denmark,4,Month-to-month,Credit card,Fiber,Yes,No,51.15,196.41,3,Yes,4,0,
+C0246,Female,38,Norway,74,One year,Credit card,DSL,Yes,No,39.83,2948.6,4,No,4,1,Moving
+C0247,Male,47,Denmark,73,Month-to-month,Credit card,Mobile,No,Yes,24.88,1809.93,0,No,5,1,Moving
+C0248,Other,30,Germany,51,Two year,Credit card,Fiber,No,Yes,100.26,5084.32,0,No,4,1,Moving
+C0249,Other,51,Denmark,76,Two year,Credit card,Mobile,No,No,47.71,3623.72,1,Yes,5,0,
+C0250,Female,21,Norway,40,One year,Bank transfer,DSL,No,No,27.68,1159.93,0,No,5,0,
+C0251,Male,45,Germany,52,Month-to-month,Bank transfer,Fiber,Yes,Yes,60.35,3117.61,0,No,5,1,Competitor
+C0252,Male,55,Norway,109,One year,Direct debit,Mobile,Yes,No,54.64,5918.66,1,No,5,1,Moving
+C0253,Female,75,Sweden,49,One year,Credit card,None,Yes,No,34.94,1740.54,0,No,5,0,
+C0254,Male,48,Germany,14,One year,Direct debit,DSL,Yes,Yes,57.5,813.97,1,Yes,4,1,Moving
+C0255,Male,76,Finland,105,One year,Direct debit,Mobile,Yes,No,34.31,3608.51,2,No,5,0,
+C0256,Female,72,Denmark,119,Two year,Direct debit,Fiber,Yes,Yes,79.56,9460.47,1,Yes,5,0,
+C0257,Female,44,Germany,6,Two year,Electronic invoice,Fiber,Yes,No,67.56,409.89,3,Yes,4,1,Competitor
+C0258,Female,22,Denmark,39,Month-to-month,Credit card,DSL,Yes,No,20.92,816.92,0,No,5,1,Other
+C0259,Female,42,Norway,27,Two year,Credit card,Fiber,Yes,No,52.83,1452.63,2,No,4,1,Other
+C0260,Male,20,Denmark,31,One year,Bank transfer,Fiber,Yes,No,68.79,2150.83,2,No,4,1,Competitor
+C0261,Female,50,Sweden,98,Month-to-month,Credit card,Fiber,Yes,No,89.38,8771.28,2,No,4,0,
+C0262,Other,21,Germany,14,Month-to-month,Direct debit,DSL,Yes,No,24.08,323.47,0,Yes,5,1,Competitor
+C0263,Male,42,Finland,111,Month-to-month,Bank transfer,DSL,Yes,No,44.05,4894.13,1,Yes,5,0,
+C0264,Female,37,Finland,99,Month-to-month,Credit card,Mobile,No,No,28.68,2827.01,1,Yes,5,0,
+C0265,Female,51,Finland,84,One year,Credit card,None,Yes,No,55.57,4692.45,4,Yes,4,0,
+C0266,Female,43,Sweden,69,Two year,Bank transfer,Mobile,Yes,Yes,58.43,4017.37,1,Yes,5,0,
+C0267,Female,79,Sweden,64,Two year,Direct debit,DSL,Yes,No,34.79,2223.87,1,No,5,1,Other
+C0268,Female,79,Denmark,3,Month-to-month,Direct debit,Fiber,No,No,59.21,155.89,4,Yes,4,1,Moving
+C0269,Male,22,Sweden,10,Month-to-month,Credit card,Mobile,Yes,Yes,22.77,217.74,1,Yes,5,0,
+C0270,Male,52,Sweden,107,Two year,Credit card,None,No,No,44.85,4788.76,3,Yes,4,1,Moving
+C0271,Female,78,Finland,25,Two year,Credit card,Fiber,No,No,56.55,1410.7,1,No,4,1,Competitor
+C0272,Female,45,Sweden,60,Two year,Credit card,Mobile,No,No,25.35,1503.01,1,Yes,5,0,
+C0273,Female,46,Norway,36,Two year,Electronic invoice,None,Yes,No,59.42,2163.43,3,Yes,4,1,Moving
+C0274,Female,26,Finland,22,Two year,Credit card,Mobile,Yes,No,32.66,714.78,1,Yes,5,0,
+C0275,Female,69,Finland,92,One year,Direct debit,DSL,Yes,No,49.99,4588.41,1,Yes,5,0,
+C0276,Female,55,Finland,84,Two year,Electronic invoice,DSL,Yes,No,27.1,2291.79,2,No,5,1,Competitor
+C0277,Female,67,Finland,111,Month-to-month,Credit card,Fiber,Yes,No,50.73,5674.28,3,Yes,4,1,Other
+C0278,Female,23,Sweden,108,Two year,Bank transfer,Fiber,No,No,59.79,6449.24,3,Yes,4,1,Moving
+C0279,Female,36,Finland,108,Month-to-month,Electronic invoice,DSL,No,No,46.63,5031.14,0,No,5,0,
+C0280,Female,77,Denmark,112,Month-to-month,Electronic invoice,DSL,Yes,No,40.26,4494.35,2,Yes,5,0,
+C0281,Female,61,Denmark,90,Month-to-month,Bank transfer,Mobile,Yes,Yes,63.71,5747.14,2,Yes,4,0,
+C0282,Male,74,Sweden,102,Two year,Direct debit,Fiber,No,Yes,68.89,7045.89,6,No,4,1,Other
+C0283,Male,28,Germany,39,One year,Electronic invoice,Fiber,Yes,No,63.05,2458.02,0,No,5,1,Moving
+C0284,Male,19,Sweden,76,One year,Bank transfer,Fiber,Yes,Yes,91.71,6961.19,1,Yes,4,0,
+C0285,Female,64,Sweden,22,Two year,Electronic invoice,Fiber,Yes,No,74.69,1653.86,0,No,4,0,
+C0286,Male,61,Germany,15,Two year,Bank transfer,Mobile,Yes,No,24.77,386.34,4,Yes,4,0,
+C0287,Male,61,Finland,93,One year,Bank transfer,DSL,Yes,Yes,34.9,3276.78,0,No,5,0,
+C0288,Female,26,Germany,60,Month-to-month,Electronic invoice,Mobile,Yes,Yes,60.08,3593.15,1,No,4,0,
+C0289,Male,38,Finland,67,Two year,Electronic invoice,Fiber,Yes,No,83.12,5586.09,1,Yes,4,1,Moving
+C0290,Female,41,Sweden,103,Two year,Bank transfer,DSL,Yes,No,21.33,2199.11,1,Yes,5,0,
+C0291,Male,51,Finland,79,One year,Credit card,Mobile,Yes,No,26.53,2061.18,3,Yes,5,0,
+C0292,Male,39,Denmark,30,Two year,Direct debit,Fiber,Yes,No,78.26,2378.24,4,No,4,1,Moving
+C0293,Female,20,Norway,52,Month-to-month,Direct debit,Fiber,Yes,Yes,81.18,4227.31,1,No,4,1,Competitor
+C0294,Male,29,Denmark,105,Two year,Direct debit,Fiber,Yes,Yes,54.27,5710.49,0,No,5,0,
+C0295,Male,45,Sweden,24,Two year,Electronic invoice,Fiber,No,No,87.49,2118.69,1,Yes,4,0,
+C0296,Female,47,Sweden,43,One year,Electronic invoice,Fiber,Yes,No,67.22,2902.38,5,No,4,1,Other
+C0297,Female,43,Finland,11,Month-to-month,Bank transfer,Mobile,Yes,No,25.92,265.78,3,Yes,4,0,
+C0298,Male,65,Finland,89,Two year,Credit card,DSL,No,No,20.14,1805.95,1,Yes,5,0,
+C0299,Female,38,Germany,100,Two year,Bank transfer,None,No,No,33.21,3330.93,3,No,5,0,
+C0300,Male,45,Sweden,111,Month-to-month,Direct debit,Fiber,No,Yes,72.1,7969.7,1,Yes,5,1,Competitor
+C0301,Male,73,Denmark,96,Two year,Direct debit,DSL,Yes,Yes,65.15,6287.72,1,Yes,5,0,
+C0302,Female,43,Denmark,91,Two year,Bank transfer,DSL,Yes,No,28.24,2562.29,2,No,5,1,Competitor
+C0303,Female,79,Sweden,8,One year,Bank transfer,Fiber,No,Yes,63.1,524.71,3,Yes,4,0,
+C0304,Female,50,Norway,11,One year,Credit card,Fiber,No,Yes,70.75,771.53,0,No,4,1,Other
+C0305,Female,38,Finland,68,One year,Credit card,DSL,No,No,50.54,3426.06,0,Yes,5,0,
+C0306,Other,52,Finland,53,Two year,Bank transfer,DSL,Yes,No,56.61,2998.75,0,Yes,5,0,
+C0307,Female,69,Finland,115,Month-to-month,Credit card,Mobile,Yes,No,24.82,2896.73,3,Yes,5,1,Other
+C0308,Male,51,Norway,53,Month-to-month,Bank transfer,DSL,Yes,Yes,42.52,2293.82,2,Yes,4,1,Competitor
+C0309,Female,58,Sweden,27,Month-to-month,Bank transfer,Mobile,Yes,No,15.4,405.11,0,No,5,0,
+C0310,Male,68,Sweden,55,Two year,Direct debit,Fiber,Yes,No,51.26,2844.25,1,Yes,5,1,Competitor
+C0311,Male,64,Sweden,98,Two year,Credit card,Fiber,Yes,Yes,69.71,6832.05,6,Yes,4,0,
+C0312,Male,35,Sweden,68,Two year,Electronic invoice,Fiber,Yes,Yes,81.19,5561.29,1,Yes,4,1,Competitor
+C0313,Male,75,Norway,97,Two year,Direct debit,DSL,Yes,No,49.38,4812.92,2,No,5,0,
+C0314,Other,28,Denmark,109,One year,Direct debit,Mobile,Yes,No,40.34,4402.64,0,Yes,5,0,
+C0315,Female,74,Finland,97,Two year,Direct debit,DSL,No,No,29.81,2893.2,3,No,5,0,
+C0316,Female,40,Finland,76,Month-to-month,Credit card,Fiber,No,Yes,63.49,4837.41,1,No,5,1,Other
+C0317,Male,65,Denmark,102,Two year,Bank transfer,Fiber,Yes,No,70.52,7202.71,2,Yes,4,1,Competitor
+C0318,Male,39,Sweden,105,One year,Electronic invoice,DSL,Yes,No,43.59,4554.9,4,No,4,0,
+C0319,Male,34,Norway,108,Two year,Direct debit,Fiber,No,No,63.12,6821.12,0,No,5,0,
+C0320,Male,22,Finland,111,Two year,Electronic invoice,Mobile,Yes,No,49.81,5515.88,1,Yes,5,0,
+C0321,Female,61,Sweden,57,Two year,Direct debit,Fiber,Yes,Yes,79.81,4538.58,1,No,4,1,Other
+C0322,Female,28,Finland,77,Month-to-month,Credit card,Mobile,Yes,No,24.2,1885.69,1,No,5,1,Competitor
+C0323,Female,47,Finland,74,One year,Credit card,Mobile,Yes,Yes,23.02,1707.55,0,No,5,0,
+C0324,Male,32,Norway,41,One year,Direct debit,Fiber,Yes,Yes,83.82,3427.53,1,Yes,4,0,
+C0325,Female,44,Sweden,37,Two year,Bank transfer,Fiber,Yes,No,50.54,1845.74,1,No,4,1,Other
+C0326,Female,52,Denmark,67,One year,Credit card,Fiber,Yes,No,86.97,5811.47,1,Yes,4,0,
+C0327,Female,50,Germany,52,Two year,Electronic invoice,Fiber,Yes,Yes,69.96,3636.73,0,Yes,5,1,Competitor
+C0328,Female,37,Sweden,32,One year,Bank transfer,DSL,Yes,No,35.44,1167.8,0,No,5,0,
+C0329,Male,78,Denmark,70,One year,Bank transfer,None,Yes,Yes,55.9,3892.02,2,No,4,0,
+C0330,Male,33,Finland,55,Two year,Electronic invoice,Fiber,Yes,No,35.3,1947.4,0,Yes,5,0,
+C0331,Male,51,Sweden,104,One year,Electronic invoice,Fiber,Yes,No,45.43,4732.86,2,Yes,5,0,
+C0332,Female,19,Denmark,71,Two year,Bank transfer,Fiber,Yes,Yes,76.8,5477.25,1,No,4,0,
+C0333,Male,52,Sweden,100,Two year,Electronic invoice,Fiber,Yes,Yes,87.92,8794.5,0,No,5,0,
+C0334,Male,57,Norway,50,One year,Electronic invoice,Mobile,Yes,No,35.58,1787.16,1,Yes,5,0,
+C0335,Male,73,Finland,73,Month-to-month,Bank transfer,Fiber,Yes,Yes,66.16,4853.32,3,Yes,4,0,
+C0336,Male,45,Norway,42,One year,Credit card,DSL,Yes,Yes,42.42,1766.1,2,No,4,0,
+C0337,Female,64,Germany,120,Month-to-month,Credit card,DSL,Yes,No,43.62,5250.22,2,Yes,5,1,Moving
+C0338,Female,56,Germany,14,One year,Bank transfer,Mobile,Yes,No,22.77,290.9,1,Yes,5,0,
+C0339,Male,23,Denmark,37,Month-to-month,Bank transfer,Fiber,Yes,No,57.62,2133.22,1,No,4,0,
+C0340,Male,26,Denmark,14,Month-to-month,Electronic invoice,None,Yes,Yes,41.8,580.45,1,Yes,4,1,Moving
+C0341,Female,37,Norway,4,Month-to-month,Direct debit,DSL,Yes,No,44.32,162.84,1,Yes,4,1,Other
+C0342,Male,77,Norway,92,Month-to-month,Direct debit,DSL,Yes,No,34.93,3233.01,1,No,5,0,
+C0343,Male,18,Finland,82,One year,Electronic invoice,DSL,Yes,Yes,49.7,4095.97,4,Yes,4,1,Other
+C0344,Male,25,Sweden,53,Two year,Electronic invoice,Fiber,Yes,No,56.4,3010.58,1,Yes,4,0,
+C0345,Male,72,Sweden,50,Two year,Bank transfer,Fiber,No,Yes,82.45,4130.09,0,Yes,4,0,
+C0346,Female,40,Germany,9,One year,Credit card,DSL,Yes,No,50.59,430.66,0,Yes,5,0,
+C0347,Female,80,Sweden,11,One year,Direct debit,Fiber,Yes,No,52.54,571.36,0,Yes,5,0,
+C0348,Male,20,Sweden,117,Month-to-month,Bank transfer,Fiber,Yes,No,82.85,9713.57,2,Yes,4,0,
+C0349,Male,21,Sweden,3,One year,Bank transfer,DSL,Yes,Yes,65.13,215.24,3,No,4,0,
+C0350,Female,75,Norway,94,Month-to-month,Direct debit,Fiber,No,Yes,77.75,7332.43,0,No,5,0,
+C0351,Female,42,Denmark,17,Month-to-month,Electronic invoice,Mobile,Yes,No,34.49,592.61,0,Yes,5,0,
+C0352,Female,64,Finland,79,One year,Bank transfer,DSL,Yes,No,23.12,1822.84,1,Yes,5,0,
+C0353,Female,55,Sweden,103,Month-to-month,Direct debit,DSL,Yes,Yes,67.63,6926.58,3,Yes,4,0,
+C0354,Male,32,Denmark,35,Two year,Credit card,Fiber,Yes,Yes,78.92,2779.45,1,No,4,0,
+C0355,Male,80,Sweden,24,One year,Direct debit,Mobile,Yes,Yes,29.43,704.34,2,Yes,4,0,
+C0356,Female,38,Finland,86,Two year,Credit card,Mobile,Yes,No,32.95,2808.62,1,No,5,0,
+C0357,Male,52,Norway,75,One year,Electronic invoice,Fiber,No,Yes,97.22,7306.75,0,Yes,4,0,
+C0358,Female,74,Denmark,97,Month-to-month,Credit card,DSL,Yes,No,36.27,3546.58,2,No,5,0,
+C0359,Female,70,Finland,35,Two year,Direct debit,Mobile,Yes,Yes,58.56,2066.95,3,Yes,4,0,
+C0360,Female,70,Denmark,100,Month-to-month,Credit card,None,Yes,No,53.46,5359.5,1,No,5,1,Moving
+C0361,Male,63,Denmark,66,One year,Credit card,Fiber,Yes,Yes,72.71,4817.53,0,No,5,0,
+C0362,Female,69,Sweden,8,Month-to-month,Bank transfer,None,Yes,No,43.64,294.51,2,Yes,4,0,
+C0363,Male,31,Germany,60,Two year,Bank transfer,Fiber,Yes,Yes,66.31,4013.02,2,No,4,1,Other
+C0364,Female,53,Denmark,52,Two year,Credit card,Mobile,Yes,Yes,63.65,3293.97,1,No,4,0,
+C0365,Female,29,Denmark,17,Month-to-month,Bank transfer,Fiber,Yes,No,61.56,1032.44,4,No,4,1,Other
+C0366,Male,34,Denmark,42,Two year,Direct debit,Fiber,No,Yes,95.65,4007.88,1,No,4,0,
+C0367,Other,56,Finland,34,Two year,Direct debit,DSL,Yes,Yes,38.08,1287.58,0,Yes,5,0,
+C0368,Female,26,Finland,62,Two year,Credit card,Mobile,Yes,No,27.35,1725.71,2,Yes,5,0,
+C0369,Male,52,Sweden,120,Two year,Direct debit,Mobile,Yes,No,19.6,2362.88,3,Yes,5,1,Moving
+C0370,Male,77,Finland,118,Month-to-month,Credit card,Fiber,Yes,Yes,66.64,7849.95,3,No,4,0,
+C0371,Male,30,Sweden,97,Two year,Bank transfer,Fiber,Yes,No,85.17,8250.95,2,Yes,4,1,Competitor
+C0372,Male,32,Germany,104,Month-to-month,Credit card,DSL,Yes,No,33.07,3489.17,1,No,5,0,
+C0373,Male,35,Denmark,77,Month-to-month,Direct debit,DSL,Yes,Yes,31.23,2411.77,2,Yes,5,1,Other
+C0374,Female,68,Norway,3,One year,Credit card,DSL,Yes,No,22.74,59.58,1,Yes,5,0,
+C0375,Male,50,Germany,92,Two year,Electronic invoice,Fiber,No,No,63.06,5769.08,2,Yes,4,0,
+C0376,Male,23,Denmark,40,One year,Bank transfer,Mobile,Yes,No,17.72,675.29,1,Yes,5,0,
+C0377,Female,76,Sweden,44,Month-to-month,Credit card,DSL,Yes,Yes,41.02,1782.54,5,Yes,4,1,Other
+C0378,Male,44,Finland,49,Two year,Credit card,DSL,Yes,Yes,65.52,3212.4,2,Yes,4,1,Competitor
+C0379,Female,40,Sweden,78,Month-to-month,Electronic invoice,Fiber,Yes,No,46.2,3625.79,2,Yes,4,0,
+C0380,Male,76,Denmark,27,Month-to-month,Direct debit,DSL,Yes,No,44.39,1210.85,2,No,4,0,
+C0381,Male,44,Sweden,41,Month-to-month,Direct debit,Mobile,Yes,Yes,51.17,2121.45,1,Yes,4,0,
+C0382,Female,51,Norway,79,One year,Electronic invoice,Fiber,Yes,No,81.29,6433.23,1,Yes,4,1,Competitor
+C0383,Female,73,Finland,75,Two year,Electronic invoice,DSL,Yes,No,26.25,1944.23,3,No,4,0,
+C0384,Female,63,Denmark,115,Month-to-month,Direct debit,DSL,Yes,No,56.82,6542.8,0,Yes,5,1,Other
+C0385,Female,55,Denmark,68,Two year,Credit card,DSL,Yes,No,45.75,3120.35,2,Yes,4,0,
+C0386,Female,31,Denmark,97,Month-to-month,Electronic invoice,Fiber,Yes,No,69.31,6720.67,1,Yes,5,0,
+C0387,Male,53,Germany,105,Two year,Credit card,DSL,No,Yes,31.29,3279.33,2,Yes,5,0,
+C0388,Male,70,Denmark,0,One year,Direct debit,Fiber,No,No,56.81,0.0,1,Yes,4,0,
+C0389,Female,25,Germany,38,Two year,Direct debit,Fiber,No,Yes,93.59,3525.49,0,Yes,4,1,Other
+C0390,Female,79,Germany,95,Two year,Direct debit,DSL,Yes,Yes,51.3,4846.86,0,Yes,5,0,
+C0391,Other,52,Denmark,89,Two year,Bank transfer,DSL,Yes,No,35.23,3186.31,2,Yes,5,0,
+C0392,Male,36,Norway,16,Month-to-month,Direct debit,Fiber,Yes,No,51.27,795.29,2,Yes,4,1,Competitor
+C0393,Male,47,Finland,111,Two year,Electronic invoice,Fiber,Yes,No,73.7,8145.37,0,Yes,5,0,
+C0394,Female,80,Sweden,90,Two year,Credit card,Mobile,Yes,No,47.66,4274.99,0,Yes,5,0,
+C0395,Male,31,Norway,87,One year,Bank transfer,DSL,Yes,No,43.25,3771.93,1,Yes,5,0,
+C0396,Female,76,Finland,34,Month-to-month,Direct debit,DSL,Yes,No,40.98,1404.54,3,No,4,0,
+C0397,Female,37,Finland,45,Two year,Electronic invoice,DSL,Yes,Yes,58.11,2594.47,2,No,4,1,Other
+C0398,Male,66,Germany,41,Two year,Credit card,Fiber,Yes,No,82.75,3394.68,1,No,4,1,Competitor
+C0399,Female,42,Germany,117,Month-to-month,Credit card,Fiber,Yes,No,73.9,8635.41,3,No,4,0,
+C0400,Female,57,Denmark,38,One year,Credit card,Mobile,Yes,Yes,28.63,1091.75,0,No,5,0,
+C0401,Male,41,Sweden,89,Two year,Credit card,Fiber,No,No,79.78,7094.55,1,Yes,4,0,
+C0402,Female,31,Finland,48,One year,Electronic invoice,DSL,Yes,No,26.75,1270.12,2,Yes,5,0,
+C0403,Female,43,Finland,61,Two year,Direct debit,Fiber,Yes,No,35.25,2137.27,2,Yes,5,0,
+C0404,Female,55,Finland,37,Two year,Direct debit,Mobile,Yes,Yes,57.76,2093.14,1,Yes,4,0,
+C0405,Male,40,Finland,22,One year,Bank transfer,Fiber,Yes,No,64.06,1404.89,2,Yes,4,0,
+C0406,Female,39,Finland,21,One year,Direct debit,Fiber,Yes,Yes,97.63,2048.7,1,No,4,0,
+C0407,Male,65,Germany,3,Month-to-month,Credit card,None,Yes,No,39.38,89.97,1,No,4,0,
+C0408,Male,74,Denmark,48,Two year,Bank transfer,Mobile,Yes,No,53.91,2580.95,2,Yes,4,1,Competitor
+C0409,Female,36,Finland,58,Two year,Bank transfer,Mobile,Yes,No,26.28,1519.13,0,Yes,5,1,Other
+C0410,Male,63,Finland,72,One year,Credit card,DSL,Yes,Yes,55.29,3943.81,0,Yes,5,0,
+C0411,Male,68,Sweden,67,One year,Bank transfer,Fiber,Yes,Yes,73.96,4939.89,0,No,5,0,
+C0412,Female,20,Finland,70,Two year,Bank transfer,DSL,Yes,No,20.05,1387.44,0,No,5,0,
+C0413,Female,59,Germany,86,Month-to-month,Credit card,Fiber,Yes,No,46.02,3961.31,1,Yes,5,0,
+C0414,Female,36,Sweden,1,Month-to-month,Credit card,DSL,Yes,No,49.51,74.41,1,No,4,1,Other
+C0415,Female,26,Sweden,48,One year,Direct debit,Mobile,Yes,No,24.9,1196.14,1,No,5,0,
+C0416,Male,45,Sweden,87,Two year,Credit card,Mobile,No,Yes,40.07,3509.28,1,Yes,5,0,
+C0417,Male,37,Finland,103,Month-to-month,Electronic invoice,Fiber,Yes,Yes,50.29,5175.42,2,Yes,5,0,
+C0418,Male,62,Norway,118,Month-to-month,Credit card,DSL,Yes,Yes,37.16,4392.3,1,No,5,0,
+C0419,Female,24,Denmark,94,Month-to-month,Direct debit,DSL,Yes,Yes,57.25,5382.84,2,No,4,0,
+C0420,Female,31,Norway,110,Two year,Electronic invoice,Mobile,Yes,Yes,61.33,6794.53,1,Yes,5,0,
+C0421,Female,80,Finland,30,Month-to-month,Electronic invoice,Fiber,Yes,Yes,57.84,1732.15,5,Yes,4,1,Competitor
+C0422,Female,26,Norway,110,One year,Electronic invoice,Mobile,Yes,No,35.32,3900.85,2,Yes,5,0,
+C0423,Male,76,Norway,39,One year,Credit card,Fiber,No,Yes,97.79,3817.86,0,No,4,1,Other
+C0424,Female,77,Germany,47,Two year,Bank transfer,Fiber,Yes,No,57.97,2747.1,3,Yes,4,0,
+C0425,Male,72,Sweden,50,One year,Bank transfer,Mobile,Yes,No,40.3,2027.64,2,Yes,4,0,
+C0426,Female,74,Sweden,42,Month-to-month,Credit card,Fiber,No,No,57.14,2406.69,1,Yes,4,0,
+C0427,Male,77,Norway,97,One year,Credit card,Fiber,Yes,No,78.73,7613.98,1,Yes,4,1,Competitor
+C0428,Female,36,Norway,54,Two year,Electronic invoice,Mobile,Yes,No,27.73,1476.35,1,Yes,5,1,Moving
+C0429,Male,64,Sweden,87,Two year,Direct debit,DSL,Yes,Yes,45.51,3947.05,1,Yes,5,0,
+C0430,Male,69,Sweden,48,Two year,Direct debit,DSL,Yes,Yes,59.56,2853.03,3,Yes,4,0,
+C0431,Male,31,Sweden,89,Two year,Electronic invoice,Fiber,Yes,Yes,83.58,7440.84,3,No,4,1,Moving
+C0432,Female,73,Germany,79,Month-to-month,Direct debit,DSL,Yes,Yes,34.94,2747.99,0,Yes,5,0,
+C0433,Female,55,Sweden,56,Two year,Direct debit,Mobile,No,No,55.42,3063.98,3,Yes,4,1,Competitor
+C0434,Male,70,Germany,110,Month-to-month,Direct debit,Mobile,Yes,No,37.93,4192.85,2,No,5,0,
+C0435,Male,78,Sweden,76,One year,Credit card,Mobile,Yes,No,50.48,3845.43,0,Yes,5,0,
+C0436,Female,53,Germany,14,Month-to-month,Bank transfer,Fiber,Yes,Yes,72.57,1017.19,1,Yes,4,1,Competitor
+C0437,Male,57,Denmark,26,One year,Electronic invoice,DSL,Yes,No,22.79,617.62,0,Yes,5,0,
+C0438,Female,34,Sweden,67,Two year,Electronic invoice,DSL,Yes,Yes,51.04,3403.61,1,No,5,0,
+C0439,Female,47,Germany,79,Month-to-month,Electronic invoice,Mobile,Yes,No,37.82,2985.16,0,No,5,0,
+C0440,Male,26,Finland,63,Two year,Bank transfer,DSL,Yes,Yes,36.78,2320.33,1,Yes,5,0,
+C0441,Male,50,Germany,93,Month-to-month,Electronic invoice,Fiber,Yes,Yes,70.44,6542.62,1,No,5,0,
+C0442,Other,73,Norway,107,Month-to-month,Credit card,Mobile,Yes,Yes,40.86,4356.11,0,No,5,1,Other
+C0443,Male,69,Finland,29,Two year,Credit card,Fiber,No,No,67.71,1981.09,4,Yes,4,0,
+C0444,Male,42,Norway,35,Two year,Bank transfer,Fiber,Yes,Yes,78.32,2746.88,2,No,4,0,
+C0445,Female,31,Germany,66,Two year,Bank transfer,Fiber,Yes,Yes,78.92,5221.2,2,Yes,4,1,Competitor
+C0446,Female,28,Finland,85,Month-to-month,Credit card,Mobile,No,No,22.71,1913.88,1,Yes,5,0,
+C0447,Other,70,Norway,112,One year,Bank transfer,DSL,Yes,No,37.86,4256.92,5,Yes,4,0,
+C0448,Female,52,Denmark,85,Two year,Credit card,Mobile,No,Yes,25.74,2175.43,2,No,5,0,
+C0449,Male,58,Denmark,113,Two year,Bank transfer,Fiber,Yes,No,56.93,6438.03,0,Yes,5,0,
+C0450,Male,76,Sweden,120,One year,Direct debit,None,Yes,Yes,44.07,5327.99,2,Yes,5,0,
+C0451,Female,31,Finland,113,Two year,Direct debit,DSL,No,Yes,43.96,4984.52,1,Yes,5,0,
+C0452,Female,47,Finland,118,Two year,Credit card,DSL,Yes,No,36.28,4287.82,1,Yes,5,0,
+C0453,Male,58,Norway,48,Two year,Bank transfer,Mobile,No,No,56.99,2762.53,1,No,4,0,
+C0454,Female,21,Sweden,75,Two year,Direct debit,Mobile,No,No,34.23,2555.86,3,Yes,4,0,
+C0455,Male,76,Germany,54,Two year,Bank transfer,Fiber,No,No,76.58,4145.13,2,Yes,4,0,
+C0456,Female,21,Finland,84,Month-to-month,Bank transfer,Mobile,Yes,No,52.34,4379.92,1,Yes,5,0,
+C0457,Male,45,Norway,55,One year,Direct debit,Mobile,Yes,No,53.96,2960.57,1,Yes,5,1,Competitor
+C0458,Male,25,Finland,67,Two year,Electronic invoice,DSL,Yes,No,55.36,3740.93,3,Yes,4,1,Other
+C0459,Male,19,Finland,94,Month-to-month,Credit card,Fiber,No,No,63.31,5956.61,0,No,5,0,
+C0460,Male,58,Sweden,43,Month-to-month,Bank transfer,Mobile,Yes,Yes,51.0,2221.14,1,Yes,4,0,
+C0461,Male,78,Sweden,30,One year,Bank transfer,Fiber,Yes,No,74.46,2231.75,1,Yes,4,0,
+C0462,Female,63,Norway,57,Month-to-month,Direct debit,Fiber,Yes,No,91.44,5236.5,4,Yes,4,0,
+C0463,Female,39,Germany,86,Two year,Credit card,Mobile,Yes,No,42.06,3618.19,0,No,5,0,
+C0464,Female,58,Norway,117,Two year,Credit card,Fiber,Yes,No,56.01,6555.85,0,Yes,5,0,
+C0465,Other,73,Germany,52,One year,Credit card,DSL,Yes,Yes,73.91,3843.8,1,No,4,1,Other
+C0466,Male,80,Germany,83,Month-to-month,Electronic invoice,None,No,No,38.89,3235.08,1,Yes,5,0,
+C0467,Male,80,Norway,78,Two year,Direct debit,Fiber,Yes,Yes,63.43,4942.36,6,No,4,1,Moving
+C0468,Female,72,Denmark,22,One year,Direct debit,Mobile,No,No,26.91,564.24,1,Yes,5,0,
+C0469,Male,33,Norway,27,Two year,Electronic invoice,Mobile,Yes,No,34.08,919.45,0,No,5,0,
+C0470,Other,46,Finland,15,One year,Credit card,DSL,Yes,Yes,41.89,631.0,1,Yes,4,0,
+C0471,Male,79,Denmark,36,One year,Electronic invoice,DSL,Yes,No,33.09,1223.94,2,Yes,4,1,Competitor
+C0472,Other,66,Finland,20,One year,Direct debit,Fiber,Yes,No,90.63,1767.39,0,Yes,4,0,
+C0473,Male,65,Norway,78,Two year,Bank transfer,Fiber,Yes,Yes,66.07,5185.81,1,No,4,0,
+C0474,Female,47,Denmark,16,One year,Electronic invoice,Fiber,Yes,No,79.22,1288.49,0,Yes,4,1,Competitor
+C0475,Female,29,Finland,113,Two year,Electronic invoice,Fiber,Yes,No,83.9,9494.41,2,No,4,0,
+C0476,Other,52,Finland,36,Month-to-month,Electronic invoice,Fiber,Yes,No,52.51,1893.44,0,No,5,1,Moving
+C0477,Male,28,Germany,76,Two year,Credit card,DSL,Yes,Yes,42.25,3190.59,4,Yes,4,1,Competitor
+C0478,Female,63,Norway,18,One year,Electronic invoice,Fiber,Yes,No,56.67,1059.08,0,No,5,0,
+C0479,Other,67,Finland,29,One year,Electronic invoice,Fiber,Yes,No,41.91,1240.08,1,Yes,5,1,Other
+C0480,Female,38,Norway,44,One year,Bank transfer,Fiber,Yes,No,57.12,2518.3,1,No,4,0,
+C0481,Female,80,Norway,17,Month-to-month,Credit card,DSL,Yes,No,47.76,817.63,1,No,4,1,Competitor
+C0482,Female,38,Sweden,77,Month-to-month,Credit card,Fiber,No,No,77.22,5943.76,0,No,5,0,
+C0483,Male,22,Germany,61,Month-to-month,Electronic invoice,DSL,Yes,No,49.03,3002.72,4,Yes,4,0,
+C0484,Female,65,Norway,35,Month-to-month,Direct debit,Fiber,Yes,No,49.68,1737.91,1,No,4,1,Other
+C0485,Female,37,Sweden,99,One year,Bank transfer,Mobile,Yes,No,28.88,2865.28,0,Yes,5,0,
+C0486,Female,54,Denmark,83,Month-to-month,Credit card,DSL,Yes,Yes,30.56,2545.24,0,Yes,5,1,Competitor
+C0487,Male,20,Germany,51,Month-to-month,Credit card,Fiber,Yes,No,57.78,2995.39,1,Yes,4,0,
+C0488,Male,61,Finland,18,Two year,Direct debit,Fiber,Yes,No,64.88,1149.64,1,Yes,4,0,
+C0489,Female,50,Finland,108,One year,Bank transfer,DSL,Yes,No,54.73,5914.04,0,No,5,1,Moving
+C0490,Female,70,Finland,43,Two year,Electronic invoice,DSL,Yes,No,24.17,1063.86,1,Yes,5,0,
+C0491,Male,78,Norway,6,Month-to-month,Direct debit,Mobile,Yes,No,15.0,106.53,2,No,5,0,
+C0492,Female,26,Norway,120,Two year,Direct debit,Fiber,Yes,Yes,69.41,8342.75,3,No,4,0,
+C0493,Male,78,Norway,43,Month-to-month,Credit card,None,Yes,Yes,40.46,1800.01,1,No,5,1,Other
+C0494,Male,26,Germany,116,Two year,Credit card,Fiber,No,Yes,98.09,11400.2,0,No,5,0,
+C0495,Male,21,Denmark,67,Month-to-month,Bank transfer,Fiber,Yes,No,77.61,5187.37,1,No,4,0,
+C0496,Male,52,Finland,33,Two year,Bank transfer,Fiber,No,Yes,54.86,1795.59,2,Yes,4,0,
+C0497,Female,34,Finland,65,One year,Credit card,Fiber,Yes,No,72.49,4711.08,1,Yes,4,0,
+C0498,Male,51,Sweden,68,Two year,Electronic invoice,DSL,Yes,Yes,72.8,4941.68,5,Yes,4,0,
+C0499,Other,41,Sweden,54,One year,Bank transfer,Fiber,Yes,No,85.32,4608.87,1,Yes,4,1,Other
+C0500,Other,49,Norway,9,Month-to-month,Credit card,Fiber,Yes,No,86.93,789.13,2,Yes,4,0,
+C0501,Female,18,Germany,95,Month-to-month,Credit card,DSL,Yes,No,26.56,2528.67,0,No,5,1,Moving
+C0502,Female,25,Finland,41,Two year,Credit card,DSL,Yes,Yes,38.16,1515.41,1,Yes,5,0,
+C0503,Male,62,Norway,40,Two year,Electronic invoice,DSL,Yes,No,26.19,1032.49,0,Yes,5,0,
+C0504,Female,40,Denmark,76,Two year,Credit card,Fiber,Yes,Yes,71.64,5458.96,1,Yes,4,0,
+C0505,Female,64,Sweden,102,Month-to-month,Bank transfer,Fiber,Yes,Yes,91.06,9320.99,0,Yes,5,0,
+C0506,Male,57,Finland,68,One year,Direct debit,Mobile,Yes,Yes,35.33,2394.37,2,No,5,1,Other
+C0507,Female,29,Sweden,9,Two year,Credit card,DSL,Yes,Yes,55.32,489.9,2,No,4,0,
+C0508,Female,71,Finland,9,One year,Credit card,DSL,Yes,Yes,42.42,380.0,0,No,5,0,
+C0509,Female,29,Germany,101,Two year,Credit card,Fiber,Yes,Yes,95.97,9727.46,0,Yes,4,0,
+C0510,Female,63,Finland,90,Two year,Bank transfer,Mobile,Yes,Yes,25.96,2337.47,4,Yes,4,0,
+C0511,Female,64,Sweden,59,Two year,Credit card,DSL,No,No,28.92,1661.45,0,Yes,5,0,
+C0512,Male,32,Sweden,50,One year,Credit card,Fiber,No,No,55.74,2822.75,3,No,4,1,Moving
+C0513,Female,58,Germany,20,Month-to-month,Electronic invoice,Fiber,Yes,No,48.27,979.23,2,Yes,4,1,Competitor
+C0514,Female,36,Finland,7,Month-to-month,Credit card,DSL,Yes,Yes,47.89,309.37,3,Yes,4,1,Moving
+C0515,Male,43,Finland,64,Two year,Direct debit,Fiber,Yes,No,58.87,3757.46,0,Yes,5,0,
+C0516,Male,69,Finland,91,Month-to-month,Direct debit,DSL,Yes,No,54.1,4907.19,3,Yes,4,1,Competitor
+C0517,Male,46,Finland,112,Month-to-month,Bank transfer,Mobile,Yes,Yes,46.23,5173.58,0,Yes,5,0,
+C0518,Female,39,Finland,102,One year,Bank transfer,Fiber,Yes,No,69.59,7127.92,4,No,4,1,Other
+C0519,Other,57,Norway,77,Month-to-month,Credit card,Fiber,Yes,No,97.91,7501.73,1,No,4,0,
+C0520,Male,38,Finland,84,Two year,Direct debit,Fiber,Yes,No,78.26,6566.97,0,Yes,5,1,Other
+C0521,Female,68,Finland,29,Two year,Direct debit,Fiber,Yes,No,78.22,2270.6,0,Yes,4,0,
+C0522,Male,55,Denmark,84,One year,Direct debit,Fiber,Yes,No,67.31,5652.65,1,Yes,4,0,
+C0523,Other,37,Sweden,48,One year,Credit card,DSL,Yes,No,44.32,2111.43,3,No,4,1,Moving
+C0524,Female,74,Sweden,8,Two year,Electronic invoice,Fiber,Yes,Yes,59.84,502.52,5,No,3,0,
+C0525,Female,46,Finland,16,Month-to-month,Credit card,DSL,Yes,Yes,65.6,1046.42,2,No,4,0,
+C0526,Male,68,Germany,68,Two year,Bank transfer,Fiber,Yes,No,81.66,5547.14,2,Yes,4,0,
+C0527,Male,21,Finland,57,Two year,Bank transfer,DSL,No,Yes,38.87,2222.51,1,No,5,0,
+C0528,Male,72,Germany,56,One year,Credit card,Fiber,Yes,Yes,43.84,2449.43,3,No,4,0,
+C0529,Male,24,Denmark,61,One year,Bank transfer,DSL,Yes,Yes,31.39,1903.72,4,No,4,0,
+C0530,Female,45,Finland,94,Two year,Direct debit,Mobile,Yes,No,21.88,2038.21,2,Yes,5,0,
+C0531,Female,45,Germany,51,Month-to-month,Electronic invoice,Fiber,Yes,Yes,75.26,3882.06,2,No,4,0,
+C0532,Other,21,Finland,60,One year,Electronic invoice,Fiber,Yes,Yes,63.99,3855.26,1,No,4,0,
+C0533,Other,39,Finland,39,One year,Bank transfer,Mobile,Yes,No,26.64,1031.31,4,Yes,4,1,Competitor
+C0534,Female,29,Denmark,37,Month-to-month,Direct debit,Fiber,Yes,No,68.88,2573.99,3,Yes,4,0,
+C0535,Female,62,Denmark,42,Two year,Credit card,None,Yes,Yes,38.38,1622.43,1,No,5,0,
+C0536,Female,20,Norway,62,Two year,Bank transfer,DSL,No,No,27.52,1707.01,2,No,5,1,Moving
+C0537,Female,39,Finland,18,One year,Credit card,Fiber,Yes,No,66.47,1175.88,0,No,4,1,Other
+C0538,Male,61,Sweden,99,Month-to-month,Bank transfer,Fiber,Yes,No,82.65,8165.79,0,Yes,5,0,
+C0539,Male,19,Denmark,49,Month-to-month,Bank transfer,Mobile,Yes,Yes,45.7,2258.67,2,No,4,1,Other
+C0540,Male,41,Finland,32,Two year,Bank transfer,DSL,Yes,No,36.55,1184.64,1,Yes,5,0,
+C0541,Female,51,Finland,12,Month-to-month,Direct debit,Mobile,Yes,No,34.7,388.94,1,No,5,0,
+C0542,Female,44,Finland,77,Two year,Electronic invoice,Fiber,Yes,Yes,58.63,4506.36,3,Yes,4,1,Competitor
+C0543,Male,72,Finland,119,One year,Bank transfer,Mobile,No,Yes,40.16,4792.64,0,Yes,5,0,
+C0544,Female,58,Germany,96,Two year,Electronic invoice,Fiber,Yes,Yes,74.25,7150.25,3,Yes,4,0,
+C0545,Female,18,Sweden,61,One year,Direct debit,DSL,No,No,42.87,2625.36,3,No,4,0,
+C0546,Male,25,Germany,92,One year,Bank transfer,Mobile,Yes,Yes,53.32,4896.31,0,Yes,5,1,Competitor
+C0547,Male,40,Sweden,42,Month-to-month,Direct debit,Mobile,No,No,40.88,1721.68,3,No,4,1,Other
+C0548,Female,55,Denmark,48,One year,Credit card,Fiber,Yes,Yes,61.31,2938.66,4,Yes,4,0,
+C0549,Female,23,Finland,35,One year,Electronic invoice,DSL,Yes,No,51.19,1799.29,3,Yes,4,1,Other
+C0550,Female,39,Sweden,107,Two year,Direct debit,DSL,Yes,No,30.24,3265.24,2,Yes,5,0,
+C0551,Female,42,Finland,9,One year,Electronic invoice,Fiber,Yes,Yes,56.49,492.77,4,Yes,4,0,
+C0552,Female,35,Finland,94,Two year,Direct debit,DSL,Yes,No,33.99,3200.68,2,Yes,5,0,
+C0553,Female,34,Sweden,5,One year,Electronic invoice,Fiber,Yes,Yes,64.33,319.72,1,No,4,0,
+C0554,Female,78,Germany,56,Month-to-month,Direct debit,Fiber,Yes,Yes,71.72,4011.06,2,Yes,4,1,Competitor
+C0555,Female,29,Norway,0,Month-to-month,Bank transfer,Mobile,Yes,No,42.13,0.0,1,Yes,4,1,Moving
+C0556,Male,23,Finland,70,One year,Credit card,DSL,Yes,Yes,61.81,4352.97,2,Yes,4,0,
+C0557,Male,43,Finland,57,Two year,Bank transfer,Fiber,Yes,No,52.64,3012.07,1,Yes,5,0,
+C0558,Male,44,Finland,90,One year,Bank transfer,Fiber,Yes,Yes,56.4,5066.42,0,Yes,5,0,
+C0559,Female,25,Norway,20,Two year,Credit card,Fiber,Yes,Yes,71.36,1440.19,2,No,4,0,
+C0560,Female,36,Denmark,91,One year,Electronic invoice,Fiber,Yes,No,54.15,4916.47,1,Yes,5,1,Moving
+C0561,Female,77,Germany,79,Two year,Bank transfer,Fiber,Yes,No,44.06,3444.96,0,No,5,1,Competitor
+C0562,Male,59,Finland,55,Two year,Electronic invoice,Fiber,Yes,Yes,90.84,4950.11,3,No,4,0,
+C0563,Male,18,Sweden,109,Month-to-month,Electronic invoice,Mobile,Yes,No,33.75,3688.77,4,Yes,4,0,
+C0564,Male,74,Sweden,86,One year,Direct debit,Fiber,Yes,Yes,97.86,8410.27,3,Yes,4,1,Competitor
+C0565,Male,46,Norway,115,Two year,Electronic invoice,Mobile,No,No,22.68,2628.15,3,Yes,5,0,
+C0566,Female,62,Norway,19,Month-to-month,Bank transfer,Mobile,Yes,Yes,52.09,997.45,2,Yes,4,0,
+C0567,Male,66,Norway,101,One year,Electronic invoice,Mobile,Yes,Yes,60.32,6097.53,1,No,5,0,
+C0568,Male,52,Norway,53,Two year,Bank transfer,DSL,Yes,No,48.62,2567.84,0,No,5,0,
+C0569,Female,57,Finland,24,Month-to-month,Bank transfer,Fiber,No,Yes,78.91,1904.27,3,No,4,0,
+C0570,Male,31,Denmark,27,Two year,Bank transfer,Fiber,Yes,Yes,46.59,1288.97,0,No,5,0,
+C0571,Female,52,Finland,4,Month-to-month,Bank transfer,DSL,Yes,Yes,49.28,156.73,2,Yes,4,0,
+C0572,Female,65,Norway,119,Month-to-month,Direct debit,Fiber,Yes,No,77.3,9195.7,3,No,4,0,
+C0573,Male,62,Sweden,20,Month-to-month,Bank transfer,DSL,Yes,No,43.85,903.9,0,No,5,0,
+C0574,Female,37,Sweden,17,Month-to-month,Bank transfer,Fiber,Yes,No,65.33,1087.7,2,No,4,0,
+C0575,Female,73,Germany,46,Two year,Electronic invoice,Fiber,Yes,No,49.67,2287.49,2,No,4,1,Competitor
+C0576,Female,66,Germany,69,Month-to-month,Direct debit,Fiber,Yes,No,43.74,3004.39,0,No,5,1,Other
+C0577,Male,30,Denmark,56,Two year,Bank transfer,None,No,No,30.14,1682.49,2,Yes,5,0,
+C0578,Female,78,Sweden,92,One year,Direct debit,Fiber,Yes,Yes,105.44,9665.02,4,Yes,4,0,
+C0579,Female,55,Denmark,18,Month-to-month,Direct debit,Fiber,Yes,No,73.83,1348.63,0,No,4,1,Moving
+C0580,Male,66,Sweden,96,One year,Electronic invoice,Fiber,Yes,Yes,87.92,8443.33,1,Yes,4,0,
+C0581,Male,63,Germany,64,One year,Bank transfer,Mobile,Yes,Yes,39.94,2527.27,1,No,5,0,
+C0582,Other,66,Sweden,108,One year,Credit card,Fiber,No,No,59.53,6437.61,0,Yes,5,0,
+C0583,Female,79,Germany,2,Month-to-month,Bank transfer,Fiber,No,No,67.66,139.48,1,Yes,4,1,Competitor
+C0584,Male,25,Germany,41,One year,Bank transfer,DSL,No,Yes,41.67,1694.69,1,Yes,5,0,
+C0585,Female,60,Denmark,20,Month-to-month,Electronic invoice,Fiber,No,Yes,64.77,1334.76,2,No,4,1,Moving
+C0586,Male,37,Finland,98,Month-to-month,Bank transfer,DSL,Yes,No,38.09,3743.14,4,Yes,4,0,
+C0587,Male,77,Finland,104,Two year,Electronic invoice,Mobile,Yes,No,33.16,3474.44,1,No,5,1,Other
+C0588,Male,50,Germany,39,One year,Bank transfer,Mobile,Yes,No,15.0,581.78,2,No,5,0,
+C0589,Male,43,Finland,66,One year,Electronic invoice,Mobile,Yes,Yes,56.15,3673.4,0,Yes,5,0,
+C0590,Male,56,Germany,24,Two year,Credit card,Mobile,No,No,52.19,1206.09,0,Yes,5,1,Other
+C0591,Male,38,Sweden,108,One year,Electronic invoice,Fiber,Yes,Yes,61.62,6634.68,3,Yes,4,1,Competitor
+C0592,Female,70,Sweden,101,Two year,Electronic invoice,Mobile,Yes,No,48.1,4885.06,1,Yes,5,1,Competitor
+C0593,Male,66,Germany,108,One year,Electronic invoice,Fiber,No,No,69.07,7449.36,1,Yes,5,0,
+C0594,Male,79,Norway,54,Month-to-month,Credit card,Fiber,Yes,Yes,77.24,4191.78,5,Yes,3,1,Competitor
+C0595,Female,59,Norway,83,Two year,Credit card,DSL,No,Yes,42.29,3486.74,2,Yes,5,0,
+C0596,Male,60,Norway,51,One year,Direct debit,DSL,Yes,No,51.67,2621.92,2,Yes,4,0,
+C0597,Female,71,Sweden,43,Two year,Credit card,Fiber,Yes,No,72.04,3087.35,0,No,4,1,Competitor
+C0598,Male,79,Denmark,108,Month-to-month,Credit card,Fiber,Yes,Yes,88.08,9517.14,0,No,5,1,Moving
+C0599,Male,58,Finland,97,Two year,Credit card,DSL,Yes,No,44.86,4324.38,2,Yes,5,0,
+C0600,Male,26,Germany,84,Two year,Bank transfer,Mobile,Yes,Yes,54.0,4520.11,0,No,5,0,
+C0601,Male,41,Germany,55,Month-to-month,Bank transfer,DSL,Yes,No,51.41,2822.89,1,Yes,5,1,Competitor
+C0602,Male,54,Finland,54,Two year,Credit card,DSL,No,Yes,45.97,2455.52,2,Yes,4,0,
+C0603,Male,66,Denmark,111,One year,Credit card,Mobile,Yes,No,46.56,5132.97,3,Yes,4,0,
+C0604,Male,58,Norway,86,Two year,Bank transfer,Fiber,Yes,Yes,66.16,5690.33,3,Yes,4,0,
+C0605,Male,34,Finland,69,One year,Direct debit,Mobile,Yes,No,55.6,3809.85,4,Yes,4,0,
+C0606,Male,41,Germany,114,Two year,Credit card,Fiber,No,No,73.3,8380.49,1,Yes,5,0,
+C0607,Male,38,Finland,116,Month-to-month,Bank transfer,None,Yes,Yes,35.38,4128.92,3,No,5,0,
+C0608,Male,68,Finland,76,Month-to-month,Electronic invoice,Fiber,Yes,No,85.35,6474.93,0,Yes,4,1,Moving
+C0609,Female,76,Sweden,112,Two year,Electronic invoice,DSL,Yes,Yes,50.91,5713.96,0,No,5,0,
+C0610,Female,56,Sweden,86,Two year,Electronic invoice,Fiber,Yes,No,96.48,8298.66,1,No,4,0,
+C0611,Male,72,Norway,72,Month-to-month,Electronic invoice,DSL,No,Yes,62.31,4507.68,4,Yes,4,0,
+C0612,Female,58,Denmark,80,One year,Bank transfer,Mobile,Yes,No,15.0,1190.83,1,Yes,5,0,
+C0613,Female,56,Norway,65,One year,Direct debit,DSL,Yes,No,35.8,2337.21,1,Yes,5,0,
+C0614,Male,30,Norway,18,Month-to-month,Bank transfer,Fiber,No,Yes,89.76,1621.92,6,Yes,3,1,Other
+C0615,Female,28,Finland,82,Month-to-month,Direct debit,DSL,Yes,Yes,65.48,5374.58,0,Yes,5,1,Other
+C0616,Female,63,Sweden,119,Two year,Bank transfer,Mobile,Yes,No,42.85,5086.83,0,Yes,5,1,Moving
+C0617,Male,36,Finland,6,Month-to-month,Direct debit,Fiber,Yes,No,67.01,425.77,2,Yes,4,0,
+C0618,Male,28,Finland,117,Two year,Bank transfer,None,Yes,No,46.14,5390.22,2,Yes,5,0,
+C0619,Female,30,Norway,62,Two year,Credit card,DSL,Yes,Yes,57.62,3564.16,2,Yes,4,0,
+C0620,Female,80,Finland,41,One year,Direct debit,DSL,No,Yes,37.78,1534.58,0,Yes,5,0,
+C0621,Male,63,Finland,41,Month-to-month,Credit card,DSL,Yes,No,29.39,1191.79,0,No,5,1,Moving
+C0622,Male,62,Finland,58,Month-to-month,Credit card,Mobile,Yes,No,27.38,1583.25,0,Yes,5,0,
+C0623,Male,18,Germany,19,Month-to-month,Credit card,Mobile,Yes,No,18.82,366.57,1,No,5,0,
+C0624,Female,57,Germany,72,Two year,Bank transfer,DSL,Yes,Yes,38.95,2820.07,1,No,5,0,
+C0625,Female,61,Norway,16,Month-to-month,Credit card,DSL,Yes,Yes,27.77,446.89,0,Yes,5,1,Competitor
+C0626,Male,36,Germany,26,Two year,Electronic invoice,Mobile,Yes,Yes,54.83,1453.91,3,Yes,4,1,Competitor
+C0627,Male,29,Denmark,46,One year,Bank transfer,DSL,Yes,No,31.56,1454.11,0,Yes,5,0,
+C0628,Female,25,Norway,1,Month-to-month,Bank transfer,DSL,Yes,Yes,38.02,2.11,1,No,4,0,
+C0629,Male,25,Finland,62,Month-to-month,Bank transfer,DSL,Yes,No,28.25,1728.41,0,No,5,1,Competitor
+C0630,Male,78,Denmark,61,Month-to-month,Direct debit,DSL,Yes,No,39.02,2394.22,2,Yes,4,0,
+C0631,Female,70,Denmark,99,Month-to-month,Direct debit,DSL,Yes,Yes,49.19,4863.3,1,No,5,0,
+C0632,Female,62,Norway,18,Month-to-month,Direct debit,DSL,Yes,Yes,39.13,696.47,2,Yes,4,0,
+C0633,Female,29,Denmark,16,Two year,Direct debit,Fiber,Yes,No,64.42,1011.43,2,Yes,4,0,
+C0634,Female,78,Sweden,68,Two year,Electronic invoice,Mobile,Yes,Yes,55.44,3761.91,3,No,4,0,
+C0635,Male,65,Denmark,38,Month-to-month,Electronic invoice,Fiber,Yes,Yes,63.2,2393.89,1,No,4,0,
+C0636,Male,50,Germany,81,Month-to-month,Direct debit,Mobile,Yes,Yes,47.64,3868.65,2,Yes,4,1,Other
+C0637,Female,62,Sweden,116,Month-to-month,Credit card,DSL,Yes,No,40.09,4645.55,2,No,5,0,
+C0638,Male,43,Denmark,117,One year,Direct debit,Fiber,Yes,No,62.89,7383.66,3,Yes,4,0,
+C0639,Male,56,Sweden,70,One year,Bank transfer,Fiber,Yes,No,61.95,4323.4,3,No,4,0,
+C0640,Male,45,Norway,80,One year,Direct debit,Mobile,Yes,No,49.08,3930.49,2,Yes,4,0,
+C0641,Male,75,Denmark,38,Month-to-month,Electronic invoice,DSL,Yes,No,45.95,1712.98,2,No,4,0,
+C0642,Male,22,Finland,35,Month-to-month,Direct debit,Mobile,Yes,No,23.42,832.88,0,No,5,0,
+C0643,Male,25,Norway,39,Month-to-month,Electronic invoice,DSL,No,No,57.07,2197.31,0,Yes,5,0,
+C0644,Male,42,Finland,44,Month-to-month,Credit card,Fiber,Yes,No,54.28,2399.72,3,No,4,1,Moving
+C0645,Male,44,Norway,3,Month-to-month,Credit card,None,Yes,Yes,45.07,98.4,0,Yes,5,1,Moving
+C0646,Female,63,Sweden,101,Month-to-month,Credit card,Fiber,Yes,No,56.92,5728.25,1,Yes,5,1,Moving
+C0647,Female,40,Denmark,24,One year,Electronic invoice,Fiber,Yes,No,67.8,1643.96,6,Yes,3,0,
+C0648,Female,47,Finland,68,One year,Electronic invoice,Mobile,No,Yes,53.31,3656.37,3,Yes,4,0,
+C0649,Female,62,Norway,29,Two year,Direct debit,Fiber,Yes,No,57.58,1615.49,3,Yes,4,0,
+C0650,Female,64,Finland,75,Two year,Direct debit,DSL,Yes,Yes,44.1,3285.7,1,No,5,0,
+C0651,Male,40,Germany,67,Two year,Direct debit,None,Yes,Yes,51.52,3488.43,2,No,4,1,Moving
+C0652,Female,66,Germany,87,Month-to-month,Electronic invoice,DSL,Yes,No,56.85,4948.79,2,Yes,4,1,Competitor
+C0653,Female,64,Germany,28,One year,Electronic invoice,Mobile,Yes,Yes,26.45,719.96,1,No,5,1,Competitor
+C0654,Female,37,Denmark,72,Two year,Direct debit,DSL,Yes,No,52.12,3782.18,0,No,5,1,Moving
+C0655,Male,35,Denmark,67,Month-to-month,Direct debit,Mobile,Yes,Yes,41.88,2817.67,0,No,5,0,
+C0656,Male,35,Finland,50,One year,Credit card,Fiber,Yes,Yes,95.39,4771.7,4,No,3,0,
+C0657,Male,19,Finland,23,Two year,Direct debit,None,Yes,No,40.22,886.72,2,Yes,4,0,
+C0658,Male,21,Sweden,13,Month-to-month,Bank transfer,Fiber,Yes,No,45.18,629.26,2,No,4,1,Competitor
+C0659,Female,47,Denmark,68,Month-to-month,Credit card,DSL,Yes,Yes,58.16,3960.13,0,Yes,5,0,
+C0660,Female,50,Germany,17,Month-to-month,Electronic invoice,Fiber,Yes,No,84.71,1433.88,2,No,4,0,
+C0661,Male,80,Finland,41,One year,Bank transfer,DSL,Yes,No,32.81,1374.44,2,No,4,0,
+C0662,Other,53,Germany,56,Month-to-month,Electronic invoice,Mobile,No,Yes,44.19,2456.31,1,Yes,5,0,
+C0663,Female,35,Norway,82,Two year,Credit card,Mobile,No,Yes,32.7,2659.53,3,No,4,0,
+C0664,Male,54,Norway,11,One year,Bank transfer,Fiber,Yes,No,65.95,705.99,0,No,4,0,
+C0665,Male,36,Finland,81,Month-to-month,Bank transfer,Mobile,Yes,No,45.89,3709.49,1,No,5,0,
+C0666,Male,64,Finland,16,Two year,Credit card,DSL,No,Yes,34.85,558.14,0,Yes,5,0,
+C0667,Male,45,Norway,29,One year,Bank transfer,Fiber,Yes,Yes,98.01,2855.09,4,No,3,1,Other
+C0668,Male,57,Norway,87,Month-to-month,Credit card,Fiber,Yes,No,61.24,5302.86,1,No,5,1,Competitor
+C0669,Male,37,Finland,74,Two year,Credit card,Fiber,Yes,Yes,107.14,7934.43,1,Yes,4,0,
+C0670,Male,66,Norway,98,Two year,Credit card,DSL,Yes,No,27.89,2721.17,1,No,5,0,
+C0671,Male,50,Germany,22,One year,Credit card,Mobile,Yes,No,17.18,375.8,1,No,5,0,
+C0672,Female,29,Denmark,80,Two year,Direct debit,DSL,Yes,Yes,31.39,2535.38,2,No,5,0,
+C0673,Male,75,Germany,0,Month-to-month,Credit card,Fiber,Yes,No,80.27,9.86,1,Yes,4,0,
+C0674,Female,68,Sweden,78,Two year,Direct debit,DSL,Yes,No,37.51,2937.3,2,No,5,1,Other
+C0675,Male,32,Finland,31,One year,Direct debit,Mobile,Yes,No,15.0,452.68,2,No,5,1,Other
+C0676,Other,58,Denmark,8,One year,Bank transfer,DSL,Yes,No,54.99,478.43,1,No,4,0,
+C0677,Male,56,Sweden,14,Two year,Electronic invoice,Fiber,Yes,No,79.04,1120.0,1,Yes,4,0,
+C0678,Male,19,Finland,27,Two year,Direct debit,DSL,Yes,No,52.26,1402.52,0,Yes,5,0,
+C0679,Other,80,Finland,23,Month-to-month,Direct debit,Mobile,No,No,29.73,706.61,2,Yes,4,0,
+C0680,Female,46,Sweden,59,One year,Credit card,Fiber,No,No,73.48,4346.7,0,No,5,0,
+C0681,Female,58,Finland,34,One year,Direct debit,Mobile,No,No,40.73,1359.56,1,Yes,5,0,
+C0682,Male,27,Finland,85,Month-to-month,Electronic invoice,DSL,Yes,Yes,45.99,3913.15,1,Yes,5,1,Moving
+C0683,Male,19,Finland,26,Two year,Bank transfer,Mobile,Yes,Yes,32.7,830.84,1,No,5,1,Moving
+C0684,Female,68,Finland,82,Month-to-month,Credit card,DSL,Yes,Yes,41.15,3333.5,4,Yes,4,0,
+C0685,Female,28,Norway,108,Month-to-month,Bank transfer,DSL,Yes,No,58.9,6352.55,0,No,5,0,
+C0686,Female,30,Norway,75,Two year,Direct debit,Fiber,Yes,No,39.84,3010.68,1,Yes,5,0,
+C0687,Female,27,Norway,19,Month-to-month,Bank transfer,DSL,Yes,No,49.04,961.25,3,No,4,1,Competitor
+C0688,Male,31,Finland,64,Month-to-month,Direct debit,DSL,Yes,Yes,49.39,3150.75,4,Yes,4,0,
+C0689,Female,35,Finland,84,One year,Credit card,Mobile,Yes,No,41.29,3462.65,0,Yes,5,0,
+C0690,Male,68,Norway,48,Two year,Electronic invoice,None,Yes,Yes,59.97,2906.48,0,Yes,5,0,
+C0691,Male,71,Norway,108,Month-to-month,Credit card,Mobile,Yes,No,33.09,3587.13,0,No,5,0,
+C0692,Male,26,Sweden,0,One year,Credit card,DSL,Yes,Yes,46.16,9.79,4,Yes,4,0,
+C0693,Female,74,Sweden,9,One year,Direct debit,DSL,Yes,No,50.17,454.32,1,Yes,4,0,
+C0694,Male,56,Germany,46,One year,Credit card,Fiber,No,No,48.49,2245.04,1,No,5,0,
+C0695,Male,45,Finland,58,One year,Credit card,DSL,Yes,No,51.51,2986.98,1,Yes,5,0,
+C0696,Female,20,Sweden,95,Two year,Credit card,Mobile,Yes,No,41.78,3999.69,2,No,5,0,
+C0697,Male,37,Norway,61,Month-to-month,Bank transfer,DSL,Yes,No,43.11,2627.32,1,No,5,0,
+C0698,Female,23,Sweden,102,Month-to-month,Electronic invoice,None,No,Yes,49.37,5033.03,2,Yes,5,1,Moving
+C0699,Male,44,Finland,85,One year,Electronic invoice,Fiber,Yes,No,62.04,5232.29,1,No,5,0,
+C0700,Female,70,Sweden,17,Two year,Bank transfer,Mobile,Yes,No,47.91,835.63,1,Yes,4,0,
+C0701,Female,19,Denmark,111,Month-to-month,Credit card,DSL,No,No,23.65,2605.9,0,Yes,5,1,Other
+C0702,Male,46,Finland,45,Two year,Bank transfer,Mobile,Yes,No,48.98,2156.7,0,Yes,5,0,
+C0703,Male,55,Finland,31,Two year,Direct debit,DSL,Yes,No,59.15,1830.07,0,No,5,0,
+C0704,Male,20,Finland,26,Month-to-month,Bank transfer,Fiber,Yes,No,60.1,1555.83,1,Yes,4,1,Other
+C0705,Male,33,Denmark,91,Month-to-month,Credit card,Mobile,Yes,No,24.07,2199.37,3,Yes,5,1,Competitor
+C0706,Other,47,Finland,17,Month-to-month,Credit card,DSL,Yes,No,36.51,633.65,2,No,4,1,Other
+C0707,Male,57,Germany,38,One year,Direct debit,Fiber,Yes,No,71.23,2690.19,1,Yes,4,1,Moving
+C0708,Female,19,Sweden,48,Month-to-month,Bank transfer,Fiber,Yes,No,70.7,3448.0,2,No,4,1,Competitor
+C0709,Male,34,Germany,92,One year,Electronic invoice,Fiber,Yes,No,49.34,4535.25,1,Yes,5,0,
+C0710,Female,58,Germany,81,One year,Bank transfer,Fiber,Yes,No,68.16,5487.2,2,Yes,4,1,Competitor
+C0711,Female,79,Sweden,43,One year,Credit card,Fiber,Yes,Yes,47.09,2056.53,2,No,4,0,
+C0712,Female,29,Finland,71,Month-to-month,Bank transfer,Fiber,Yes,Yes,56.78,4045.95,1,Yes,5,1,Competitor
+C0713,Male,52,Finland,53,One year,Bank transfer,Fiber,Yes,Yes,64.25,3413.43,2,No,4,0,
+C0714,Male,60,Finland,94,Two year,Credit card,Fiber,Yes,No,78.61,7380.63,1,No,4,1,Moving
+C0715,Male,18,Denmark,33,Two year,Credit card,DSL,Yes,No,26.51,875.75,2,Yes,5,0,
+C0716,Female,72,Finland,70,Two year,Credit card,Mobile,Yes,No,34.21,2351.33,1,Yes,5,0,
+C0717,Female,62,Finland,35,One year,Credit card,Mobile,Yes,No,53.27,1859.03,1,Yes,4,0,
+C0718,Other,32,Sweden,17,Month-to-month,Bank transfer,Fiber,Yes,Yes,69.27,1226.73,1,No,4,1,Other
+C0719,Male,43,Germany,37,One year,Electronic invoice,Fiber,No,No,83.84,3082.99,1,Yes,4,0,
+C0720,Female,54,Finland,58,Month-to-month,Bank transfer,Fiber,Yes,No,35.75,2077.04,1,Yes,5,0,
+C0721,Female,38,Finland,8,Month-to-month,Direct debit,Mobile,Yes,No,32.07,222.86,0,No,5,0,
+C0722,Male,79,Finland,72,Two year,Bank transfer,Fiber,Yes,Yes,43.87,3148.23,0,Yes,5,0,
+C0723,Male,66,Germany,109,Month-to-month,Bank transfer,DSL,Yes,No,43.98,4768.52,4,Yes,4,1,Moving
+C0724,Female,80,Norway,71,Month-to-month,Credit card,Fiber,Yes,Yes,56.75,4037.8,1,No,5,1,Competitor
+C0725,Female,48,Finland,50,Two year,Bank transfer,DSL,Yes,No,31.49,1578.82,1,Yes,5,0,
+C0726,Female,42,Finland,34,Month-to-month,Bank transfer,DSL,Yes,Yes,32.54,1080.3,0,Yes,5,1,Other
+C0727,Male,40,Finland,81,Month-to-month,Credit card,Fiber,Yes,No,50.07,4057.44,2,Yes,4,1,Competitor
+C0728,Female,41,Finland,4,Month-to-month,Direct debit,Fiber,Yes,Yes,64.47,260.36,1,No,4,0,
+C0729,Male,74,Germany,13,One year,Bank transfer,Fiber,Yes,Yes,85.52,1115.26,2,Yes,4,1,Moving
+C0730,Male,55,Denmark,91,Two year,Bank transfer,Fiber,Yes,No,34.32,3140.2,1,Yes,5,0,
+C0731,Male,45,Sweden,29,One year,Credit card,Mobile,Yes,No,38.98,1161.72,0,Yes,5,1,Competitor
+C0732,Female,38,Germany,3,Month-to-month,Direct debit,Fiber,Yes,No,55.22,153.38,2,No,4,0,
+C0733,Female,71,Finland,38,Two year,Direct debit,Fiber,Yes,Yes,88.83,3369.41,4,Yes,3,0,
+C0734,Female,60,Denmark,83,Two year,Credit card,DSL,Yes,Yes,67.65,5611.48,1,Yes,4,1,Moving
+C0735,Male,35,Germany,63,Two year,Credit card,DSL,No,No,33.69,2096.43,1,Yes,5,0,
+C0736,Female,53,Sweden,24,Two year,Bank transfer,Fiber,Yes,Yes,58.5,1383.84,2,Yes,4,0,
+C0737,Male,52,Denmark,27,One year,Credit card,Fiber,Yes,Yes,64.05,1740.61,2,No,4,0,
+C0738,Female,62,Finland,75,Month-to-month,Direct debit,Mobile,Yes,No,56.81,4299.25,3,No,4,0,
+C0739,Male,72,Finland,65,Month-to-month,Direct debit,Fiber,Yes,Yes,71.85,4649.46,1,Yes,4,0,
+C0740,Male,26,Finland,106,Month-to-month,Credit card,Fiber,Yes,Yes,87.38,9308.14,1,Yes,4,1,Competitor
+C0741,Male,70,Sweden,77,Two year,Credit card,DSL,Yes,Yes,64.63,4965.18,0,Yes,5,0,
+C0742,Male,55,Denmark,21,Two year,Direct debit,DSL,Yes,No,40.73,879.57,7,Yes,3,0,
+C0743,Female,75,Germany,30,One year,Credit card,Mobile,No,Yes,51.15,1543.09,0,No,5,0,
+C0744,Female,47,Norway,22,Month-to-month,Credit card,Fiber,Yes,No,58.97,1301.24,0,Yes,5,0,
+C0745,Male,77,Germany,47,One year,Direct debit,DSL,No,Yes,52.2,2444.86,2,Yes,4,0,
+C0746,Female,61,Denmark,19,Two year,Bank transfer,Mobile,Yes,No,32.88,625.04,1,Yes,5,0,
+C0747,Male,51,Finland,37,One year,Bank transfer,Mobile,Yes,Yes,51.31,1884.25,0,No,5,0,
+C0748,Female,49,Sweden,54,Two year,Credit card,Fiber,Yes,No,50.63,2752.93,1,No,5,1,Competitor
+C0749,Female,20,Finland,67,Two year,Direct debit,DSL,Yes,No,23.99,1629.69,0,Yes,5,0,
+C0750,Female,20,Norway,78,Two year,Bank transfer,Fiber,Yes,No,76.69,5968.81,1,Yes,4,1,Competitor
+C0751,Male,45,Germany,87,Two year,Electronic invoice,DSL,Yes,No,47.39,4090.12,0,No,5,0,
+C0752,Female,61,Finland,88,Two year,Direct debit,Mobile,No,No,49.84,4379.36,2,Yes,4,0,
+C0753,Female,32,Denmark,0,Month-to-month,Credit card,Fiber,No,Yes,77.35,39.77,2,Yes,4,1,Moving
+C0754,Male,58,Norway,6,Month-to-month,Bank transfer,Fiber,Yes,No,46.92,286.16,3,No,4,1,Moving
+C0755,Male,80,Norway,56,One year,Bank transfer,Fiber,Yes,No,45.98,2597.95,1,Yes,5,1,Moving
+C0756,Female,40,Sweden,94,Month-to-month,Bank transfer,DSL,Yes,No,50.93,4768.86,2,Yes,5,1,Moving
+C0757,Female,57,Sweden,11,Two year,Electronic invoice,DSL,Yes,Yes,33.02,353.5,1,No,5,0,
+C0758,Female,28,Finland,105,Month-to-month,Direct debit,None,Yes,No,56.31,5906.34,2,Yes,4,0,
+C0759,Female,65,Finland,4,One year,Credit card,DSL,No,No,31.27,101.66,3,No,4,0,
+C0760,Female,49,Finland,107,One year,Direct debit,DSL,Yes,No,55.96,5991.06,0,Yes,5,0,
+C0761,Male,75,Norway,49,One year,Credit card,None,Yes,Yes,56.98,2775.65,1,No,4,0,
+C0762,Male,76,Finland,41,Two year,Direct debit,Fiber,Yes,No,74.81,3086.19,2,Yes,4,0,
+C0763,Male,74,Germany,101,One year,Direct debit,Mobile,Yes,No,21.69,2192.47,1,No,5,0,
+C0764,Female,71,Sweden,11,Month-to-month,Bank transfer,DSL,Yes,No,43.83,511.75,1,Yes,4,0,
+C0765,Male,53,Norway,102,Month-to-month,Credit card,Fiber,Yes,No,55.56,5633.57,0,Yes,5,0,
+C0766,Female,77,Sweden,17,One year,Direct debit,Fiber,No,No,38.57,645.07,0,Yes,5,0,
+C0767,Female,50,Norway,65,Month-to-month,Direct debit,Mobile,Yes,No,27.06,1750.75,2,No,5,1,Moving
+C0768,Female,41,Germany,73,One year,Bank transfer,DSL,Yes,No,49.63,3632.25,1,Yes,5,0,
+C0769,Male,56,Finland,78,One year,Credit card,Fiber,Yes,No,54.18,4217.6,3,No,4,1,Other
+C0770,Female,51,Finland,93,Two year,Direct debit,Mobile,No,No,47.0,4405.45,3,Yes,4,1,Competitor
+C0771,Male,73,Denmark,107,Two year,Credit card,Fiber,No,Yes,44.44,4751.4,1,No,5,1,Moving
+C0772,Female,45,Finland,16,One year,Credit card,Fiber,Yes,Yes,68.83,1083.17,1,Yes,4,0,
+C0773,Male,54,Finland,67,One year,Credit card,DSL,Yes,No,23.24,1553.86,1,Yes,5,0,
+C0774,Male,24,Sweden,70,Two year,Credit card,DSL,No,No,50.76,3546.69,2,Yes,4,0,
+C0775,Female,21,Finland,61,One year,Bank transfer,Fiber,Yes,Yes,62.17,3810.93,2,Yes,4,0,
+C0776,Male,54,Norway,40,One year,Electronic invoice,Fiber,Yes,Yes,98.09,3915.36,0,Yes,4,1,Other
+C0777,Male,73,Finland,94,One year,Direct debit,None,Yes,No,41.21,3843.33,1,No,5,0,
+C0778,Female,18,Germany,114,Two year,Credit card,Mobile,Yes,Yes,56.77,6475.33,2,Yes,5,0,
+C0779,Female,18,Denmark,118,One year,Bank transfer,Fiber,No,No,63.55,7485.88,4,No,4,1,Other
+C0780,Female,64,Norway,102,One year,Bank transfer,Mobile,Yes,No,34.06,3451.02,0,Yes,5,0,
+C0781,Female,37,Norway,118,Two year,Credit card,DSL,Yes,Yes,56.23,6635.59,0,Yes,5,0,
+C0782,Female,36,Germany,33,Two year,Electronic invoice,Fiber,Yes,No,81.15,2675.31,2,No,4,0,
+C0783,Male,46,Finland,69,Month-to-month,Bank transfer,DSL,Yes,No,36.85,2538.24,4,Yes,4,0,
+C0784,Male,27,Germany,113,One year,Electronic invoice,DSL,Yes,No,55.7,6299.31,1,No,5,0,
+C0785,Male,77,Denmark,101,Two year,Bank transfer,Mobile,Yes,Yes,25.56,2569.98,4,Yes,4,1,Competitor
+C0786,Female,35,Denmark,44,Two year,Direct debit,Fiber,Yes,No,65.91,2902.36,5,Yes,4,0,
+C0787,Female,45,Norway,57,Two year,Credit card,Fiber,Yes,No,72.36,4112.73,4,Yes,4,0,
+C0788,Male,52,Finland,50,One year,Bank transfer,Fiber,No,Yes,58.04,2918.44,0,Yes,5,1,Competitor
+C0789,Male,60,Sweden,33,Month-to-month,Credit card,Fiber,No,Yes,54.1,1784.82,0,Yes,5,0,
+C0790,Female,64,Denmark,43,Two year,Electronic invoice,DSL,No,Yes,62.07,2704.01,1,Yes,4,0,
+C0791,Male,48,Finland,14,Two year,Direct debit,Fiber,Yes,Yes,106.37,1479.28,1,Yes,4,1,Competitor
+C0792,Female,44,Denmark,77,Month-to-month,Electronic invoice,Fiber,Yes,Yes,72.99,5627.37,1,Yes,4,0,
+C0793,Female,79,Finland,69,Month-to-month,Direct debit,Mobile,No,Yes,65.94,4572.45,1,No,4,0,
+C0794,Female,28,Finland,49,Two year,Electronic invoice,DSL,Yes,No,40.39,1989.83,1,Yes,5,0,
+C0795,Male,66,Finland,100,One year,Credit card,DSL,Yes,No,48.68,4870.81,0,No,5,0,
+C0796,Female,66,Finland,113,One year,Bank transfer,Fiber,Yes,Yes,41.13,4654.41,1,Yes,5,0,
+C0797,Female,55,Sweden,31,Month-to-month,Direct debit,Mobile,No,No,34.41,1076.86,4,No,4,1,Moving
+C0798,Female,22,Finland,66,Month-to-month,Direct debit,Fiber,Yes,Yes,60.07,3970.58,1,Yes,4,0,
+C0799,Female,25,Germany,2,Month-to-month,Direct debit,Mobile,Yes,No,28.51,56.73,0,Yes,5,0,
+C0800,Female,51,Norway,85,Two year,Credit card,None,Yes,Yes,53.89,4595.39,2,Yes,4,0,
+C0801,Female,65,Finland,85,One year,Credit card,None,Yes,Yes,63.63,5406.86,2,Yes,4,0,
+C0802,Male,69,Norway,73,One year,Electronic invoice,Mobile,No,No,41.18,2986.45,0,No,5,0,
+C0803,Female,73,Germany,50,Month-to-month,Direct debit,Mobile,Yes,Yes,57.47,2914.67,2,Yes,4,0,
+C0804,Female,29,Denmark,66,One year,Credit card,DSL,Yes,No,52.41,3476.61,3,No,4,0,
+C0805,Male,55,Finland,75,Month-to-month,Direct debit,Mobile,No,No,22.6,1676.77,1,No,5,0,
+C0806,Female,18,Germany,92,One year,Electronic invoice,Fiber,Yes,Yes,73.68,6773.67,0,Yes,5,0,
+C0807,Female,48,Denmark,47,Two year,Credit card,None,Yes,No,46.74,2185.39,3,Yes,4,0,
+C0808,Female,21,Finland,16,Month-to-month,Electronic invoice,DSL,Yes,No,57.54,910.68,1,No,4,1,Competitor
+C0809,Male,66,Finland,6,Month-to-month,Electronic invoice,Fiber,Yes,Yes,101.71,627.6,2,Yes,4,0,
+C0810,Male,62,Norway,12,Month-to-month,Electronic invoice,Fiber,No,Yes,95.08,1134.33,2,No,4,0,
+C0811,Other,67,Finland,119,One year,Electronic invoice,Fiber,Yes,Yes,70.07,8376.65,2,No,4,0,
+C0812,Female,22,Denmark,65,Two year,Bank transfer,DSL,No,No,50.26,3231.57,0,No,5,0,
+C0813,Male,47,Sweden,3,Month-to-month,Bank transfer,Fiber,Yes,No,64.09,191.68,2,No,4,1,Competitor
+C0814,Female,73,Germany,9,Two year,Credit card,Mobile,Yes,Yes,31.6,257.77,4,No,4,1,Competitor
+C0815,Female,41,Norway,102,Month-to-month,Credit card,Fiber,Yes,No,63.79,6513.13,0,No,5,1,Other
+C0816,Female,76,Finland,87,Two year,Bank transfer,DSL,Yes,Yes,64.73,5640.46,3,Yes,4,0,
+C0817,Female,20,Finland,16,Month-to-month,Bank transfer,Mobile,Yes,Yes,61.14,996.22,2,Yes,4,0,
+C0818,Male,28,Norway,51,Two year,Credit card,DSL,Yes,Yes,47.49,2397.45,1,No,5,0,
+C0819,Male,62,Denmark,5,Month-to-month,Bank transfer,DSL,Yes,No,51.86,267.93,4,No,4,1,Moving
+C0820,Male,21,Denmark,82,One year,Credit card,Fiber,Yes,Yes,97.62,7987.37,0,Yes,4,0,
+C0821,Female,43,Finland,68,Two year,Electronic invoice,Mobile,Yes,No,43.21,2940.2,3,Yes,4,0,
+C0822,Male,44,Finland,95,Two year,Credit card,Fiber,Yes,No,61.55,5838.41,2,Yes,4,0,
+C0823,Male,63,Finland,73,One year,Direct debit,Fiber,Yes,Yes,80.43,5846.1,0,No,5,1,Competitor
+C0824,Male,71,Norway,8,Month-to-month,Bank transfer,Fiber,Yes,Yes,88.28,720.69,4,Yes,3,1,Other
+C0825,Female,60,Finland,90,Month-to-month,Credit card,Fiber,No,Yes,72.25,6497.33,1,No,4,0,
+C0826,Female,44,Sweden,76,Two year,Electronic invoice,DSL,Yes,No,44.77,3419.67,1,No,5,0,
+C0827,Male,59,Norway,82,One year,Bank transfer,None,Yes,No,53.88,4436.74,2,Yes,4,1,Moving
+C0828,Male,68,Germany,20,Month-to-month,Bank transfer,Mobile,Yes,Yes,35.87,743.63,0,No,5,1,Competitor
+C0829,Female,67,Finland,23,One year,Credit card,Fiber,Yes,Yes,74.37,1700.37,2,No,4,1,Other
+C0830,Male,23,Finland,101,Two year,Bank transfer,Fiber,No,Yes,87.58,8827.0,1,No,4,1,Moving
+C0831,Male,76,Norway,3,Month-to-month,Credit card,Mobile,Yes,Yes,36.73,134.2,1,Yes,4,0,
+C0832,Male,78,Norway,23,One year,Bank transfer,Fiber,No,No,72.47,1668.87,2,Yes,4,0,
+C0833,Male,32,Finland,58,Two year,Bank transfer,DSL,Yes,Yes,43.16,2530.26,2,No,4,0,
+C0834,Male,70,Germany,98,One year,Electronic invoice,DSL,No,Yes,49.7,4846.94,1,Yes,5,1,Competitor
+C0835,Female,47,Denmark,2,Month-to-month,Direct debit,Fiber,Yes,No,71.5,156.77,4,Yes,4,1,Competitor
+C0836,Male,59,Finland,67,Two year,Credit card,Mobile,Yes,Yes,29.03,1945.87,2,No,5,0,
+C0837,Female,54,Finland,120,One year,Credit card,DSL,Yes,No,52.83,6338.77,2,No,5,0,
+C0838,Male,75,Sweden,100,Two year,Bank transfer,DSL,Yes,Yes,56.42,5635.57,2,Yes,4,0,
+C0839,Female,78,Denmark,39,Month-to-month,Credit card,Fiber,Yes,No,50.92,1963.67,2,Yes,4,1,Other
+C0840,Female,54,Finland,47,Month-to-month,Credit card,Mobile,Yes,Yes,58.25,2751.03,3,No,4,1,Competitor
+C0841,Male,59,Norway,53,Two year,Electronic invoice,DSL,Yes,No,21.57,1135.37,1,No,5,0,
+C0842,Female,77,Norway,34,Two year,Credit card,DSL,Yes,Yes,54.76,1866.07,2,Yes,4,1,Other
+C0843,Male,54,Finland,94,One year,Electronic invoice,Fiber,Yes,No,48.25,4574.15,2,Yes,5,0,
+C0844,Other,52,Norway,55,Two year,Credit card,Fiber,No,Yes,57.55,3154.51,1,No,4,0,
+C0845,Male,40,Germany,107,Two year,Electronic invoice,DSL,Yes,No,55.49,5931.48,2,Yes,5,0,
+C0846,Male,23,Finland,88,One year,Direct debit,DSL,Yes,Yes,58.18,5116.58,2,Yes,4,1,Other
+C0847,Male,21,Finland,39,Month-to-month,Direct debit,Fiber,No,No,40.47,1570.44,1,Yes,5,0,
+C0848,Other,35,Sweden,76,Two year,Credit card,Fiber,Yes,No,64.05,4860.53,0,Yes,5,0,
+C0849,Female,77,Germany,67,Two year,Electronic invoice,None,Yes,No,51.79,3483.88,1,Yes,5,1,Other
+C0850,Female,26,Germany,45,Month-to-month,Electronic invoice,Fiber,Yes,No,82.82,3753.37,2,No,4,0,
+C0851,Male,66,Sweden,77,Two year,Direct debit,DSL,No,Yes,44.56,3433.72,1,Yes,5,0,
+C0852,Female,46,Denmark,12,Two year,Bank transfer,Fiber,Yes,Yes,89.27,1086.04,0,No,4,0,
+C0853,Male,30,Sweden,26,One year,Direct debit,Fiber,Yes,No,56.14,1456.18,3,No,4,0,
+C0854,Female,76,Sweden,5,Month-to-month,Credit card,DSL,Yes,Yes,57.64,284.24,1,No,4,0,
+C0855,Male,64,Finland,16,Month-to-month,Direct debit,Mobile,Yes,Yes,62.24,987.84,4,Yes,4,1,Moving
+C0856,Male,79,Finland,35,Month-to-month,Electronic invoice,Mobile,Yes,Yes,39.69,1373.86,1,No,5,0,
+C0857,Male,69,Finland,103,Two year,Bank transfer,DSL,Yes,Yes,33.61,3486.56,1,No,5,1,Other
+C0858,Male,34,Norway,112,Two year,Credit card,DSL,Yes,No,33.68,3762.12,2,Yes,5,0,
+C0859,Female,62,Finland,98,Two year,Bank transfer,DSL,No,No,26.58,2617.06,1,Yes,5,0,
+C0860,Male,49,Germany,80,One year,Direct debit,DSL,Yes,No,31.37,2492.86,0,Yes,5,0,
+C0861,Female,65,Finland,104,Month-to-month,Credit card,Fiber,Yes,Yes,80.78,8402.04,0,Yes,5,0,
+C0862,Male,39,Finland,1,Month-to-month,Credit card,Fiber,Yes,No,57.99,57.97,0,Yes,4,0,
+C0863,Female,21,Sweden,120,One year,Credit card,None,Yes,No,35.0,4183.42,0,Yes,5,0,
+C0864,Male,22,Denmark,76,Month-to-month,Direct debit,DSL,Yes,No,34.75,2634.07,2,Yes,5,0,
+C0865,Male,54,Finland,51,One year,Credit card,Fiber,Yes,No,60.66,3072.29,4,Yes,4,0,
+C0866,Female,58,Finland,65,One year,Direct debit,Mobile,Yes,No,37.64,2446.94,2,No,5,1,Moving
+C0867,Male,66,Germany,51,Two year,Bank transfer,Fiber,Yes,Yes,95.48,4834.27,1,No,4,1,Competitor
+C0868,Male,30,Finland,91,One year,Direct debit,DSL,No,Yes,33.29,3028.23,1,No,5,1,Moving
+C0869,Female,51,Finland,42,One year,Electronic invoice,DSL,Yes,Yes,73.84,3114.3,2,Yes,4,0,
+C0870,Female,62,Denmark,89,One year,Credit card,Fiber,Yes,No,61.42,5466.12,0,Yes,5,0,
+C0871,Male,39,Finland,21,Month-to-month,Bank transfer,None,Yes,No,57.92,1202.32,3,No,4,1,Other
+C0872,Male,70,Sweden,110,Month-to-month,Electronic invoice,Mobile,Yes,No,20.21,2210.11,1,No,5,0,
+C0873,Female,76,Sweden,106,Month-to-month,Credit card,Mobile,Yes,No,46.8,4984.96,1,Yes,5,0,
+C0874,Male,40,Finland,54,Two year,Credit card,Mobile,No,No,38.78,2097.28,0,Yes,5,0,
+C0875,Male,68,Finland,66,Month-to-month,Electronic invoice,Fiber,Yes,No,82.0,5428.89,2,No,4,0,
+C0876,Male,20,Finland,98,Two year,Electronic invoice,Mobile,Yes,No,34.09,3359.67,2,Yes,5,0,
+C0877,Female,59,Finland,59,Two year,Direct debit,None,Yes,No,58.51,3443.18,3,Yes,4,0,
+C0878,Female,51,Finland,57,Two year,Credit card,Fiber,Yes,No,62.23,3527.08,1,Yes,4,0,
+C0879,Male,49,Denmark,11,Month-to-month,Bank transfer,DSL,Yes,Yes,66.0,738.92,2,No,4,1,Competitor
+C0880,Male,62,Sweden,87,Two year,Credit card,Fiber,Yes,No,70.75,6138.11,3,Yes,4,0,
+C0881,Male,68,Sweden,68,Month-to-month,Direct debit,DSL,Yes,No,48.58,3291.63,3,No,4,1,Other
+C0882,Female,75,Germany,83,One year,Direct debit,DSL,Yes,No,40.97,3402.58,2,Yes,5,0,
+C0883,Male,66,Norway,102,Two year,Electronic invoice,Mobile,Yes,No,28.32,2883.62,0,Yes,5,0,
+C0884,Male,38,Finland,38,Two year,Credit card,Mobile,Yes,Yes,55.09,2047.14,1,Yes,4,0,
+C0885,Female,63,Germany,12,Month-to-month,Direct debit,DSL,Yes,Yes,52.87,609.75,1,Yes,4,0,
+C0886,Male,80,Finland,40,Month-to-month,Credit card,Fiber,Yes,No,56.31,2272.57,2,No,4,0,
+C0887,Female,61,Finland,56,One year,Bank transfer,Mobile,Yes,No,22.14,1238.21,1,No,5,0,
+C0888,Male,38,Denmark,52,One year,Direct debit,Fiber,Yes,Yes,73.4,3831.45,0,Yes,4,0,
+C0889,Male,61,Sweden,108,One year,Credit card,Fiber,No,No,83.62,9014.73,0,Yes,5,0,
+C0890,Male,28,Sweden,11,Two year,Direct debit,Mobile,Yes,No,33.66,348.02,6,Yes,4,0,
+C0891,Female,56,Finland,12,Two year,Direct debit,Mobile,Yes,No,33.99,422.32,2,No,4,0,
+C0892,Female,21,Sweden,119,Two year,Electronic invoice,Mobile,Yes,No,19.93,2397.6,0,Yes,5,0,
+C0893,Female,68,Finland,73,One year,Direct debit,Fiber,Yes,Yes,61.93,4503.44,0,Yes,5,0,
+C0894,Male,18,Germany,96,Two year,Electronic invoice,DSL,Yes,No,48.02,4630.28,3,Yes,4,0,
+C0895,Female,45,Finland,56,Two year,Bank transfer,Mobile,Yes,No,24.42,1347.99,1,Yes,5,0,
+C0896,Male,80,Germany,39,Two year,Credit card,DSL,No,No,44.87,1717.19,3,Yes,4,0,
+C0897,Male,41,Norway,117,One year,Bank transfer,Mobile,No,No,42.05,4931.57,0,Yes,5,1,Other
+C0898,Female,78,Denmark,79,Month-to-month,Bank transfer,DSL,No,Yes,70.61,5559.09,1,Yes,4,0,
+C0899,Male,52,Denmark,44,Month-to-month,Direct debit,Fiber,Yes,No,55.27,2407.68,1,No,4,1,Competitor
+C0900,Male,30,Norway,34,One year,Direct debit,Fiber,No,No,36.74,1225.39,2,No,4,0,
+C0901,Male,64,Finland,2,Month-to-month,Bank transfer,DSL,Yes,No,40.24,73.52,2,Yes,4,0,
+C0902,Male,51,Finland,119,Two year,Credit card,Mobile,Yes,Yes,48.62,5751.77,1,Yes,5,0,
+C0903,Male,28,Finland,4,Month-to-month,Credit card,DSL,Yes,No,21.6,98.28,1,No,5,0,
+C0904,Female,53,Germany,89,Month-to-month,Direct debit,Mobile,Yes,No,51.62,4603.81,2,No,4,1,Other
+C0905,Male,68,Denmark,10,Month-to-month,Direct debit,Mobile,Yes,No,32.56,335.21,0,Yes,5,0,
+C0906,Female,78,Sweden,70,One year,Direct debit,Fiber,Yes,Yes,68.25,4801.65,1,Yes,4,0,
+C0907,Female,34,Finland,116,Month-to-month,Bank transfer,Mobile,Yes,Yes,33.03,3850.9,2,No,5,0,
+C0908,Male,52,Sweden,55,Two year,Credit card,DSL,No,Yes,64.93,3553.0,0,Yes,5,0,
+C0909,Male,77,Norway,9,One year,Direct debit,Mobile,Yes,No,27.21,258.37,0,Yes,5,0,
+C0910,Male,35,Sweden,105,Two year,Direct debit,Fiber,Yes,No,46.92,4948.82,3,No,4,0,
+C0911,Female,57,Denmark,115,One year,Bank transfer,Fiber,Yes,No,48.16,5554.68,1,Yes,5,0,
+C0912,Male,39,Germany,33,One year,Direct debit,Fiber,No,No,62.41,2077.31,1,No,4,1,Moving
+C0913,Female,74,Finland,66,One year,Bank transfer,Fiber,Yes,No,74.71,4927.85,1,No,4,1,Competitor
+C0914,Male,41,Sweden,71,Two year,Direct debit,Mobile,Yes,Yes,35.65,2518.19,3,Yes,4,0,
+C0915,Female,75,Sweden,30,Month-to-month,Electronic invoice,DSL,No,Yes,36.02,1075.91,1,No,5,0,
+C0916,Male,36,Finland,74,Two year,Direct debit,Fiber,Yes,No,67.33,4968.45,0,Yes,5,0,
+C0917,Male,54,Finland,108,One year,Bank transfer,DSL,Yes,No,44.77,4855.23,3,No,4,1,Competitor
+C0918,Female,56,Finland,70,Two year,Bank transfer,Mobile,Yes,No,23.81,1670.43,5,No,4,0,
+C0919,Female,38,Germany,108,Two year,Direct debit,DSL,Yes,No,55.09,5966.19,2,Yes,5,0,
+C0920,Male,25,Sweden,65,One year,Direct debit,Fiber,No,No,34.84,2235.62,1,Yes,5,0,
+C0921,Female,45,Sweden,69,Two year,Direct debit,DSL,Yes,Yes,33.81,2323.96,0,Yes,5,0,
+C0922,Female,22,Germany,40,Month-to-month,Direct debit,Fiber,No,No,57.85,2293.5,1,No,4,0,
+C0923,Female,34,Denmark,62,Two year,Credit card,Mobile,No,No,52.59,3228.07,1,Yes,5,0,
+C0924,Female,54,Finland,31,One year,Electronic invoice,Mobile,Yes,No,42.19,1313.89,1,Yes,5,0,
+C0925,Male,53,Norway,19,Month-to-month,Direct debit,Mobile,Yes,Yes,69.0,1289.71,2,No,4,0,
+C0926,Male,71,Sweden,56,Two year,Bank transfer,Fiber,No,No,62.87,3513.26,1,Yes,4,0,
+C0927,Male,36,Denmark,97,Two year,Direct debit,Mobile,Yes,Yes,26.08,2510.33,0,Yes,5,0,
+C0928,Female,80,Denmark,49,Month-to-month,Credit card,Fiber,Yes,Yes,71.32,3486.53,1,No,4,1,Competitor
+C0929,Female,44,Norway,79,Two year,Credit card,Mobile,Yes,No,34.42,2730.96,3,No,4,0,
+C0930,Male,70,Finland,24,One year,Credit card,Fiber,Yes,Yes,86.12,2047.75,0,Yes,4,0,
+C0931,Male,51,Denmark,11,Month-to-month,Direct debit,Fiber,No,No,46.45,501.88,3,Yes,4,0,
+C0932,Female,28,Finland,70,Two year,Electronic invoice,DSL,Yes,No,20.24,1427.37,2,No,5,0,
+C0933,Other,71,Finland,38,One year,Direct debit,Fiber,Yes,No,36.11,1385.81,1,Yes,5,0,
+C0934,Female,62,Finland,16,Month-to-month,Bank transfer,DSL,No,No,46.55,736.92,2,Yes,4,0,
+C0935,Male,64,Finland,44,Two year,Bank transfer,Mobile,No,Yes,50.9,2245.51,1,Yes,5,1,Other
+C0936,Male,29,Finland,10,Month-to-month,Credit card,Fiber,Yes,No,72.64,742.75,3,Yes,4,0,
+C0937,Male,71,Denmark,69,Two year,Credit card,None,No,No,32.02,2188.24,2,Yes,5,0,
+C0938,Female,38,Germany,22,Month-to-month,Direct debit,DSL,Yes,No,52.62,1143.37,0,No,5,1,Other
+C0939,Male,71,Finland,90,Month-to-month,Electronic invoice,DSL,Yes,No,37.02,3324.32,2,Yes,5,0,
+C0940,Female,28,Finland,109,Month-to-month,Bank transfer,Mobile,No,No,16.23,1778.01,2,No,5,0,
+C0941,Male,56,Finland,69,Two year,Direct debit,Fiber,Yes,Yes,99.01,6835.43,1,Yes,4,0,
+C0942,Female,45,Finland,37,Two year,Electronic invoice,Fiber,Yes,Yes,69.93,2588.7,1,Yes,4,0,
+C0943,Female,22,Finland,1,Month-to-month,Credit card,Mobile,Yes,Yes,55.07,34.51,3,Yes,4,0,
+C0944,Female,34,Germany,85,Month-to-month,Direct debit,Fiber,Yes,No,58.76,5012.02,2,No,4,0,
+C0945,Male,73,Finland,83,Two year,Direct debit,DSL,No,No,34.5,2853.52,3,Yes,4,1,Competitor
+C0946,Male,37,Sweden,88,Month-to-month,Direct debit,Mobile,Yes,No,42.1,3699.47,2,Yes,5,0,
+C0947,Male,58,Finland,78,Two year,Credit card,DSL,Yes,No,54.81,4279.09,2,No,4,1,Moving
+C0948,Female,63,Germany,112,Month-to-month,Direct debit,Mobile,Yes,No,28.32,3211.3,1,No,5,0,
+C0949,Female,75,Denmark,92,Two year,Direct debit,DSL,No,Yes,53.28,4888.94,2,Yes,4,0,
+C0950,Female,29,Germany,71,One year,Credit card,Fiber,Yes,Yes,98.75,6997.43,0,Yes,4,0,
+C0951,Female,23,Denmark,36,Two year,Bank transfer,DSL,Yes,No,27.61,986.47,2,No,5,0,
+C0952,Female,34,Finland,48,Two year,Credit card,Mobile,Yes,Yes,33.02,1608.18,1,No,5,0,
+C0953,Male,68,Finland,51,One year,Electronic invoice,DSL,Yes,No,24.35,1244.83,1,No,5,0,
+C0954,Female,36,Norway,32,Month-to-month,Bank transfer,Mobile,Yes,Yes,51.39,1652.0,2,Yes,4,0,
+C0955,Male,43,Sweden,21,One year,Electronic invoice,Fiber,Yes,Yes,91.71,1942.05,2,Yes,4,0,
+C0956,Male,65,Norway,113,Two year,Bank transfer,DSL,No,No,44.43,5043.14,0,No,5,0,
+C0957,Female,61,Finland,110,Month-to-month,Credit card,Mobile,Yes,Yes,37.76,4140.2,2,Yes,5,0,
+C0958,Male,61,Finland,4,Month-to-month,Credit card,Fiber,Yes,No,71.75,297.46,2,No,4,0,
+C0959,Male,69,Sweden,102,Two year,Credit card,DSL,Yes,No,53.4,5469.85,3,No,4,0,
+C0960,Female,49,Norway,17,Month-to-month,Credit card,DSL,Yes,No,32.11,549.99,3,Yes,4,0,
+C0961,Male,23,Denmark,37,Two year,Direct debit,Fiber,Yes,No,85.79,3157.85,2,Yes,4,0,
+C0962,Female,80,Finland,117,One year,Credit card,DSL,Yes,No,51.38,5991.17,0,Yes,5,1,Other
+C0963,Male,72,Sweden,116,Two year,Bank transfer,DSL,Yes,No,20.87,2429.96,1,Yes,5,0,
+C0964,Male,75,Finland,36,Two year,Bank transfer,DSL,Yes,Yes,38.01,1345.3,5,Yes,4,0,
+C0965,Male,53,Finland,93,Two year,Direct debit,Fiber,Yes,Yes,82.66,7671.12,1,No,4,0,
+C0966,Male,55,Sweden,114,Month-to-month,Direct debit,Fiber,Yes,Yes,78.05,8887.9,2,Yes,4,0,
+C0967,Female,28,Finland,94,Two year,Direct debit,DSL,Yes,No,55.22,5196.29,1,Yes,5,0,
+C0968,Male,50,Finland,63,Month-to-month,Electronic invoice,None,Yes,No,45.64,2886.99,2,Yes,4,1,Other
+C0969,Female,79,Finland,9,One year,Credit card,Mobile,Yes,Yes,31.5,269.3,3,Yes,4,0,
+C0970,Male,41,Finland,78,One year,Bank transfer,DSL,No,No,27.39,2110.49,2,Yes,5,0,
+C0971,Female,40,Finland,41,Month-to-month,Bank transfer,DSL,Yes,Yes,61.64,2543.57,1,No,4,0,
+C0972,Female,32,Finland,47,Two year,Bank transfer,Mobile,Yes,Yes,30.88,1464.87,1,No,5,0,
+C0973,Female,44,Finland,43,Month-to-month,Direct debit,Fiber,No,No,76.05,3279.54,2,Yes,4,0,
+C0974,Male,28,Finland,81,Two year,Bank transfer,Fiber,Yes,Yes,79.98,6485.89,1,Yes,4,0,
+C0975,Male,74,Norway,86,Two year,Bank transfer,Fiber,No,No,62.03,5326.63,1,Yes,5,0,
+C0976,Male,68,Finland,96,Two year,Bank transfer,Mobile,Yes,No,21.34,2045.09,2,Yes,5,0,
+C0977,Female,67,Finland,15,Month-to-month,Electronic invoice,DSL,Yes,No,31.4,472.52,1,Yes,5,0,
+C0978,Male,34,Finland,53,One year,Electronic invoice,Mobile,Yes,No,45.33,2385.63,1,No,5,0,
+C0979,Female,68,Norway,101,Two year,Bank transfer,Mobile,No,No,17.25,1749.92,3,No,5,0,
+C0980,Female,70,Germany,34,One year,Credit card,Fiber,Yes,No,75.37,2564.96,0,No,4,1,Other
+C0981,Male,31,Denmark,97,One year,Electronic invoice,Mobile,Yes,Yes,43.93,4258.5,2,No,5,0,
+C0982,Female,44,Denmark,27,Month-to-month,Electronic invoice,DSL,Yes,No,39.64,1088.53,2,Yes,4,1,Moving
+C0983,Male,35,Sweden,1,Month-to-month,Credit card,Fiber,Yes,Yes,58.42,56.4,2,Yes,4,1,Other
+C0984,Male,45,Norway,93,Two year,Bank transfer,Fiber,Yes,Yes,82.66,7700.57,3,Yes,4,0,
+C0985,Female,68,Norway,12,Month-to-month,Electronic invoice,Fiber,Yes,No,52.95,611.63,2,No,4,0,
+C0986,Female,64,Finland,40,One year,Direct debit,DSL,Yes,No,59.6,2400.8,1,Yes,4,0,
+C0987,Female,80,Finland,79,One year,Credit card,Fiber,Yes,Yes,68.63,5433.85,2,No,4,1,Other
+C0988,Male,64,Finland,58,One year,Direct debit,DSL,Yes,Yes,32.77,1943.9,0,Yes,5,0,
+C0989,Male,21,Germany,68,Month-to-month,Electronic invoice,DSL,Yes,Yes,50.91,3493.9,1,No,5,0,
+C0990,Female,24,Sweden,118,Month-to-month,Electronic invoice,DSL,Yes,Yes,46.51,5506.91,1,Yes,5,0,
+C0991,Female,62,Denmark,91,One year,Direct debit,Mobile,Yes,No,15.0,1354.22,0,Yes,5,0,
+C0992,Female,52,Finland,52,Two year,Direct debit,DSL,No,Yes,62.27,3220.33,2,No,4,0,
+C0993,Male,65,Sweden,102,One year,Credit card,Fiber,Yes,No,59.51,6055.52,0,Yes,5,0,
+C0994,Female,80,Finland,44,One year,Electronic invoice,DSL,Yes,No,43.11,1907.03,1,No,5,0,
+C0995,Male,26,Finland,19,Month-to-month,Credit card,DSL,Yes,No,58.47,1136.81,4,Yes,4,1,Moving
+C0996,Male,25,Denmark,23,Month-to-month,Electronic invoice,Fiber,Yes,No,47.69,1072.65,1,No,4,1,Moving
+C0997,Female,69,Norway,60,Two year,Bank transfer,DSL,Yes,Yes,35.29,2100.53,3,Yes,4,0,
+C0998,Male,62,Finland,90,One year,Electronic invoice,Fiber,Yes,Yes,54.8,4932.67,1,Yes,5,0,
+C0999,Female,34,Denmark,93,Month-to-month,Credit card,Fiber,Yes,No,53.73,4974.18,2,No,4,1,Other
+C1000,Male,34,Finland,57,Month-to-month,Bank transfer,None,No,Yes,28.12,1594.38,1,Yes,5,0,
+C1001,Male,66,Germany,108,Two year,Credit card,None,No,No,52.91,5739.18,1,Yes,5,0,
+C1002,Female,50,Finland,26,Month-to-month,Direct debit,Fiber,Yes,Yes,102.76,2686.19,1,No,4,0,
+C1003,Female,49,Finland,25,Two year,Electronic invoice,Mobile,Yes,Yes,55.02,1392.09,3,No,4,1,Competitor
+C1004,Female,25,Finland,6,Month-to-month,Direct debit,DSL,No,Yes,45.52,253.43,1,Yes,4,1,Competitor
+C1005,Female,36,Finland,41,Two year,Bank transfer,Fiber,Yes,Yes,105.8,4302.88,2,Yes,4,0,
+C1006,Female,80,Finland,46,Two year,Credit card,Mobile,Yes,No,31.84,1456.06,0,No,5,0,
+C1007,Female,55,Norway,52,One year,Electronic invoice,DSL,Yes,Yes,37.26,1890.97,0,No,5,1,Moving
+C1008,Female,20,Germany,58,Month-to-month,Direct debit,DSL,Yes,No,37.49,2183.47,1,No,5,0,
+C1009,Male,76,Denmark,37,Month-to-month,Direct debit,DSL,Yes,No,22.63,852.26,1,Yes,5,1,Other
+C1010,Female,22,Finland,68,One year,Direct debit,Fiber,No,No,97.53,6616.33,3,Yes,4,0,
+C1011,Male,30,Sweden,86,One year,Direct debit,Fiber,No,No,68.67,5917.26,0,Yes,5,0,
+C1012,Other,64,Finland,91,Month-to-month,Bank transfer,Fiber,Yes,No,71.09,6480.72,0,Yes,5,0,
+C1013,Female,63,Finland,97,Month-to-month,Direct debit,Fiber,No,Yes,95.98,9287.64,1,Yes,4,0,
+C1014,Male,78,Norway,52,One year,Direct debit,Fiber,Yes,No,72.59,3766.68,2,Yes,4,0,
+C1015,Female,48,Sweden,14,One year,Electronic invoice,Mobile,Yes,Yes,31.94,437.8,0,Yes,5,0,
+C1016,Female,72,Finland,95,Month-to-month,Electronic invoice,DSL,Yes,No,41.01,3914.61,2,Yes,5,0,
+C1017,Male,33,Finland,25,Month-to-month,Credit card,Mobile,Yes,No,47.11,1192.4,1,No,4,1,Moving
+C1018,Female,67,Germany,47,Two year,Bank transfer,Fiber,Yes,No,36.86,1743.87,1,No,5,0,
+C1019,Female,49,Finland,94,One year,Credit card,Mobile,Yes,Yes,63.86,5991.62,6,Yes,4,0,
+C1020,Male,39,Sweden,18,One year,Credit card,Mobile,No,Yes,40.98,764.95,1,No,4,1,Moving
+C1021,Female,46,Sweden,8,Month-to-month,Direct debit,Fiber,No,No,47.61,384.5,1,No,4,0,
+C1022,Male,39,Finland,63,Month-to-month,Electronic invoice,DSL,No,No,41.27,2609.92,2,Yes,4,1,Competitor
+C1023,Female,60,Finland,92,One year,Credit card,Fiber,Yes,Yes,78.28,7236.37,1,Yes,4,0,
+C1024,Other,20,Sweden,53,One year,Bank transfer,None,Yes,No,38.99,2079.72,1,Yes,5,0,
+C1025,Female,71,Denmark,50,Two year,Electronic invoice,Fiber,Yes,No,75.85,3790.1,0,Yes,4,0,
+C1026,Male,27,Sweden,38,Two year,Electronic invoice,DSL,No,No,40.0,1510.04,2,Yes,4,0,
+C1027,Female,59,Norway,3,Month-to-month,Bank transfer,DSL,Yes,No,45.25,101.07,3,Yes,4,1,Moving
+C1028,Female,79,Germany,2,One year,Direct debit,None,Yes,Yes,32.21,33.09,0,Yes,5,0,
+C1029,Male,38,Denmark,119,One year,Bank transfer,DSL,Yes,No,21.55,2581.57,1,Yes,5,0,
+C1030,Female,33,Sweden,63,Two year,Credit card,DSL,No,No,25.48,1565.72,3,Yes,4,0,
+C1031,Male,29,Sweden,28,Two year,Credit card,Fiber,Yes,Yes,79.62,2249.59,0,Yes,4,0,
+C1032,Female,19,Norway,115,Month-to-month,Credit card,None,Yes,No,30.13,3481.02,4,Yes,4,1,Moving
+C1033,Male,58,Norway,10,Month-to-month,Bank transfer,Fiber,Yes,Yes,71.0,692.7,1,Yes,4,0,
+C1034,Male,41,Sweden,96,One year,Electronic invoice,Fiber,No,No,77.38,7432.11,0,Yes,5,1,Other
+C1035,Male,52,Norway,101,Two year,Direct debit,Fiber,Yes,Yes,50.29,5090.81,3,No,4,0,
+C1036,Female,73,Finland,57,One year,Bank transfer,DSL,No,No,21.39,1221.07,3,No,4,0,
+C1037,Male,47,Sweden,74,Two year,Bank transfer,Mobile,No,No,21.22,1594.9,2,Yes,5,0,
+C1038,Female,74,Finland,26,Two year,Credit card,Fiber,Yes,No,73.98,1895.64,2,No,4,1,Other
+C1039,Male,47,Finland,96,Month-to-month,Direct debit,Fiber,Yes,Yes,62.41,6001.44,3,No,4,0,
+C1040,Male,64,Finland,20,Month-to-month,Electronic invoice,Mobile,Yes,No,37.62,740.22,1,Yes,5,0,
+C1041,Female,52,Norway,38,Two year,Credit card,None,Yes,No,34.43,1273.58,1,Yes,5,1,Moving
+C1042,Female,36,Sweden,94,Month-to-month,Credit card,Fiber,Yes,Yes,80.05,7501.5,1,Yes,4,0,
+C1043,Male,67,Finland,101,Two year,Direct debit,DSL,Yes,No,48.83,4921.34,1,Yes,5,0,
+C1044,Female,25,Sweden,45,One year,Direct debit,Mobile,Yes,No,28.23,1270.82,2,Yes,5,0,
+C1045,Female,43,Sweden,65,One year,Bank transfer,Fiber,Yes,No,58.66,3794.88,3,Yes,4,0,
+C1046,Female,66,Finland,90,Month-to-month,Direct debit,Mobile,Yes,Yes,34.74,3116.48,1,No,5,0,
+C1047,Male,57,Norway,35,Two year,Direct debit,Mobile,Yes,Yes,29.06,1009.18,0,Yes,5,0,
+C1048,Male,24,Denmark,74,Month-to-month,Credit card,DSL,No,Yes,35.26,2591.65,0,Yes,5,1,Moving
+C1049,Female,47,Denmark,110,Two year,Bank transfer,None,Yes,No,50.03,5491.97,2,Yes,5,0,
+C1050,Male,24,Norway,81,One year,Bank transfer,Fiber,Yes,Yes,71.12,5772.18,1,No,4,1,Other
+C1051,Female,20,Sweden,64,Two year,Electronic invoice,Fiber,No,No,90.12,5800.66,2,Yes,4,1,Competitor
+C1052,Female,18,Finland,62,One year,Electronic invoice,DSL,Yes,Yes,35.68,2216.33,3,Yes,4,0,
+C1053,Female,53,Finland,98,Month-to-month,Electronic invoice,Mobile,Yes,Yes,56.54,5543.55,0,Yes,5,1,Other
+C1054,Female,42,Finland,34,Two year,Direct debit,Fiber,Yes,No,85.11,2892.13,3,Yes,4,0,
+C1055,Other,54,Germany,30,Month-to-month,Direct debit,Fiber,No,No,47.4,1414.18,0,Yes,5,1,Other
+C1056,Male,18,Finland,27,One year,Direct debit,Mobile,Yes,Yes,44.73,1219.23,1,No,4,0,
+C1057,Female,32,Finland,102,Month-to-month,Electronic invoice,Fiber,No,No,66.47,6799.6,1,Yes,5,1,Other
+C1058,Male,54,Germany,0,Month-to-month,Credit card,Fiber,No,No,73.02,0.0,1,Yes,4,0,
+C1059,Male,30,Germany,24,Two year,Bank transfer,Mobile,Yes,No,25.8,639.97,4,Yes,4,0,
+C1060,Female,57,Denmark,42,One year,Direct debit,Mobile,Yes,No,19.78,863.27,0,No,5,0,
+C1061,Female,25,Finland,101,One year,Direct debit,Mobile,Yes,No,31.62,3173.47,2,Yes,5,0,
+C1062,Other,22,Finland,83,Two year,Credit card,Mobile,Yes,Yes,39.29,3279.48,1,No,5,1,Other
+C1063,Female,77,Sweden,66,Month-to-month,Direct debit,Fiber,Yes,No,83.07,5515.33,1,Yes,4,1,Other
+C1064,Male,26,Finland,62,Two year,Direct debit,Fiber,Yes,No,73.57,4575.66,1,Yes,4,0,
+C1065,Male,80,Finland,50,Month-to-month,Bank transfer,DSL,Yes,No,22.03,1097.98,4,No,4,1,Competitor
+C1066,Female,18,Sweden,1,One year,Direct debit,Fiber,No,Yes,61.84,77.42,3,Yes,4,1,Other
+C1067,Male,53,Germany,81,Two year,Bank transfer,Fiber,Yes,No,43.51,3508.06,1,Yes,5,1,Other
+C1068,Male,52,Finland,107,Two year,Electronic invoice,Mobile,Yes,No,44.25,4728.5,1,Yes,5,0,
+C1069,Male,19,Norway,63,Two year,Bank transfer,DSL,Yes,Yes,68.3,4288.25,3,Yes,4,0,
+C1070,Male,80,Norway,73,One year,Direct debit,DSL,Yes,Yes,30.16,2174.74,1,Yes,5,0,
+C1071,Male,57,Finland,68,One year,Credit card,DSL,No,No,37.61,2558.31,3,Yes,4,0,
+C1072,Male,40,Norway,8,Month-to-month,Credit card,DSL,Yes,Yes,63.47,513.84,1,Yes,4,0,
+C1073,Male,26,Finland,1,Month-to-month,Direct debit,Fiber,Yes,No,65.26,78.51,1,Yes,4,1,Competitor
+C1074,Male,51,Finland,33,Two year,Bank transfer,DSL,Yes,Yes,42.69,1319.2,2,Yes,4,0,
+C1075,Other,63,Denmark,59,Two year,Bank transfer,DSL,Yes,Yes,37.66,2225.59,0,Yes,5,1,Moving
+C1076,Male,31,Finland,101,One year,Credit card,DSL,Yes,Yes,29.4,2970.98,0,No,5,0,
+C1077,Male,21,Germany,60,Month-to-month,Electronic invoice,Mobile,Yes,Yes,25.42,1503.39,3,Yes,4,1,Competitor
+C1078,Female,47,Finland,30,One year,Direct debit,Mobile,No,Yes,62.27,1859.21,0,No,5,1,Other
+C1079,Male,48,Norway,9,One year,Credit card,DSL,No,No,42.84,400.65,3,Yes,4,0,
+C1080,Female,55,Sweden,113,Month-to-month,Direct debit,Mobile,Yes,No,31.83,3598.74,3,Yes,5,1,Moving
+C1081,Female,28,Finland,75,Month-to-month,Electronic invoice,Fiber,Yes,Yes,73.88,5540.64,3,No,4,1,Competitor
+C1082,Male,52,Finland,35,Two year,Direct debit,DSL,Yes,No,48.59,1718.51,5,Yes,4,0,
+C1083,Male,25,Norway,117,One year,Bank transfer,Fiber,Yes,No,69.74,8205.88,1,Yes,5,1,Moving
+C1084,Female,20,Denmark,84,One year,Direct debit,DSL,Yes,No,29.11,2440.39,1,Yes,5,0,
+C1085,Female,31,Denmark,48,One year,Credit card,Mobile,Yes,No,23.91,1152.62,4,Yes,4,0,
+C1086,Male,77,Sweden,110,Two year,Bank transfer,DSL,Yes,No,49.16,5389.77,0,Yes,5,0,
+C1087,Female,30,Denmark,69,Month-to-month,Credit card,None,Yes,No,27.22,1921.08,3,Yes,4,0,
+C1088,Male,62,Norway,111,Two year,Direct debit,DSL,Yes,No,22.79,2518.89,0,Yes,5,0,
+C1089,Other,49,Denmark,48,Month-to-month,Credit card,Fiber,Yes,Yes,58.14,2754.56,1,No,4,1,Competitor
+C1090,Male,51,Sweden,2,One year,Electronic invoice,Mobile,Yes,No,19.42,51.28,3,Yes,4,0,
+C1091,Female,62,Norway,73,One year,Bank transfer,DSL,Yes,Yes,64.3,4661.7,1,Yes,4,0,
+C1092,Female,78,Denmark,4,Month-to-month,Credit card,Fiber,Yes,Yes,78.5,339.9,2,No,4,1,Competitor
+C1093,Female,36,Sweden,109,Two year,Bank transfer,Fiber,No,No,40.0,4371.79,2,Yes,5,0,
+C1094,Female,76,Denmark,89,Two year,Credit card,Fiber,Yes,No,44.36,3927.48,2,Yes,5,0,
+C1095,Male,55,Norway,60,Month-to-month,Bank transfer,DSL,No,Yes,49.18,2964.21,1,No,5,0,
+C1096,Male,33,Finland,84,Two year,Bank transfer,DSL,Yes,No,34.26,2871.16,1,Yes,5,0,
+C1097,Male,19,Finland,108,Month-to-month,Credit card,Fiber,Yes,Yes,101.19,10937.06,2,No,4,1,Moving
+C1098,Male,57,Sweden,89,Two year,Credit card,Fiber,Yes,Yes,58.83,5210.24,1,Yes,5,0,
+C1099,Female,34,Sweden,101,Two year,Bank transfer,Fiber,Yes,No,71.11,7155.25,2,Yes,4,0,
+C1100,Male,72,Denmark,107,One year,Credit card,DSL,No,No,58.52,6268.0,1,Yes,5,1,Moving
+C1101,Male,51,Finland,25,Two year,Direct debit,Fiber,Yes,No,53.46,1374.18,1,Yes,4,0,
+C1102,Other,59,Denmark,71,One year,Direct debit,Fiber,Yes,No,67.9,4808.0,1,No,4,0,
+C1103,Female,77,Germany,4,Month-to-month,Direct debit,Fiber,Yes,No,78.13,298.1,1,No,4,1,Moving
+C1104,Female,33,Finland,14,Two year,Bank transfer,Fiber,Yes,Yes,87.75,1221.73,2,No,4,0,
+C1105,Other,55,Germany,15,One year,Direct debit,DSL,Yes,Yes,59.27,862.58,0,Yes,4,0,
+C1106,Male,77,Germany,0,Month-to-month,Electronic invoice,DSL,Yes,No,47.94,11.06,1,No,4,0,
+C1107,Male,19,Denmark,15,Month-to-month,Credit card,DSL,No,No,34.92,541.84,2,No,4,0,
+C1108,Female,19,Denmark,36,One year,Credit card,Fiber,Yes,No,63.17,2283.76,1,Yes,4,0,
+C1109,Female,43,Germany,2,One year,Credit card,DSL,Yes,Yes,36.16,68.92,2,No,4,0,
+C1110,Male,30,Norway,51,Month-to-month,Credit card,Fiber,Yes,Yes,78.94,4005.44,2,No,4,1,Moving
+C1111,Female,73,Finland,46,One year,Credit card,Fiber,No,No,50.97,2385.89,0,No,5,1,Other
+C1112,Male,64,Denmark,94,One year,Direct debit,Fiber,No,Yes,63.11,5915.19,2,Yes,4,0,
+C1113,Male,48,Norway,12,Month-to-month,Bank transfer,Fiber,Yes,Yes,99.9,1181.18,0,No,4,0,
+C1114,Female,77,Norway,119,One year,Electronic invoice,DSL,Yes,Yes,45.35,5360.81,1,Yes,5,0,
+C1115,Female,51,Finland,79,Month-to-month,Credit card,Fiber,Yes,Yes,50.13,3931.83,2,No,4,1,Competitor
+C1116,Female,56,Denmark,54,Month-to-month,Bank transfer,Mobile,Yes,No,20.9,1135.59,2,Yes,5,1,Other
+C1117,Male,20,Finland,106,Month-to-month,Electronic invoice,Fiber,No,No,56.73,6004.84,3,No,4,0,
+C1118,Female,25,Germany,20,Two year,Electronic invoice,Mobile,Yes,Yes,39.68,776.32,0,Yes,5,0,
+C1119,Male,40,Finland,65,Month-to-month,Bank transfer,Mobile,Yes,Yes,26.1,1680.54,0,Yes,5,0,
+C1120,Male,31,Finland,53,Two year,Direct debit,Fiber,Yes,No,54.06,2854.9,2,Yes,4,0,
+C1121,Female,73,Sweden,26,Two year,Electronic invoice,DSL,Yes,Yes,45.9,1180.11,1,Yes,4,0,
+C1122,Female,79,Finland,37,Two year,Bank transfer,Fiber,No,No,61.22,2293.19,2,No,4,1,Competitor
+C1123,Female,72,Norway,89,Two year,Credit card,DSL,Yes,No,24.71,2191.75,0,No,5,0,
+C1124,Female,44,Germany,57,Month-to-month,Electronic invoice,Fiber,Yes,No,57.4,3274.72,1,Yes,4,1,Other
+C1125,Female,71,Denmark,61,Month-to-month,Bank transfer,Mobile,No,No,29.97,1829.35,1,Yes,5,1,Other
+C1126,Female,46,Finland,101,One year,Credit card,Mobile,Yes,Yes,23.84,2409.7,1,Yes,5,0,
+C1127,Male,56,Finland,45,Month-to-month,Bank transfer,Fiber,Yes,No,79.28,3560.19,3,Yes,4,1,Competitor
+C1128,Male,70,Denmark,88,Two year,Bank transfer,Fiber,Yes,Yes,87.96,7730.99,2,No,4,1,Other
+C1129,Male,56,Germany,10,One year,Electronic invoice,Fiber,Yes,Yes,69.55,708.36,0,No,4,0,
+C1130,Male,18,Sweden,71,Two year,Credit card,Mobile,Yes,Yes,30.8,2191.19,1,Yes,5,0,
+C1131,Female,34,Sweden,7,Month-to-month,Electronic invoice,Mobile,Yes,No,37.8,249.43,0,Yes,5,1,Moving
+C1132,Female,58,Finland,96,Two year,Bank transfer,None,Yes,Yes,51.65,4901.2,0,No,5,0,
+C1133,Male,47,Germany,116,Month-to-month,Bank transfer,DSL,Yes,Yes,63.32,7332.98,1,Yes,5,1,Moving
+C1134,Male,70,Norway,70,One year,Credit card,Fiber,Yes,No,45.75,3175.29,3,Yes,4,1,Other
+C1135,Female,30,Finland,63,One year,Direct debit,DSL,Yes,No,44.73,2799.52,2,Yes,4,0,
+C1136,Male,38,Finland,101,Two year,Electronic invoice,DSL,Yes,Yes,68.32,6873.88,2,Yes,4,0,
+C1137,Female,36,Germany,20,Month-to-month,Bank transfer,Mobile,No,No,29.26,608.39,0,Yes,5,0,
+C1138,Female,70,Finland,71,Two year,Credit card,None,Yes,Yes,30.7,2202.75,1,No,5,1,Other
+C1139,Female,36,Finland,114,Two year,Direct debit,DSL,Yes,No,35.1,4016.56,1,Yes,5,0,
+C1140,Female,74,Norway,117,Two year,Direct debit,DSL,No,Yes,30.54,3566.5,2,No,5,0,
+C1141,Female,42,Finland,62,Month-to-month,Credit card,DSL,Yes,No,20.67,1268.22,2,Yes,5,1,Competitor
+C1142,Male,39,Finland,84,Two year,Direct debit,Mobile,Yes,Yes,47.04,3921.47,2,No,5,0,
+C1143,Female,48,Denmark,63,Two year,Direct debit,DSL,Yes,No,29.54,1879.31,4,Yes,4,1,Competitor
+C1144,Female,34,Germany,119,Month-to-month,Bank transfer,DSL,Yes,Yes,26.28,3144.69,2,Yes,5,0,
+C1145,Male,72,Denmark,19,Month-to-month,Bank transfer,DSL,Yes,Yes,62.37,1194.89,2,Yes,4,0,
+C1146,Female,40,Germany,7,Month-to-month,Credit card,Fiber,No,Yes,87.66,591.45,4,No,3,1,Other
+C1147,Female,49,Norway,57,Month-to-month,Direct debit,Mobile,Yes,Yes,31.31,1777.93,1,No,5,0,
+C1148,Female,79,Denmark,45,One year,Direct debit,DSL,Yes,No,30.51,1370.56,1,No,5,1,Competitor
+C1149,Female,27,Sweden,30,Two year,Bank transfer,Fiber,Yes,No,40.82,1189.26,1,Yes,5,0,
+C1150,Female,27,Norway,113,One year,Bank transfer,DSL,Yes,No,27.78,3167.72,0,Yes,5,0,
+C1151,Female,53,Germany,120,One year,Credit card,Fiber,No,No,89.14,10669.77,1,Yes,4,1,Moving
+C1152,Female,25,Finland,92,Two year,Electronic invoice,Fiber,Yes,No,59.64,5471.29,1,Yes,5,1,Moving
+C1153,Female,71,Sweden,111,Month-to-month,Bank transfer,DSL,Yes,No,42.47,4678.73,1,Yes,5,1,Moving
+C1154,Female,69,Sweden,8,Two year,Bank transfer,DSL,Yes,Yes,28.6,224.73,2,No,4,0,
+C1155,Female,37,Finland,14,One year,Bank transfer,Mobile,Yes,No,56.54,786.59,1,Yes,4,0,
+C1156,Female,49,Finland,93,One year,Bank transfer,DSL,Yes,Yes,53.53,4997.89,0,No,5,0,
+C1157,Male,67,Denmark,25,One year,Credit card,Fiber,Yes,No,84.07,2082.8,2,Yes,4,0,
+C1158,Female,31,Germany,9,One year,Credit card,Fiber,No,No,68.55,595.24,6,Yes,3,0,
+C1159,Female,67,Sweden,28,Month-to-month,Credit card,DSL,Yes,No,52.43,1469.64,1,Yes,4,0,
+C1160,Male,45,Finland,117,Two year,Direct debit,Fiber,Yes,No,90.36,10530.61,2,Yes,4,0,
+C1161,Female,63,Finland,79,Month-to-month,Credit card,Mobile,Yes,Yes,53.01,4214.42,2,No,4,1,Competitor
+C1162,Male,69,Germany,35,Two year,Credit card,Fiber,Yes,No,34.69,1187.72,3,No,4,0,
+C1163,Male,70,Sweden,83,One year,Direct debit,DSL,Yes,No,20.64,1749.46,1,No,5,1,Competitor
+C1164,Female,41,Finland,108,Month-to-month,Credit card,Fiber,Yes,No,62.86,6773.04,1,No,5,0,
+C1165,Male,32,Sweden,117,Two year,Direct debit,Fiber,Yes,No,46.21,5378.03,2,Yes,5,0,
+C1166,Female,39,Finland,36,Month-to-month,Bank transfer,Fiber,Yes,No,84.12,3039.98,2,Yes,4,0,
+C1167,Female,47,Sweden,85,Two year,Credit card,Fiber,Yes,No,74.38,6332.81,2,No,4,0,
+C1168,Female,80,Germany,70,Two year,Bank transfer,DSL,No,No,41.04,2883.8,2,Yes,5,0,
+C1169,Male,21,Norway,22,One year,Credit card,Fiber,Yes,No,46.74,1030.29,3,Yes,4,0,
+C1170,Male,30,Norway,40,Month-to-month,Electronic invoice,Fiber,Yes,No,55.64,2270.39,2,Yes,4,1,Competitor
+C1171,Female,76,Sweden,103,One year,Bank transfer,Fiber,Yes,No,39.04,3994.13,2,Yes,5,0,
+C1172,Other,40,Denmark,92,Two year,Credit card,Fiber,Yes,No,71.46,6601.55,2,No,4,0,
+C1173,Female,25,Norway,79,Two year,Credit card,DSL,Yes,No,49.61,3887.01,7,Yes,3,0,
+C1174,Male,35,Finland,101,Month-to-month,Bank transfer,Fiber,Yes,Yes,65.85,6683.89,1,Yes,5,1,Competitor
+C1175,Female,29,Norway,27,One year,Credit card,None,Yes,No,47.94,1301.43,3,Yes,4,0,
+C1176,Female,72,Finland,47,One year,Credit card,Fiber,Yes,No,71.43,3388.4,2,Yes,4,0,
+C1177,Female,48,Denmark,37,Month-to-month,Bank transfer,Fiber,Yes,Yes,88.68,3299.0,2,No,4,0,
+C1178,Male,31,Sweden,30,One year,Electronic invoice,Fiber,Yes,Yes,72.23,2123.41,1,Yes,4,0,
+C1179,Female,51,Germany,13,Month-to-month,Bank transfer,None,Yes,Yes,44.46,571.22,0,Yes,5,0,
+C1180,Female,35,Finland,116,Two year,Direct debit,None,No,No,23.87,2743.86,2,Yes,5,0,
+C1181,Other,73,Denmark,96,Two year,Electronic invoice,Fiber,Yes,Yes,58.66,5661.24,4,Yes,4,0,
+C1182,Male,51,Norway,120,Two year,Credit card,DSL,No,No,40.28,4849.61,0,Yes,5,0,
+C1183,Female,80,Denmark,72,One year,Electronic invoice,Mobile,No,No,47.74,3440.31,0,No,5,0,
+C1184,Female,28,Finland,120,Month-to-month,Direct debit,Fiber,No,No,64.6,7743.75,1,Yes,5,0,
+C1185,Male,58,Sweden,90,Two year,Bank transfer,Fiber,Yes,Yes,62.1,5597.47,1,Yes,5,0,
+C1186,Female,29,Denmark,87,Two year,Electronic invoice,Mobile,No,No,37.75,3265.09,0,No,5,0,
+C1187,Female,66,Finland,76,Two year,Credit card,Fiber,Yes,No,64.79,4929.67,0,No,5,0,
+C1188,Male,32,Finland,89,Two year,Credit card,DSL,Yes,Yes,45.77,4071.06,2,Yes,5,0,
+C1189,Male,74,Norway,28,One year,Direct debit,Mobile,Yes,No,44.11,1218.74,3,Yes,4,0,
+C1190,Female,48,Sweden,50,Two year,Bank transfer,Fiber,Yes,No,70.46,3536.91,0,Yes,5,0,
+C1191,Male,66,Finland,48,One year,Bank transfer,Fiber,Yes,No,71.81,3484.6,4,Yes,4,1,Other
+C1192,Female,75,Finland,42,One year,Credit card,DSL,Yes,No,46.27,1914.77,2,Yes,4,0,
+C1193,Male,46,Finland,91,Two year,Direct debit,Fiber,Yes,Yes,77.3,7053.19,2,Yes,4,1,Other
+C1194,Female,43,Denmark,91,Month-to-month,Direct debit,DSL,Yes,Yes,53.49,4851.44,1,Yes,5,1,Other
+C1195,Male,35,Norway,71,Month-to-month,Direct debit,Fiber,Yes,Yes,49.52,3527.6,2,No,4,0,
+C1196,Female,49,Denmark,86,One year,Electronic invoice,Fiber,Yes,No,46.67,4001.28,1,No,5,0,
+C1197,Other,39,Germany,92,One year,Bank transfer,Mobile,No,No,58.39,5365.89,2,Yes,4,1,Other
+C1198,Other,55,Sweden,4,One year,Credit card,Fiber,Yes,No,43.6,170.38,1,Yes,4,0,
+C1199,Female,34,Finland,41,Month-to-month,Direct debit,Mobile,Yes,Yes,47.46,1973.09,1,Yes,5,1,Moving
+C1200,Male,40,Finland,6,Month-to-month,Direct debit,Mobile,No,No,48.23,287.54,1,Yes,4,1,Competitor
+C1201,Female,41,Finland,41,Month-to-month,Credit card,Fiber,Yes,No,60.39,2469.21,0,Yes,5,1,Moving
+C1202,Male,67,Germany,35,Month-to-month,Credit card,DSL,Yes,Yes,45.5,1590.84,2,No,4,1,Competitor
+C1203,Male,25,Sweden,104,Month-to-month,Electronic invoice,Mobile,No,No,22.7,2398.72,0,Yes,5,1,Other
+C1204,Male,58,Finland,26,Two year,Electronic invoice,Fiber,No,No,57.11,1496.06,1,Yes,4,0,
+C1205,Female,23,Sweden,57,One year,Direct debit,DSL,Yes,Yes,34.33,1944.6,0,Yes,5,0,
+C1206,Female,22,Norway,45,Two year,Credit card,DSL,Yes,Yes,64.84,2947.76,3,No,4,0,
+C1207,Female,61,Norway,65,Two year,Electronic invoice,Mobile,No,Yes,57.05,3711.86,2,No,4,0,
+C1208,Male,74,Finland,24,Two year,Electronic invoice,DSL,Yes,Yes,57.21,1355.78,1,No,4,0,
+C1209,Male,46,Germany,72,Month-to-month,Bank transfer,DSL,Yes,No,37.44,2703.55,4,Yes,4,0,
+C1210,Other,45,Sweden,116,Month-to-month,Electronic invoice,Fiber,Yes,Yes,53.97,6257.52,1,No,5,0,
+C1211,Male,28,Finland,26,Two year,Electronic invoice,Mobile,Yes,Yes,39.03,947.14,0,No,5,0,
+C1212,Male,74,Germany,0,Month-to-month,Electronic invoice,Fiber,Yes,No,57.54,6.61,2,Yes,4,0,
+C1213,Male,18,Finland,86,Two year,Electronic invoice,DSL,No,Yes,46.18,3949.97,1,Yes,5,1,Moving
+C1214,Female,60,Germany,73,Two year,Direct debit,DSL,Yes,No,38.44,2780.67,1,No,5,0,
+C1215,Female,36,Germany,41,Two year,Direct debit,Fiber,Yes,No,71.53,2893.87,1,No,4,0,
+C1216,Male,26,Denmark,51,Two year,Bank transfer,DSL,Yes,No,39.84,2034.4,0,No,5,0,
+C1217,Male,44,Denmark,24,One year,Direct debit,Fiber,Yes,No,93.2,2233.85,3,Yes,4,0,
+C1218,Female,51,Finland,53,One year,Direct debit,DSL,Yes,Yes,42.94,2294.8,3,No,4,0,
+C1219,Female,61,Germany,66,Two year,Electronic invoice,Mobile,No,No,41.24,2705.89,0,Yes,5,1,Competitor
+C1220,Male,21,Sweden,5,Month-to-month,Bank transfer,Fiber,No,Yes,63.38,307.27,3,Yes,4,1,Other
+C1221,Female,53,Denmark,57,Month-to-month,Direct debit,DSL,Yes,No,38.66,2243.21,3,No,4,0,
+C1222,Male,35,Germany,69,Two year,Bank transfer,Mobile,Yes,No,22.14,1488.16,0,No,5,0,
+C1223,Male,32,Germany,52,One year,Direct debit,DSL,Yes,Yes,55.02,2885.36,1,No,4,0,
+C1224,Female,68,Denmark,65,Two year,Direct debit,Fiber,No,No,43.1,2785.9,1,No,5,0,
+C1225,Male,30,Finland,57,Two year,Credit card,Mobile,Yes,Yes,25.96,1542.01,1,No,5,1,Competitor
+C1226,Female,36,Germany,81,One year,Bank transfer,Fiber,No,No,88.35,7170.79,3,Yes,4,1,Competitor
+C1227,Male,66,Norway,86,Two year,Credit card,Fiber,Yes,Yes,48.09,4123.18,3,No,4,1,Other
+C1228,Male,23,Germany,1,One year,Credit card,Fiber,Yes,No,65.52,37.64,0,No,4,1,Moving
+C1229,Other,65,Norway,75,Two year,Direct debit,DSL,Yes,Yes,50.17,3770.93,3,Yes,4,0,
+C1230,Male,73,Finland,21,Month-to-month,Credit card,DSL,Yes,No,37.3,745.1,0,Yes,5,0,
+C1231,Female,29,Sweden,36,One year,Bank transfer,Mobile,No,No,41.5,1507.77,1,Yes,5,0,
+C1232,Male,68,Norway,19,One year,Credit card,Fiber,Yes,No,72.6,1351.53,3,No,4,0,
+C1233,Male,54,Denmark,102,Month-to-month,Credit card,DSL,Yes,Yes,41.36,4199.32,3,No,4,1,Competitor
+C1234,Male,34,Finland,23,Month-to-month,Direct debit,DSL,Yes,No,22.07,451.56,2,No,5,1,Other
+C1235,Female,75,Norway,111,Two year,Bank transfer,Mobile,Yes,Yes,56.0,6218.6,1,Yes,5,1,Competitor
+C1236,Male,40,Finland,83,One year,Electronic invoice,None,Yes,No,34.1,2835.89,2,No,5,0,
+C1237,Female,43,Denmark,64,One year,Bank transfer,Fiber,Yes,Yes,82.09,5254.33,2,No,4,0,
+C1238,Male,46,Sweden,64,Month-to-month,Credit card,Mobile,Yes,Yes,43.41,2743.79,1,Yes,5,0,
+C1239,Other,50,Finland,80,One year,Bank transfer,Mobile,Yes,No,40.84,3295.89,2,No,5,1,Competitor
+C1240,Male,77,Finland,0,Month-to-month,Direct debit,DSL,Yes,Yes,69.69,0.0,2,Yes,4,0,
+C1241,Female,44,Finland,116,Month-to-month,Direct debit,DSL,Yes,No,46.05,5331.36,5,No,4,0,
+C1242,Female,42,Sweden,115,Month-to-month,Electronic invoice,DSL,Yes,Yes,48.93,5643.01,6,No,4,1,Competitor
+C1243,Female,73,Finland,108,Two year,Direct debit,Mobile,Yes,Yes,46.11,4971.07,1,No,5,0,
+C1244,Female,72,Finland,93,Two year,Bank transfer,Mobile,Yes,No,33.78,3150.36,0,Yes,5,0,
+C1245,Female,27,Germany,104,Two year,Direct debit,Fiber,Yes,Yes,88.73,9212.31,1,Yes,4,1,Moving
+C1246,Female,64,Germany,110,Month-to-month,Electronic invoice,DSL,Yes,Yes,31.54,3485.72,2,No,5,0,
+C1247,Male,40,Sweden,2,Month-to-month,Bank transfer,Fiber,Yes,No,59.61,135.03,0,Yes,4,0,
+C1248,Male,38,Germany,45,Two year,Credit card,Mobile,Yes,No,16.2,719.94,2,Yes,5,0,
+C1249,Female,38,Finland,54,Month-to-month,Direct debit,Mobile,Yes,No,17.15,929.15,1,Yes,5,0,
+C1250,Female,60,Norway,74,Two year,Bank transfer,DSL,Yes,Yes,55.42,4100.58,1,Yes,5,0,
+C1251,Female,30,Norway,87,One year,Electronic invoice,Fiber,No,Yes,54.07,4701.59,3,No,4,0,
+C1252,Female,54,Sweden,85,Month-to-month,Bank transfer,DSL,Yes,No,50.82,4295.94,1,No,5,1,Moving
+C1253,Male,50,Sweden,63,Two year,Credit card,Mobile,Yes,No,48.06,3006.83,3,Yes,4,0,
+C1254,Male,41,Sweden,107,Two year,Electronic invoice,Fiber,Yes,Yes,88.72,9485.33,2,No,4,0,
+C1255,Female,61,Sweden,44,Two year,Electronic invoice,DSL,Yes,No,46.58,2050.9,0,Yes,5,0,
+C1256,Male,28,Denmark,25,Month-to-month,Credit card,Mobile,Yes,Yes,52.51,1295.08,1,Yes,4,1,Moving
+C1257,Male,34,Finland,76,Month-to-month,Electronic invoice,DSL,No,Yes,40.16,3052.45,0,No,5,1,Moving
+C1258,Female,21,Finland,64,One year,Bank transfer,Mobile,Yes,Yes,40.65,2555.81,0,Yes,5,0,
+C1259,Male,64,Finland,23,One year,Bank transfer,DSL,Yes,No,27.61,635.09,1,Yes,5,0,
+C1260,Female,42,Finland,73,Month-to-month,Electronic invoice,Fiber,Yes,Yes,70.52,5149.5,3,No,4,1,Other
+C1261,Male,47,Sweden,34,Month-to-month,Bank transfer,Mobile,Yes,No,46.23,1588.19,0,Yes,5,0,
+C1262,Female,26,Finland,23,Month-to-month,Credit card,Fiber,Yes,No,45.98,1085.99,3,Yes,4,0,
+C1263,Male,38,Germany,27,Two year,Bank transfer,Fiber,No,Yes,68.64,1866.97,3,Yes,4,0,
+C1264,Male,37,Finland,99,Two year,Direct debit,Fiber,No,No,84.5,8401.45,1,No,4,0,
+C1265,Male,36,Finland,79,Two year,Credit card,DSL,Yes,Yes,33.21,2623.0,1,Yes,5,0,
+C1266,Male,36,Norway,103,Month-to-month,Direct debit,Fiber,No,No,43.85,4517.48,0,Yes,5,0,
+C1267,Male,29,Finland,15,Two year,Direct debit,Mobile,Yes,Yes,26.58,414.83,1,No,5,0,
+C1268,Male,54,Norway,58,Month-to-month,Bank transfer,Mobile,Yes,Yes,56.79,3291.68,1,No,4,0,
+C1269,Female,59,Norway,80,One year,Direct debit,Mobile,Yes,Yes,46.19,3688.58,2,Yes,5,0,
+C1270,Male,34,Finland,114,Two year,Electronic invoice,Fiber,Yes,Yes,78.92,9024.36,0,Yes,5,0,
+C1271,Female,54,Finland,53,One year,Bank transfer,Mobile,No,Yes,37.39,1996.14,1,Yes,5,1,Moving
+C1272,Female,71,Sweden,78,One year,Bank transfer,Mobile,No,Yes,55.71,4358.57,0,Yes,5,0,
+C1273,Female,65,Finland,15,Month-to-month,Credit card,Fiber,No,No,66.11,974.36,1,No,4,1,Competitor
+C1274,Male,56,Finland,14,Month-to-month,Direct debit,DSL,Yes,Yes,41.63,601.69,4,Yes,4,1,Other
+C1275,Female,45,Finland,120,Two year,Electronic invoice,Fiber,Yes,Yes,72.51,8702.85,4,Yes,4,1,Competitor
+C1276,Male,58,Finland,97,Two year,Bank transfer,Mobile,Yes,No,42.32,4085.25,3,No,4,0,
+C1277,Male,52,Sweden,10,One year,Bank transfer,Fiber,Yes,No,56.18,575.74,1,Yes,4,0,
+C1278,Other,64,Norway,64,One year,Bank transfer,Mobile,Yes,No,36.8,2331.22,1,No,5,0,
+C1279,Male,65,Norway,78,Two year,Direct debit,DSL,Yes,Yes,38.66,2967.33,3,Yes,4,0,
+C1280,Female,35,Finland,89,Month-to-month,Credit card,None,No,No,41.63,3668.97,1,Yes,5,0,
+C1281,Female,31,Finland,114,Month-to-month,Electronic invoice,Fiber,No,Yes,61.17,6968.41,1,No,5,0,
+C1282,Female,52,Germany,67,Two year,Credit card,Fiber,Yes,No,71.42,4815.96,2,Yes,4,0,
+C1283,Female,61,Norway,42,Month-to-month,Direct debit,DSL,Yes,No,38.78,1635.02,1,Yes,5,0,
+C1284,Male,58,Germany,68,Two year,Bank transfer,DSL,Yes,No,55.26,3755.63,0,No,5,0,
+C1285,Male,77,Sweden,98,Month-to-month,Direct debit,Mobile,Yes,Yes,59.43,5850.52,2,Yes,4,1,Moving
+C1286,Female,24,Norway,12,One year,Credit card,None,Yes,No,45.18,552.37,4,Yes,4,0,
+C1287,Male,58,Sweden,9,One year,Direct debit,Fiber,Yes,No,63.72,593.96,2,No,4,0,
+C1288,Male,30,Finland,74,Month-to-month,Credit card,DSL,Yes,No,21.71,1625.99,0,No,5,0,
+C1289,Male,35,Sweden,81,Month-to-month,Credit card,Fiber,Yes,No,68.55,5546.28,0,No,5,0,
+C1290,Male,54,Sweden,97,Two year,Bank transfer,DSL,Yes,No,39.45,3822.02,1,No,5,0,
+C1291,Male,30,Finland,102,One year,Direct debit,DSL,No,No,32.71,3319.75,1,Yes,5,0,
+C1292,Male,53,Finland,40,Month-to-month,Credit card,Mobile,Yes,No,22.36,911.02,0,No,5,1,Competitor
+C1293,Female,48,Denmark,105,Two year,Credit card,Mobile,No,No,15.0,1550.45,2,No,5,0,
+C1294,Female,19,Germany,49,Month-to-month,Electronic invoice,DSL,Yes,Yes,29.46,1425.82,0,Yes,5,1,Competitor
+C1295,Female,33,Sweden,86,Two year,Electronic invoice,Fiber,Yes,No,36.92,3173.72,0,No,5,0,
+C1296,Male,26,Finland,70,One year,Credit card,DSL,Yes,Yes,30.11,2109.9,2,Yes,5,0,
+C1297,Male,26,Finland,58,Month-to-month,Direct debit,DSL,Yes,No,49.31,2871.71,1,Yes,5,0,
+C1298,Male,55,Norway,38,Two year,Bank transfer,DSL,Yes,Yes,35.77,1358.43,1,Yes,5,0,
+C1299,Female,28,Finland,2,Month-to-month,Direct debit,Fiber,Yes,No,49.29,91.31,2,Yes,4,1,Competitor
+C1300,Female,71,Germany,75,Month-to-month,Electronic invoice,DSL,Yes,No,52.91,3982.71,1,Yes,5,0,
+C1301,Male,73,Finland,6,Month-to-month,Credit card,Fiber,Yes,Yes,58.34,368.33,1,Yes,4,1,Competitor
+C1302,Female,39,Sweden,48,Month-to-month,Direct debit,DSL,No,No,53.42,2530.16,0,No,5,0,
+C1303,Male,50,Norway,25,Month-to-month,Bank transfer,DSL,Yes,No,45.58,1160.89,3,Yes,4,1,Moving
+C1304,Female,53,Denmark,32,Month-to-month,Direct debit,DSL,No,Yes,47.56,1515.38,2,Yes,4,0,
+C1305,Female,62,Sweden,100,One year,Direct debit,Mobile,Yes,No,18.24,1855.96,0,Yes,5,0,
+C1306,Female,40,Sweden,47,Month-to-month,Electronic invoice,Mobile,No,No,21.02,974.94,2,No,5,0,
+C1307,Female,62,Germany,78,Two year,Credit card,Mobile,No,Yes,40.79,3161.73,1,Yes,5,0,
+C1308,Female,62,Finland,1,Month-to-month,Credit card,Fiber,Yes,No,59.58,72.54,2,No,4,1,Competitor
+C1309,Male,51,Germany,104,One year,Credit card,Fiber,Yes,No,57.55,6027.82,2,No,4,0,
+C1310,Female,26,Finland,70,Two year,Electronic invoice,Fiber,Yes,No,57.08,3963.14,1,Yes,5,1,Competitor
+C1311,Male,41,Denmark,31,Two year,Direct debit,DSL,Yes,No,43.8,1374.57,4,Yes,4,0,
+C1312,Female,25,Norway,3,Month-to-month,Direct debit,Mobile,Yes,No,17.2,62.81,0,Yes,5,1,Competitor
+C1313,Female,24,Finland,19,One year,Credit card,Fiber,Yes,No,61.81,1173.74,3,Yes,4,0,
+C1314,Female,53,Germany,113,Month-to-month,Electronic invoice,Fiber,No,No,67.23,7638.46,3,Yes,4,0,
+C1315,Male,35,Finland,116,Two year,Electronic invoice,Fiber,No,No,83.0,9589.73,3,Yes,4,0,
+C1316,Female,20,Finland,35,Month-to-month,Direct debit,Fiber,Yes,Yes,59.33,2098.8,4,No,4,0,
+C1317,Female,45,Norway,31,One year,Bank transfer,None,Yes,Yes,58.05,1819.01,3,Yes,4,0,
+C1318,Female,23,Sweden,27,Two year,Credit card,Fiber,Yes,No,69.17,1891.54,0,Yes,4,0,
+C1319,Male,61,Norway,76,Month-to-month,Direct debit,Fiber,Yes,No,80.41,6132.57,1,No,4,1,Competitor
+C1320,Male,61,Finland,0,Month-to-month,Direct debit,Fiber,Yes,Yes,72.64,4.71,3,Yes,4,1,Moving
+C1321,Male,38,Finland,59,One year,Credit card,None,Yes,Yes,48.93,2880.77,2,Yes,4,0,
+C1322,Male,45,Finland,55,One year,Direct debit,Fiber,No,No,60.52,3316.39,1,No,4,1,Competitor
+C1323,Female,57,Finland,34,Two year,Credit card,Fiber,Yes,Yes,78.18,2669.87,0,Yes,4,0,
+C1324,Male,71,Sweden,111,Two year,Direct debit,DSL,Yes,Yes,32.45,3601.83,0,Yes,5,0,
+C1325,Other,71,Denmark,29,Month-to-month,Bank transfer,Mobile,Yes,Yes,41.46,1198.12,4,Yes,4,0,
+C1326,Male,18,Germany,53,Month-to-month,Credit card,DSL,Yes,No,24.42,1283.19,0,No,5,0,
+C1327,Male,53,Denmark,35,Two year,Bank transfer,Fiber,Yes,No,50.83,1770.9,1,Yes,4,0,
+C1328,Female,38,Finland,120,One year,Bank transfer,Mobile,Yes,Yes,48.7,5859.54,2,Yes,5,0,
+C1329,Female,77,Sweden,54,Two year,Credit card,None,Yes,Yes,65.61,3543.31,0,No,5,0,
+C1330,Female,60,Finland,88,Month-to-month,Electronic invoice,Fiber,Yes,No,67.45,5959.78,3,Yes,4,1,Other
+C1331,Female,52,Finland,79,One year,Credit card,Mobile,Yes,No,38.0,2974.94,1,Yes,5,0,
+C1332,Female,30,Sweden,57,One year,Bank transfer,DSL,Yes,No,41.58,2382.47,1,No,5,1,Other
+C1333,Male,74,Finland,82,One year,Credit card,Mobile,Yes,Yes,35.44,2885.92,1,Yes,5,1,Competitor
+C1334,Other,66,Finland,64,One year,Credit card,Fiber,Yes,No,37.92,2451.06,0,Yes,5,1,Competitor
+C1335,Other,71,Germany,68,One year,Credit card,Fiber,Yes,No,62.06,4244.8,1,Yes,4,1,Moving
+C1336,Female,71,Sweden,50,One year,Credit card,Mobile,No,Yes,60.61,3002.29,0,No,5,0,
+C1337,Male,27,Sweden,21,Month-to-month,Direct debit,Mobile,Yes,No,35.12,722.21,2,No,4,0,
+C1338,Female,70,Finland,87,Month-to-month,Credit card,DSL,No,Yes,56.15,4870.59,0,No,5,1,Other
+C1339,Male,61,Finland,106,One year,Direct debit,Mobile,Yes,Yes,53.43,5688.83,5,No,4,1,Moving
+C1340,Male,64,Germany,108,One year,Credit card,DSL,Yes,Yes,47.59,5127.84,3,No,4,0,
+C1341,Male,70,Finland,115,One year,Credit card,Mobile,Yes,No,27.48,3174.0,2,No,5,0,
+C1342,Male,27,Sweden,100,One year,Bank transfer,Fiber,Yes,Yes,63.32,6318.78,3,Yes,4,0,
+C1343,Female,63,Finland,52,Two year,Electronic invoice,DSL,Yes,Yes,38.86,2042.23,0,No,5,0,
+C1344,Female,30,Sweden,99,Two year,Direct debit,Fiber,Yes,Yes,80.74,8016.75,4,No,4,1,Competitor
+C1345,Female,54,Finland,35,Month-to-month,Direct debit,Fiber,Yes,Yes,87.28,3088.2,0,No,4,0,
+C1346,Male,55,Denmark,67,Month-to-month,Credit card,Fiber,Yes,No,97.53,6531.08,0,Yes,4,1,Other
+C1347,Male,41,Denmark,35,Month-to-month,Electronic invoice,DSL,Yes,Yes,49.0,1715.06,0,Yes,5,0,
+C1348,Male,19,Denmark,51,Two year,Credit card,DSL,Yes,Yes,55.48,2826.7,2,No,4,1,Other
+C1349,Other,39,Finland,52,One year,Credit card,Mobile,Yes,No,23.27,1210.57,2,Yes,5,0,
+C1350,Male,34,Denmark,81,Month-to-month,Direct debit,DSL,Yes,No,22.62,1823.71,1,No,5,1,Moving
+C1351,Female,53,Sweden,49,Two year,Bank transfer,Fiber,Yes,No,68.97,3400.67,3,No,4,0,
+C1352,Female,31,Sweden,79,Month-to-month,Electronic invoice,Fiber,Yes,Yes,89.28,7037.91,1,No,4,1,Competitor
+C1353,Male,27,Norway,40,One year,Credit card,DSL,Yes,No,32.7,1305.11,1,Yes,5,0,
+C1354,Female,52,Finland,17,One year,Electronic invoice,Fiber,Yes,Yes,87.12,1484.89,0,Yes,4,1,Other
+C1355,Female,42,Finland,21,One year,Direct debit,Fiber,Yes,Yes,67.83,1434.24,4,Yes,4,1,Moving
+C1356,Female,20,Denmark,65,Month-to-month,Direct debit,Fiber,Yes,No,66.58,4303.88,6,No,3,1,Other
+C1357,Female,64,Finland,20,Two year,Credit card,Fiber,Yes,No,46.8,931.08,5,No,4,0,
+C1358,Male,55,Norway,99,Two year,Credit card,Fiber,Yes,No,74.06,7332.38,0,Yes,5,1,Competitor
+C1359,Male,34,Sweden,43,Month-to-month,Electronic invoice,Fiber,Yes,Yes,93.31,4028.38,0,No,4,1,Competitor
+C1360,Female,29,Germany,102,Month-to-month,Bank transfer,Mobile,No,No,22.66,2307.05,0,No,5,1,Competitor
+C1361,Female,71,Germany,46,One year,Direct debit,DSL,Yes,Yes,68.19,3134.7,2,No,4,0,
+C1362,Male,69,Germany,38,Two year,Electronic invoice,None,Yes,No,59.44,2261.47,2,Yes,4,1,Moving
+C1363,Female,41,Finland,28,Two year,Credit card,Fiber,Yes,Yes,56.2,1594.58,1,Yes,4,0,
+C1364,Female,46,Finland,53,One year,Direct debit,Mobile,Yes,Yes,57.36,2999.05,3,Yes,4,0,
+C1365,Female,60,Sweden,89,Two year,Direct debit,Fiber,Yes,No,86.2,7673.92,0,Yes,5,0,
+C1366,Male,42,Finland,84,Month-to-month,Credit card,Fiber,Yes,No,65.01,5484.23,1,No,5,1,Competitor
+C1367,Female,53,Finland,16,Month-to-month,Credit card,Mobile,Yes,No,49.15,769.86,1,Yes,4,0,
+C1368,Female,75,Norway,79,Two year,Bank transfer,DSL,Yes,No,39.46,3102.28,3,No,4,0,
+C1369,Male,77,Sweden,59,Two year,Bank transfer,DSL,Yes,No,46.97,2795.71,0,No,5,0,
+C1370,Male,43,Germany,30,One year,Direct debit,DSL,Yes,No,52.96,1581.82,2,Yes,4,1,Moving
+C1371,Other,55,Finland,114,Two year,Credit card,None,Yes,No,39.18,4460.13,7,No,4,0,
+C1372,Male,18,Finland,72,Two year,Electronic invoice,Fiber,Yes,No,60.87,4388.18,1,Yes,5,1,Other
+C1373,Female,37,Finland,94,Two year,Credit card,Fiber,Yes,Yes,54.43,5056.74,1,No,5,1,Competitor
+C1374,Female,72,Germany,77,Two year,Direct debit,Mobile,Yes,Yes,62.08,4743.79,1,Yes,5,0,
+C1375,Male,45,Denmark,48,Two year,Direct debit,Fiber,No,No,81.53,3925.03,1,No,4,1,Moving
+C1376,Female,33,Denmark,100,Month-to-month,Credit card,Mobile,Yes,No,32.97,3292.1,0,No,5,0,
+C1377,Male,64,Germany,1,One year,Credit card,Fiber,Yes,Yes,67.58,64.37,6,No,3,0,
+C1378,Female,34,Sweden,115,Month-to-month,Direct debit,Mobile,Yes,Yes,26.59,3044.7,2,No,5,1,Moving
+C1379,Male,57,Sweden,47,Two year,Electronic invoice,DSL,Yes,No,20.26,946.72,0,Yes,5,0,
+C1380,Female,45,Finland,109,One year,Credit card,DSL,Yes,No,41.16,4510.28,1,Yes,5,0,
+C1381,Male,75,Norway,13,One year,Bank transfer,Fiber,Yes,No,47.93,625.73,1,Yes,4,0,
+C1382,Male,29,Sweden,58,One year,Bank transfer,Fiber,Yes,Yes,79.62,4639.15,2,Yes,4,0,
+C1383,Other,44,Sweden,96,Month-to-month,Credit card,Fiber,Yes,No,72.17,6925.23,1,No,4,1,Moving
+C1384,Male,71,Germany,98,Month-to-month,Direct debit,Fiber,Yes,Yes,96.2,9427.99,2,Yes,4,0,
+C1385,Female,70,Germany,57,Two year,Electronic invoice,DSL,Yes,Yes,41.77,2387.4,0,No,5,0,
+C1386,Male,59,Denmark,102,Two year,Bank transfer,Fiber,Yes,Yes,104.44,10663.41,1,No,4,0,
+C1387,Female,76,Denmark,57,One year,Electronic invoice,Fiber,Yes,No,43.71,2474.52,1,Yes,5,0,
+C1388,Male,64,Norway,110,Two year,Credit card,DSL,Yes,No,45.7,5026.48,2,Yes,5,1,Competitor
+C1389,Other,47,Finland,50,Two year,Direct debit,Fiber,Yes,No,60.16,2994.49,1,No,4,0,
+C1390,Male,58,Finland,83,Two year,Bank transfer,Fiber,Yes,Yes,79.06,6592.16,2,Yes,4,0,
+C1391,Male,51,Norway,1,Month-to-month,Bank transfer,Fiber,Yes,No,54.09,19.61,0,Yes,4,0,
+C1392,Male,54,Denmark,114,Two year,Bank transfer,DSL,Yes,No,25.39,2906.18,0,Yes,5,1,Moving
+C1393,Male,23,Finland,40,One year,Credit card,Mobile,Yes,No,45.99,1824.13,1,No,5,0,
+C1394,Female,24,Germany,82,Two year,Direct debit,Fiber,Yes,No,66.37,5419.64,0,No,5,1,Competitor
+C1395,Male,49,Finland,100,Two year,Direct debit,DSL,Yes,Yes,70.25,7018.96,3,Yes,4,0,
+C1396,Female,49,Finland,81,Two year,Credit card,Fiber,Yes,No,51.47,4194.88,2,Yes,4,0,
+C1397,Male,70,Norway,15,One year,Electronic invoice,Mobile,Yes,No,51.88,765.35,4,Yes,4,0,
+C1398,Male,42,Finland,3,Month-to-month,Bank transfer,Fiber,Yes,No,56.88,134.56,2,Yes,4,1,Competitor
+C1399,Female,50,Finland,11,Month-to-month,Direct debit,Mobile,Yes,No,16.63,164.04,2,No,5,1,Other
+C1400,Female,72,Finland,28,One year,Credit card,DSL,No,Yes,42.13,1182.11,0,Yes,5,1,Other
+C1401,Male,75,Denmark,6,Month-to-month,Credit card,Mobile,Yes,No,45.61,241.33,2,No,4,0,
+C1402,Male,24,Sweden,13,One year,Bank transfer,Fiber,Yes,No,64.25,849.67,1,Yes,4,1,Competitor
+C1403,Male,69,Norway,118,Two year,Direct debit,DSL,Yes,Yes,39.4,4617.58,2,Yes,5,1,Other
+C1404,Female,74,Norway,11,Two year,Direct debit,Fiber,Yes,No,62.13,673.79,1,Yes,4,0,
+C1405,Female,79,Finland,98,Month-to-month,Bank transfer,None,No,Yes,39.87,3923.64,1,No,5,0,
+C1406,Male,29,Germany,4,Month-to-month,Credit card,Mobile,Yes,Yes,53.3,203.16,1,No,4,1,Moving
+C1407,Female,33,Finland,80,Month-to-month,Bank transfer,Fiber,Yes,No,66.78,5315.54,2,Yes,4,0,
+C1408,Female,33,Germany,105,Month-to-month,Direct debit,DSL,Yes,No,49.88,5235.58,0,Yes,5,0,
+C1409,Female,60,Sweden,31,Month-to-month,Direct debit,Fiber,Yes,Yes,81.93,2529.96,1,No,4,1,Competitor
+C1410,Female,70,Germany,73,Two year,Credit card,DSL,No,Yes,67.93,4983.13,2,Yes,4,0,
+C1411,Male,53,Finland,42,Month-to-month,Credit card,DSL,No,Yes,54.75,2315.94,3,Yes,4,0,
+C1412,Male,30,Sweden,80,Two year,Direct debit,Fiber,Yes,Yes,60.81,4874.93,0,Yes,5,0,
+C1413,Male,24,Finland,68,Month-to-month,Credit card,Mobile,Yes,Yes,64.57,4391.19,1,Yes,4,0,
+C1414,Male,53,Finland,44,Two year,Credit card,Fiber,Yes,Yes,60.97,2678.3,0,Yes,5,0,
+C1415,Female,64,Norway,105,Two year,Credit card,DSL,Yes,Yes,51.18,5369.42,1,Yes,5,0,
+C1416,Female,68,Finland,8,Two year,Bank transfer,Fiber,Yes,No,66.42,497.17,2,Yes,4,1,Other
+C1417,Male,26,Norway,48,Two year,Bank transfer,Mobile,Yes,No,15.0,720.06,2,Yes,5,0,
+C1418,Male,49,Finland,32,Two year,Direct debit,Mobile,No,No,28.1,883.35,4,No,4,0,
+C1419,Male,28,Finland,99,Two year,Credit card,Fiber,Yes,No,46.41,4592.88,2,Yes,5,0,
+C1420,Female,25,Denmark,99,Two year,Direct debit,None,Yes,Yes,31.37,3106.67,1,Yes,5,0,
+C1421,Male,50,Sweden,17,Month-to-month,Credit card,Mobile,Yes,No,16.96,278.61,3,Yes,4,0,
+C1422,Female,40,Norway,8,Month-to-month,Electronic invoice,DSL,No,No,20.38,181.7,1,No,5,1,Moving
+C1423,Male,42,Norway,61,Month-to-month,Direct debit,Fiber,Yes,No,51.47,3118.17,2,Yes,4,0,
+C1424,Male,73,Denmark,56,Two year,Direct debit,None,Yes,Yes,61.3,3422.92,1,No,4,0,
+C1425,Other,25,Finland,28,One year,Credit card,Fiber,Yes,Yes,84.36,2355.51,3,No,4,1,Competitor
+C1426,Other,62,Norway,113,Two year,Credit card,DSL,No,No,45.4,5153.31,2,No,5,0,
+C1427,Male,39,Germany,77,Two year,Bank transfer,Fiber,No,No,69.15,5325.17,1,Yes,4,0,
+C1428,Female,76,Denmark,24,One year,Direct debit,Fiber,Yes,No,92.77,2226.13,0,Yes,4,0,
+C1429,Female,21,Sweden,14,One year,Credit card,None,Yes,Yes,65.51,934.55,1,No,4,1,Moving
+C1430,Female,57,Norway,5,One year,Electronic invoice,Fiber,Yes,Yes,85.53,417.21,2,Yes,4,1,Competitor
+C1431,Male,20,Denmark,119,Month-to-month,Electronic invoice,Fiber,Yes,No,72.44,8637.86,2,No,4,0,
+C1432,Female,46,Norway,41,Two year,Bank transfer,Mobile,Yes,No,26.18,1081.34,1,Yes,5,1,Other
+C1433,Female,58,Finland,28,Month-to-month,Electronic invoice,Fiber,Yes,Yes,92.52,2615.31,0,Yes,4,0,
+C1434,Female,46,Finland,78,Two year,Credit card,DSL,Yes,No,43.29,3369.04,1,No,5,0,
+C1435,Male,51,Denmark,92,Month-to-month,Credit card,Mobile,No,Yes,49.02,4503.95,0,No,5,1,Moving
+C1436,Male,51,Finland,3,One year,Credit card,Fiber,Yes,No,70.55,214.49,1,No,4,0,
+C1437,Male,45,Denmark,81,One year,Direct debit,Fiber,Yes,No,43.0,3481.78,2,No,5,1,Other
+C1438,Female,30,Sweden,113,Month-to-month,Credit card,Fiber,Yes,No,37.67,4272.06,3,No,5,0,
+C1439,Male,32,Sweden,56,Month-to-month,Electronic invoice,DSL,No,Yes,69.99,3915.11,1,Yes,4,1,Moving
+C1440,Female,77,Finland,48,One year,Credit card,Mobile,Yes,Yes,55.96,2664.87,2,Yes,4,0,
+C1441,Other,40,Finland,43,Two year,Bank transfer,Fiber,Yes,No,48.16,2097.97,0,Yes,5,0,
+C1442,Male,61,Germany,102,Two year,Electronic invoice,Fiber,Yes,Yes,61.82,6343.94,2,No,4,1,Moving
+C1443,Female,43,Germany,79,One year,Credit card,DSL,Yes,No,44.41,3477.04,0,Yes,5,0,
+C1444,Male,21,Norway,74,One year,Credit card,Fiber,Yes,No,65.2,4834.4,2,No,4,0,
+C1445,Female,43,Sweden,13,One year,Direct debit,Mobile,No,Yes,45.01,600.07,2,Yes,4,0,
+C1446,Male,57,Norway,2,Month-to-month,Credit card,Mobile,No,No,15.0,34.87,0,Yes,5,0,
+C1447,Female,26,Norway,114,Two year,Credit card,Mobile,No,Yes,31.22,3590.56,2,No,5,0,
+C1448,Female,72,Norway,113,One year,Credit card,Fiber,Yes,No,58.02,6529.42,1,Yes,5,0,
+C1449,Female,22,Finland,61,Two year,Bank transfer,Mobile,No,No,38.27,2323.2,2,Yes,5,1,Moving
+C1450,Female,73,Norway,105,Two year,Electronic invoice,Fiber,No,No,38.51,4045.69,3,Yes,4,0,
+C1451,Female,49,Denmark,63,Two year,Electronic invoice,Mobile,No,Yes,35.96,2283.88,3,Yes,4,0,
+C1452,Female,37,Germany,101,Two year,Credit card,Mobile,Yes,No,47.45,4816.6,3,Yes,4,0,
+C1453,Female,67,Finland,44,Two year,Bank transfer,Fiber,Yes,No,63.3,2761.08,1,Yes,4,1,Moving
+C1454,Female,28,Denmark,105,Two year,Bank transfer,Fiber,Yes,Yes,67.69,7071.92,2,No,4,0,
+C1455,Male,32,Norway,81,Month-to-month,Electronic invoice,DSL,No,Yes,63.34,5146.13,2,Yes,4,0,
+C1456,Female,49,Sweden,57,Two year,Credit card,Fiber,Yes,Yes,105.99,6043.76,0,Yes,4,0,
+C1457,Female,45,Finland,19,Month-to-month,Bank transfer,None,Yes,No,56.27,1072.42,2,Yes,4,0,
+C1458,Female,39,Sweden,57,Month-to-month,Direct debit,DSL,No,No,51.58,2956.14,2,Yes,4,1,Other
+C1459,Male,58,Sweden,111,One year,Electronic invoice,DSL,Yes,No,48.49,5366.19,2,Yes,5,0,
+C1460,Female,34,Finland,88,Two year,Credit card,DSL,Yes,No,29.41,2583.28,2,No,5,0,
+C1461,Male,76,Denmark,56,Month-to-month,Credit card,Mobile,No,No,40.45,2275.67,2,No,4,0,
+C1462,Female,43,Denmark,101,One year,Credit card,Fiber,No,Yes,80.78,8139.76,1,No,4,0,
+C1463,Male,61,Norway,76,One year,Credit card,DSL,Yes,Yes,44.57,3376.47,0,No,5,0,
+C1464,Female,24,Germany,67,Month-to-month,Direct debit,Fiber,No,Yes,64.01,4290.77,0,No,5,1,Moving
+C1465,Other,59,Finland,118,Month-to-month,Direct debit,Fiber,Yes,No,59.86,7073.95,0,No,5,1,Other
+C1466,Male,74,Finland,77,Two year,Direct debit,Fiber,Yes,No,72.89,5583.6,1,No,4,1,Moving
+C1467,Other,43,Norway,96,Two year,Credit card,Mobile,Yes,No,21.93,2118.62,4,No,4,0,
+C1468,Male,42,Finland,91,Month-to-month,Credit card,Fiber,Yes,Yes,50.11,4568.75,2,No,5,1,Competitor
+C1469,Female,27,Finland,51,Two year,Credit card,Fiber,Yes,No,67.46,3423.61,2,Yes,4,0,
+C1470,Female,76,Finland,36,Two year,Credit card,DSL,Yes,No,25.23,953.26,1,Yes,5,0,
+C1471,Female,62,Finland,7,Month-to-month,Direct debit,DSL,No,No,43.3,284.09,1,Yes,4,0,
+C1472,Female,36,Denmark,43,Two year,Credit card,Fiber,Yes,No,36.98,1604.83,2,No,4,1,Competitor
+C1473,Female,28,Finland,97,Two year,Credit card,Fiber,No,Yes,71.9,6979.85,0,Yes,5,0,
+C1474,Male,30,Sweden,107,One year,Bank transfer,Fiber,Yes,No,56.42,6028.67,1,Yes,5,0,
+C1475,Male,70,Finland,4,Month-to-month,Bank transfer,DSL,Yes,No,22.8,93.0,9,Yes,3,1,Moving
+C1476,Female,25,Norway,117,Two year,Bank transfer,DSL,No,No,28.28,3319.43,0,No,5,0,
+C1477,Female,57,Finland,68,Two year,Electronic invoice,Mobile,No,Yes,34.63,2411.93,2,Yes,5,0,
+C1478,Female,21,Denmark,30,Month-to-month,Credit card,Fiber,Yes,Yes,71.87,2127.13,3,No,4,0,
+C1479,Female,64,Sweden,44,One year,Direct debit,Mobile,Yes,Yes,54.31,2335.42,1,No,4,1,Competitor
+C1480,Male,48,Finland,8,One year,Bank transfer,Mobile,Yes,No,32.85,242.6,1,Yes,5,0,
+C1481,Female,45,Sweden,105,Two year,Bank transfer,Fiber,Yes,No,70.94,7448.1,0,No,5,0,
+C1482,Male,28,Finland,31,One year,Electronic invoice,Mobile,No,No,28.32,891.23,0,No,5,0,
+C1483,Female,60,Sweden,32,Month-to-month,Credit card,Fiber,Yes,No,31.83,1020.49,2,Yes,4,0,
+C1484,Male,18,Finland,66,Two year,Direct debit,DSL,Yes,No,50.82,3351.08,2,Yes,4,0,
+C1485,Male,66,Germany,29,One year,Credit card,Fiber,Yes,Yes,59.17,1746.66,3,Yes,4,1,Moving
+C1486,Male,64,Finland,113,Month-to-month,Bank transfer,Fiber,Yes,No,92.53,10440.07,2,Yes,4,1,Other
+C1487,Male,69,Norway,75,One year,Direct debit,Fiber,Yes,No,80.19,6047.5,4,No,4,0,
+C1488,Female,55,Finland,28,Two year,Electronic invoice,Fiber,Yes,Yes,69.08,1946.65,1,Yes,4,0,
+C1489,Male,41,Finland,2,Month-to-month,Electronic invoice,Fiber,Yes,Yes,85.36,200.71,5,No,3,0,
+C1490,Male,71,Sweden,89,Two year,Direct debit,DSL,Yes,No,54.38,4820.96,2,Yes,4,0,
+C1491,Male,77,Germany,56,One year,Credit card,DSL,Yes,Yes,70.78,3956.64,3,No,4,1,Competitor
+C1492,Male,74,Finland,29,Month-to-month,Direct debit,DSL,Yes,No,41.73,1180.94,1,Yes,5,1,Moving
+C1493,Male,64,Finland,8,Month-to-month,Direct debit,DSL,No,No,26.03,214.24,3,No,4,0,
+C1494,Male,48,Finland,25,One year,Credit card,Fiber,No,Yes,79.93,2004.67,3,Yes,4,0,
+C1495,Female,58,Finland,1,One year,Bank transfer,Fiber,Yes,Yes,54.53,94.7,0,Yes,4,0,
+C1496,Female,63,Finland,61,Month-to-month,Electronic invoice,DSL,Yes,No,52.29,3191.31,0,Yes,5,0,
+C1497,Female,67,Norway,2,Month-to-month,Bank transfer,Mobile,No,No,44.74,59.13,2,Yes,4,0,
+C1498,Male,43,Finland,45,Month-to-month,Bank transfer,Mobile,Yes,No,53.19,2412.43,3,Yes,4,0,
+C1499,Male,66,Finland,67,Two year,Electronic invoice,Fiber,Yes,Yes,86.41,5771.2,0,Yes,4,0,
+C1500,Female,67,Denmark,24,Two year,Credit card,Mobile,Yes,No,21.1,481.01,3,Yes,4,0,
+C1501,Female,22,Sweden,50,Two year,Credit card,Fiber,Yes,No,63.05,3166.54,0,No,5,0,
+C1502,Male,37,Finland,12,Month-to-month,Direct debit,DSL,Yes,No,24.99,284.52,2,No,4,0,
+C1503,Male,69,Finland,102,One year,Bank transfer,Mobile,Yes,No,19.17,1943.36,2,No,5,0,
+C1504,Male,58,Norway,43,Month-to-month,Direct debit,DSL,Yes,Yes,45.46,1982.83,2,No,4,1,Moving
+C1505,Male,28,Finland,34,Two year,Credit card,Mobile,Yes,No,16.52,571.95,1,No,5,0,
+C1506,Male,73,Sweden,54,One year,Credit card,Fiber,No,Yes,76.09,4120.8,3,Yes,4,1,Other
+C1507,Female,71,Finland,86,Two year,Credit card,Fiber,Yes,No,70.27,6015.69,2,Yes,4,0,
+C1508,Female,50,Norway,8,One year,Electronic invoice,Fiber,Yes,Yes,89.59,730.83,2,Yes,4,0,
+C1509,Female,67,Finland,1,Month-to-month,Bank transfer,Fiber,No,No,40.9,35.35,4,Yes,4,0,
+C1510,Female,55,Norway,60,Two year,Bank transfer,DSL,Yes,Yes,67.95,4068.12,1,Yes,4,0,
+C1511,Female,44,Denmark,117,Two year,Credit card,Fiber,Yes,No,71.29,8349.1,5,Yes,4,0,
+C1512,Female,51,Norway,40,Two year,Credit card,Mobile,No,No,40.79,1631.77,1,Yes,5,0,
+C1513,Female,32,Finland,43,One year,Bank transfer,Fiber,Yes,No,64.59,2748.1,1,Yes,4,0,
+C1514,Male,49,Finland,63,One year,Credit card,DSL,Yes,No,54.71,3465.77,1,No,5,1,Other
+C1515,Male,78,Finland,30,Month-to-month,Bank transfer,Fiber,No,No,58.0,1760.95,2,Yes,4,0,
+C1516,Male,75,Finland,107,Two year,Bank transfer,Mobile,Yes,Yes,64.35,6873.7,0,Yes,5,0,
+C1517,Female,38,Finland,46,Two year,Direct debit,Fiber,Yes,Yes,88.02,4061.1,1,Yes,4,0,
+C1518,Female,63,Denmark,1,Month-to-month,Direct debit,Fiber,No,No,87.05,105.32,3,Yes,4,1,Moving
+C1519,Male,22,Sweden,95,Two year,Bank transfer,None,No,Yes,39.17,3683.78,2,Yes,5,0,
+C1520,Female,23,Sweden,81,Month-to-month,Credit card,Fiber,No,Yes,97.71,7904.21,1,Yes,4,1,Moving
+C1521,Male,55,Norway,76,Two year,Direct debit,Fiber,Yes,Yes,74.78,5639.73,2,Yes,4,1,Moving
+C1522,Female,79,Norway,109,Two year,Direct debit,Mobile,Yes,No,38.02,4156.86,0,Yes,5,0,
+C1523,Male,39,Finland,68,Two year,Credit card,Mobile,Yes,No,47.06,3209.01,3,Yes,4,0,
+C1524,Male,79,Denmark,57,Two year,Electronic invoice,DSL,Yes,Yes,31.64,1790.37,2,Yes,5,0,
+C1525,Female,35,Finland,105,One year,Credit card,DSL,Yes,Yes,42.48,4457.4,0,Yes,5,0,
+C1526,Male,31,Denmark,43,Month-to-month,Credit card,Mobile,Yes,No,47.18,2021.38,2,No,4,0,
+C1527,Male,27,Denmark,73,Two year,Credit card,DSL,Yes,No,52.56,3796.07,4,Yes,4,0,
+C1528,Male,63,Denmark,55,One year,Electronic invoice,Mobile,Yes,No,48.6,2699.01,3,Yes,4,1,Moving
+C1529,Female,30,Norway,42,Month-to-month,Bank transfer,DSL,Yes,No,26.77,1129.44,1,Yes,5,1,Moving
+C1530,Female,48,Finland,88,Two year,Direct debit,Fiber,Yes,Yes,100.86,8872.79,1,Yes,4,1,Moving
+C1531,Male,47,Sweden,33,One year,Credit card,DSL,No,Yes,31.66,1042.02,2,No,4,0,
+C1532,Female,20,Norway,100,Two year,Bank transfer,Mobile,Yes,Yes,60.2,6034.15,1,Yes,5,0,
+C1533,Female,47,Sweden,29,Two year,Bank transfer,Mobile,Yes,No,24.18,669.48,1,Yes,5,0,
+C1534,Male,23,Germany,70,Two year,Electronic invoice,Fiber,No,No,79.7,5561.49,1,Yes,4,0,
+C1535,Male,46,Finland,69,Two year,Credit card,Mobile,Yes,Yes,42.64,2946.42,0,No,5,1,Other
+C1536,Male,25,Finland,117,Two year,Credit card,DSL,Yes,No,59.45,6977.96,2,No,5,1,Competitor
+C1537,Male,61,Finland,54,Two year,Credit card,DSL,Yes,No,43.2,2284.6,2,No,4,0,
+C1538,Female,62,Finland,66,Two year,Electronic invoice,Mobile,No,No,40.07,2664.54,2,Yes,5,1,Moving
+C1539,Male,60,Norway,12,Month-to-month,Bank transfer,Mobile,Yes,No,26.03,298.2,1,No,5,1,Moving
+C1540,Female,61,Denmark,2,One year,Bank transfer,Mobile,Yes,No,49.29,92.85,1,Yes,4,0,
+C1541,Female,50,Norway,25,Two year,Bank transfer,Mobile,No,No,32.69,817.93,2,No,4,0,
+C1542,Male,34,Denmark,56,One year,Electronic invoice,Fiber,No,No,39.7,2201.1,0,No,5,0,
+C1543,Female,65,Germany,23,Month-to-month,Electronic invoice,DSL,Yes,No,44.34,995.01,1,No,4,0,
+C1544,Male,28,Denmark,52,Two year,Direct debit,Mobile,No,No,53.1,2765.35,3,Yes,4,0,
+C1545,Other,30,Finland,69,Month-to-month,Credit card,Fiber,No,No,67.03,4662.97,3,No,4,0,
+C1546,Female,67,Denmark,42,Two year,Credit card,Fiber,Yes,No,51.41,2140.3,3,Yes,4,0,
+C1547,Female,28,Finland,59,Two year,Electronic invoice,Fiber,Yes,No,61.05,3582.87,4,Yes,4,0,
+C1548,Female,48,Finland,57,Month-to-month,Bank transfer,DSL,Yes,No,52.72,2980.57,3,No,4,0,
+C1549,Male,45,Norway,48,Two year,Credit card,Mobile,Yes,Yes,42.25,2023.49,0,Yes,5,0,
+C1550,Female,61,Finland,41,Month-to-month,Bank transfer,DSL,No,No,57.29,2329.24,0,Yes,5,0,
+C1551,Female,23,Finland,75,Two year,Electronic invoice,Mobile,Yes,No,50.44,3763.78,4,Yes,4,0,
+C1552,Female,58,Finland,112,One year,Bank transfer,Fiber,No,No,53.4,5985.0,3,No,4,0,
+C1553,Female,33,Finland,99,Two year,Direct debit,Fiber,Yes,No,58.64,5776.47,1,Yes,5,0,
+C1554,Female,21,Germany,65,One year,Electronic invoice,Fiber,Yes,No,71.54,4682.55,1,Yes,4,0,
+C1555,Male,52,Finland,10,Month-to-month,Bank transfer,DSL,Yes,Yes,68.95,665.98,1,No,4,1,Other
+C1556,Male,77,Finland,102,One year,Credit card,Fiber,Yes,No,86.05,8799.73,3,Yes,4,0,
+C1557,Female,65,Sweden,97,Month-to-month,Electronic invoice,Fiber,No,No,64.76,6321.18,3,Yes,4,0,
+C1558,Male,73,Sweden,89,One year,Electronic invoice,Fiber,Yes,Yes,64.12,5730.64,3,No,4,1,Competitor
+C1559,Female,76,Germany,17,Month-to-month,Electronic invoice,DSL,Yes,No,38.44,674.96,2,Yes,4,0,
+C1560,Female,43,Finland,84,One year,Direct debit,DSL,Yes,Yes,58.6,4938.32,1,Yes,5,0,
+C1561,Male,79,Sweden,99,Two year,Credit card,DSL,No,No,33.24,3295.04,4,Yes,4,1,Other
+C1562,Male,74,Norway,103,Two year,Electronic invoice,Fiber,No,Yes,74.13,7658.97,0,No,5,0,
+C1563,Female,29,Germany,51,Two year,Credit card,DSL,Yes,No,25.21,1280.5,1,No,5,0,
+C1564,Male,28,Norway,45,Two year,Electronic invoice,Mobile,Yes,Yes,34.48,1568.9,2,No,4,0,
+C1565,Female,54,Denmark,43,Month-to-month,Electronic invoice,Fiber,Yes,No,41.9,1823.86,0,Yes,5,0,
+C1566,Male,42,Finland,21,Month-to-month,Direct debit,Mobile,Yes,Yes,29.03,619.8,1,Yes,5,0,
+C1567,Female,35,Sweden,52,One year,Electronic invoice,Mobile,Yes,No,52.41,2719.93,1,Yes,5,1,Other
+C1568,Male,36,Sweden,58,Two year,Direct debit,DSL,Yes,No,28.2,1645.36,1,No,5,0,
+C1569,Female,40,Germany,93,Two year,Credit card,Mobile,Yes,Yes,49.95,4637.96,0,Yes,5,0,
+C1570,Male,72,Finland,113,Month-to-month,Direct debit,Fiber,Yes,No,39.07,4404.03,1,Yes,5,0,
+C1571,Female,55,Finland,106,One year,Credit card,Mobile,Yes,Yes,39.8,4234.55,0,No,5,0,
+C1572,Male,71,Finland,29,Month-to-month,Bank transfer,Mobile,Yes,No,24.83,722.99,2,No,5,0,
+C1573,Female,35,Finland,7,One year,Credit card,DSL,Yes,No,25.75,195.77,0,No,5,0,
+C1574,Female,43,Finland,97,Two year,Bank transfer,Fiber,Yes,No,58.85,5711.5,0,Yes,5,0,
+C1575,Male,23,Germany,56,Month-to-month,Electronic invoice,Fiber,Yes,No,77.33,4340.67,2,Yes,4,0,
+C1576,Male,21,Sweden,110,One year,Electronic invoice,Fiber,Yes,No,54.68,6042.77,1,Yes,5,0,
+C1577,Male,61,Norway,72,Two year,Bank transfer,DSL,Yes,Yes,34.89,2508.84,1,No,5,0,
+C1578,Female,68,Denmark,114,Two year,Bank transfer,DSL,No,No,52.2,5942.73,2,No,5,1,Moving
+C1579,Female,46,Sweden,19,Month-to-month,Bank transfer,Fiber,Yes,Yes,67.39,1289.01,1,No,4,0,
+C1580,Female,76,Finland,103,Two year,Electronic invoice,Fiber,No,No,70.7,7230.52,0,Yes,5,0,
+C1581,Male,78,Finland,24,One year,Bank transfer,None,Yes,No,25.85,634.58,3,No,4,0,
+C1582,Male,51,Finland,18,Two year,Direct debit,Mobile,Yes,Yes,37.87,664.42,2,Yes,4,1,Moving
+C1583,Female,34,Norway,4,One year,Electronic invoice,Fiber,Yes,Yes,73.04,325.68,1,No,4,1,Other
+C1584,Female,60,Sweden,74,Month-to-month,Bank transfer,DSL,Yes,Yes,64.65,4799.89,3,Yes,4,1,Moving
+C1585,Other,60,Finland,78,Month-to-month,Electronic invoice,DSL,Yes,No,22.94,1807.64,4,Yes,4,0,
+C1586,Male,70,Sweden,71,Two year,Electronic invoice,Fiber,Yes,No,67.22,4791.41,3,Yes,4,0,
+C1587,Female,33,Germany,82,Month-to-month,Electronic invoice,Mobile,Yes,Yes,25.55,2085.92,2,Yes,5,0,
+C1588,Male,19,Denmark,86,Two year,Credit card,Fiber,No,No,62.61,5379.26,2,Yes,4,0,
+C1589,Male,51,Denmark,26,Two year,Bank transfer,Fiber,Yes,Yes,91.12,2335.28,4,Yes,3,1,Moving
+C1590,Female,72,Denmark,39,Two year,Electronic invoice,Mobile,Yes,No,20.27,820.42,3,Yes,4,0,
+C1591,Female,25,Finland,95,Month-to-month,Bank transfer,Mobile,Yes,No,48.76,4606.44,2,Yes,5,0,
+C1592,Other,30,Denmark,25,One year,Direct debit,DSL,Yes,No,27.11,677.45,4,No,4,0,
+C1593,Male,59,Finland,26,Two year,Credit card,DSL,Yes,No,54.47,1440.72,1,Yes,4,0,
+C1594,Male,25,Norway,61,Month-to-month,Credit card,Fiber,Yes,No,69.22,4253.1,2,No,4,0,
+C1595,Female,47,Norway,82,Two year,Bank transfer,Fiber,Yes,Yes,86.45,7083.88,0,No,4,0,
+C1596,Female,49,Finland,49,Two year,Direct debit,None,Yes,No,26.07,1243.31,1,Yes,5,0,
+C1597,Male,53,Denmark,41,One year,Bank transfer,DSL,Yes,No,50.48,2074.3,0,Yes,5,0,
+C1598,Male,64,Germany,28,Two year,Direct debit,DSL,Yes,No,47.23,1329.1,1,Yes,4,0,
+C1599,Male,47,Finland,38,Month-to-month,Bank transfer,Mobile,No,Yes,42.32,1616.64,3,Yes,4,1,Moving
+C1600,Female,18,Denmark,59,One year,Direct debit,Mobile,No,No,50.25,2958.64,3,No,4,0,
+C1601,Male,60,Finland,40,Two year,Direct debit,None,No,No,45.93,1834.44,2,Yes,4,0,
+C1602,Male,56,Norway,32,Two year,Bank transfer,Fiber,Yes,No,73.78,2347.08,0,Yes,4,0,
+C1603,Male,34,Sweden,82,One year,Bank transfer,Fiber,Yes,Yes,65.34,5361.05,2,Yes,4,0,
+C1604,Male,76,Sweden,100,Two year,Credit card,DSL,Yes,No,43.6,4376.04,1,Yes,5,0,
+C1605,Male,37,Germany,82,One year,Bank transfer,DSL,Yes,Yes,66.26,5438.58,0,No,5,0,
+C1606,Female,41,Germany,96,Month-to-month,Direct debit,Fiber,Yes,Yes,54.48,5229.2,2,Yes,4,1,Competitor
+C1607,Male,67,Denmark,110,Month-to-month,Bank transfer,Fiber,No,No,56.1,6193.48,2,Yes,5,0,
+C1608,Female,39,Finland,15,Two year,Bank transfer,DSL,Yes,Yes,69.16,1042.53,1,Yes,4,0,
+C1609,Male,46,Germany,22,Month-to-month,Direct debit,Mobile,Yes,Yes,46.73,1028.68,1,No,4,1,Competitor
+C1610,Female,39,Finland,6,One year,Credit card,DSL,Yes,No,30.11,182.21,2,Yes,4,0,
+C1611,Female,61,Germany,25,One year,Electronic invoice,Mobile,Yes,Yes,36.09,878.04,1,Yes,5,1,Moving
+C1612,Female,26,Finland,95,Two year,Credit card,DSL,Yes,No,55.4,5241.2,0,Yes,5,0,
+C1613,Female,54,Finland,11,Month-to-month,Electronic invoice,Mobile,Yes,No,53.09,581.51,4,Yes,4,1,Other
+C1614,Male,27,Norway,71,Month-to-month,Bank transfer,DSL,Yes,No,58.0,4103.25,4,No,4,0,
+C1615,Male,53,Finland,4,Month-to-month,Bank transfer,Mobile,Yes,Yes,51.62,205.58,2,Yes,4,0,
+C1616,Female,54,Finland,105,Two year,Credit card,DSL,Yes,Yes,49.34,5197.83,1,No,5,0,
+C1617,Other,45,Finland,91,Two year,Credit card,Fiber,Yes,No,56.16,5124.67,1,Yes,5,0,
+C1618,Female,45,Finland,116,One year,Credit card,Mobile,No,No,23.15,2693.25,0,Yes,5,1,Competitor
+C1619,Female,59,Finland,68,Two year,Credit card,DSL,Yes,No,22.39,1539.41,1,No,5,0,
+C1620,Female,80,Finland,48,Month-to-month,Direct debit,DSL,Yes,Yes,29.09,1416.93,2,Yes,5,0,
+C1621,Male,60,Sweden,25,Two year,Bank transfer,Mobile,No,No,51.69,1312.13,5,No,4,1,Other
+C1622,Male,38,Finland,4,Month-to-month,Direct debit,Mobile,Yes,Yes,61.47,265.27,1,Yes,4,0,
+C1623,Female,41,Norway,21,Month-to-month,Credit card,DSL,Yes,No,42.71,872.93,0,No,5,0,
+C1624,Female,59,Finland,78,One year,Electronic invoice,DSL,Yes,No,59.95,4638.28,3,Yes,4,0,
+C1625,Male,77,Germany,12,Two year,Bank transfer,DSL,No,Yes,64.09,753.48,1,Yes,4,1,Moving
+C1626,Female,57,Germany,27,Two year,Credit card,DSL,Yes,No,46.2,1238.26,2,Yes,4,1,Other
+C1627,Male,19,Finland,32,Month-to-month,Bank transfer,None,Yes,Yes,49.19,1592.65,3,Yes,4,1,Other
+C1628,Female,72,Denmark,106,Two year,Credit card,Fiber,Yes,No,39.97,4234.89,1,No,5,0,
+C1629,Male,25,Denmark,22,Month-to-month,Credit card,Fiber,Yes,No,67.95,1485.3,2,Yes,4,1,Competitor
+C1630,Male,65,Germany,96,Month-to-month,Bank transfer,None,No,Yes,36.02,3461.19,2,No,5,0,
+C1631,Female,44,Norway,106,One year,Direct debit,Fiber,Yes,No,65.94,7000.36,1,Yes,5,0,
+C1632,Male,39,Finland,17,One year,Electronic invoice,Fiber,Yes,No,83.91,1441.98,0,Yes,4,0,
+C1633,Female,54,Norway,113,Two year,Bank transfer,Fiber,Yes,No,55.46,6258.72,1,No,5,0,
+C1634,Female,44,Norway,116,One year,Electronic invoice,Fiber,Yes,Yes,56.19,6498.9,2,No,5,1,Other
+C1635,Female,74,Norway,29,Month-to-month,Electronic invoice,Fiber,No,No,71.33,2053.0,1,Yes,4,1,Other
+C1636,Male,46,Finland,25,One year,Electronic invoice,DSL,No,Yes,51.77,1296.65,1,No,4,0,
+C1637,Male,20,Germany,15,Month-to-month,Bank transfer,DSL,Yes,No,27.75,395.2,1,No,5,0,
+C1638,Male,61,Germany,76,Month-to-month,Credit card,DSL,No,No,27.86,2136.33,1,No,5,0,
+C1639,Other,30,Finland,38,One year,Credit card,DSL,Yes,Yes,70.75,2667.65,2,No,4,0,
+C1640,Female,62,Finland,32,One year,Direct debit,Fiber,No,Yes,66.1,2084.05,1,No,4,1,Competitor
+C1641,Female,27,Finland,25,Month-to-month,Bank transfer,Fiber,Yes,No,77.25,1934.36,1,Yes,4,0,
+C1642,Female,53,Denmark,47,One year,Credit card,Fiber,Yes,No,78.5,3683.98,2,No,4,0,
+C1643,Female,26,Norway,64,Month-to-month,Bank transfer,DSL,Yes,No,37.4,2403.02,1,Yes,5,1,Moving
+C1644,Female,71,Norway,112,Month-to-month,Credit card,Fiber,Yes,Yes,64.0,7158.02,3,Yes,4,0,
+C1645,Male,73,Sweden,37,Two year,Direct debit,DSL,Yes,No,50.95,1893.21,2,Yes,4,1,Other
+C1646,Female,72,Norway,1,Month-to-month,Credit card,Fiber,No,Yes,87.17,107.31,1,No,4,1,Moving
+C1647,Male,44,Finland,112,Two year,Direct debit,Mobile,No,No,21.08,2348.49,2,Yes,5,0,
+C1648,Female,51,Sweden,5,Month-to-month,Direct debit,DSL,Yes,No,23.8,129.25,0,No,5,0,
+C1649,Female,68,Denmark,45,One year,Credit card,Mobile,Yes,No,18.27,858.07,1,Yes,5,0,
+C1650,Female,18,Germany,49,Month-to-month,Bank transfer,Mobile,No,Yes,55.14,2717.29,1,Yes,4,0,
+C1651,Male,49,Germany,37,Month-to-month,Direct debit,DSL,Yes,No,37.43,1369.05,2,Yes,4,0,
+C1652,Male,42,Germany,105,One year,Credit card,DSL,Yes,No,25.28,2661.1,2,Yes,5,0,
+C1653,Male,46,Sweden,87,Two year,Credit card,None,Yes,No,33.61,2898.04,0,No,5,0,
+C1654,Male,24,Sweden,17,Month-to-month,Bank transfer,DSL,Yes,Yes,46.73,771.26,1,Yes,4,1,Moving
+C1655,Male,66,Denmark,26,One year,Direct debit,Mobile,Yes,No,46.22,1231.56,2,No,4,0,
+C1656,Female,20,Germany,40,Two year,Direct debit,Fiber,Yes,No,62.92,2524.96,0,Yes,5,1,Moving
+C1657,Female,37,Finland,71,One year,Credit card,DSL,Yes,Yes,40.26,2889.23,1,No,5,1,Competitor
+C1658,Male,37,Finland,91,Two year,Bank transfer,DSL,Yes,No,26.35,2406.37,1,No,5,0,
+C1659,Male,70,Finland,73,Month-to-month,Credit card,Fiber,No,Yes,82.1,5982.39,1,Yes,4,0,
+C1660,Male,47,Norway,16,Two year,Electronic invoice,Fiber,Yes,Yes,49.05,785.66,2,Yes,4,0,
+C1661,Female,52,Finland,118,One year,Bank transfer,Fiber,Yes,Yes,76.91,9080.74,0,Yes,5,0,
+C1662,Female,52,Finland,61,One year,Electronic invoice,Mobile,Yes,No,35.56,2213.43,2,Yes,5,0,
+C1663,Female,66,Finland,28,Two year,Bank transfer,Mobile,Yes,No,31.06,883.74,0,Yes,5,0,
+C1664,Female,56,Finland,57,One year,Direct debit,DSL,Yes,No,40.36,2285.65,3,No,4,0,
+C1665,Other,44,Germany,69,One year,Bank transfer,Mobile,Yes,Yes,55.32,3813.21,1,No,5,0,
+C1666,Female,43,Finland,77,Two year,Direct debit,Mobile,Yes,No,38.08,2941.62,3,Yes,4,0,
+C1667,Male,31,Norway,21,One year,Bank transfer,Mobile,Yes,No,45.19,927.23,1,No,4,0,
+C1668,Female,34,Norway,117,Month-to-month,Direct debit,Fiber,Yes,Yes,71.78,8397.9,1,Yes,5,1,Moving
+C1669,Male,35,Germany,5,Month-to-month,Bank transfer,Mobile,Yes,Yes,60.36,297.7,0,Yes,4,0,
+C1670,Female,62,Finland,25,Month-to-month,Bank transfer,Fiber,Yes,No,60.33,1517.97,1,Yes,4,0,
+C1671,Male,69,Germany,38,Two year,Bank transfer,Fiber,Yes,No,53.53,2032.16,0,Yes,5,0,
+C1672,Female,46,Norway,11,Two year,Electronic invoice,None,No,No,22.09,215.03,5,Yes,4,1,Other
+C1673,Female,37,Germany,98,One year,Direct debit,DSL,Yes,No,56.14,5500.81,0,Yes,5,0,
+C1674,Female,70,Germany,13,Month-to-month,Bank transfer,DSL,Yes,Yes,71.99,951.23,1,No,4,0,
+C1675,Female,44,Finland,21,Month-to-month,Direct debit,Mobile,Yes,No,42.71,925.81,1,No,4,0,
+C1676,Male,35,Finland,50,Month-to-month,Direct debit,DSL,No,No,48.97,2467.74,1,No,5,0,
+C1677,Male,21,Finland,22,Two year,Electronic invoice,Mobile,Yes,Yes,42.48,902.65,1,Yes,4,0,
+C1678,Male,18,Sweden,47,Month-to-month,Electronic invoice,Mobile,Yes,Yes,51.31,2384.84,0,Yes,5,0,
+C1679,Male,67,Finland,70,One year,Direct debit,DSL,Yes,No,59.69,4157.16,3,Yes,4,1,Moving
+C1680,Female,18,Finland,103,Two year,Bank transfer,Fiber,Yes,No,74.11,7663.44,2,No,4,0,
+C1681,Male,75,Sweden,49,Two year,Direct debit,Mobile,Yes,No,28.67,1414.73,4,Yes,4,1,Moving
+C1682,Other,43,Finland,88,One year,Direct debit,Fiber,Yes,No,59.61,5298.47,0,Yes,5,0,
+C1683,Female,62,Finland,12,One year,Electronic invoice,Mobile,Yes,Yes,49.63,621.25,1,Yes,4,0,
+C1684,Female,37,Sweden,84,Two year,Credit card,Mobile,No,No,34.19,2873.87,0,No,5,0,
+C1685,Male,69,Finland,104,Two year,Credit card,Fiber,Yes,No,54.18,5625.61,0,Yes,5,0,
+C1686,Female,40,Sweden,9,One year,Credit card,DSL,Yes,No,45.08,413.2,1,No,4,0,
+C1687,Female,27,Sweden,116,One year,Direct debit,Mobile,Yes,No,17.35,2029.42,2,Yes,5,0,
+C1688,Female,76,Sweden,54,Month-to-month,Electronic invoice,Fiber,No,No,73.32,3983.5,1,No,4,0,
+C1689,Female,28,Germany,8,Month-to-month,Credit card,DSL,Yes,Yes,63.74,504.14,0,Yes,4,1,Moving
+C1690,Female,58,Sweden,78,One year,Direct debit,Mobile,No,No,45.4,3585.04,3,No,4,0,
+C1691,Male,58,Sweden,51,Two year,Direct debit,Mobile,Yes,No,53.22,2713.33,4,Yes,4,1,Other
+C1692,Female,22,Sweden,1,One year,Direct debit,Fiber,Yes,No,63.18,86.84,3,Yes,4,0,
+C1693,Male,75,Denmark,24,Two year,Bank transfer,Fiber,Yes,No,74.27,1789.21,0,Yes,4,0,
+C1694,Male,18,Germany,12,One year,Electronic invoice,Fiber,No,No,49.81,590.63,0,Yes,5,0,
+C1695,Male,34,Germany,97,Two year,Credit card,Mobile,Yes,No,51.15,4922.28,2,No,5,0,
+C1696,Male,39,Norway,50,Two year,Direct debit,Mobile,Yes,No,25.67,1258.72,3,No,4,0,
+C1697,Male,51,Finland,57,Two year,Credit card,None,Yes,No,56.62,3250.87,0,No,5,0,
+C1698,Male,73,Finland,33,One year,Bank transfer,Fiber,Yes,Yes,74.89,2486.42,1,Yes,4,1,Moving
+C1699,Other,62,Finland,34,One year,Electronic invoice,Mobile,Yes,No,20.45,707.15,1,Yes,5,0,
+C1700,Female,58,Germany,101,Two year,Credit card,None,No,Yes,43.18,4392.26,0,No,5,0,
+C1701,Other,46,Norway,2,Month-to-month,Credit card,DSL,Yes,No,44.6,69.62,3,No,4,1,Moving
+C1702,Male,21,Denmark,105,Two year,Direct debit,DSL,Yes,No,29.24,3060.76,1,Yes,5,0,
+C1703,Male,22,Finland,119,Month-to-month,Bank transfer,Mobile,Yes,Yes,52.52,6241.79,4,No,4,0,
+C1704,Female,28,Denmark,58,Two year,Bank transfer,DSL,Yes,Yes,61.49,3539.65,1,No,4,0,
+C1705,Male,73,Finland,69,Two year,Credit card,DSL,Yes,Yes,41.04,2815.78,2,Yes,5,0,
+C1706,Male,68,Finland,118,Two year,Credit card,DSL,Yes,No,43.21,5077.33,1,Yes,5,0,
+C1707,Female,38,Sweden,47,One year,Bank transfer,Fiber,Yes,No,70.72,3292.44,0,Yes,5,0,
+C1708,Male,52,Norway,63,Two year,Credit card,DSL,No,No,41.19,2577.03,1,No,5,0,
+C1709,Female,29,Sweden,112,Two year,Electronic invoice,Fiber,Yes,Yes,83.52,9352.92,2,Yes,4,0,
+C1710,Female,43,Germany,18,Month-to-month,Credit card,None,Yes,No,34.02,648.1,2,Yes,4,0,
+C1711,Male,68,Finland,66,Two year,Bank transfer,Mobile,Yes,No,57.49,3773.96,1,No,5,1,Moving
+C1712,Male,36,Norway,81,Month-to-month,Credit card,Mobile,Yes,Yes,48.97,3988.04,1,No,5,1,Competitor
+C1713,Female,62,Sweden,102,Month-to-month,Credit card,DSL,Yes,No,52.98,5408.38,1,No,5,0,
+C1714,Male,77,Finland,72,One year,Direct debit,Mobile,No,Yes,51.4,3709.54,1,Yes,5,0,
+C1715,Male,24,Denmark,115,Two year,Direct debit,Mobile,Yes,No,48.83,5618.35,0,No,5,0,
+C1716,Other,64,Denmark,75,One year,Credit card,Fiber,No,Yes,76.79,5722.18,2,Yes,4,0,
+C1717,Male,72,Denmark,4,Month-to-month,Credit card,DSL,Yes,Yes,41.24,143.93,0,Yes,5,0,
+C1718,Female,24,Germany,66,One year,Credit card,Fiber,Yes,No,72.76,4813.63,0,Yes,5,1,Other
+C1719,Other,43,Denmark,10,Month-to-month,Direct debit,Mobile,No,No,52.96,530.52,2,No,4,0,
+C1720,Male,57,Finland,120,Two year,Direct debit,Fiber,No,Yes,50.69,6049.89,3,No,4,0,
+C1721,Male,22,Denmark,93,Two year,Credit card,Mobile,No,No,54.97,5107.86,1,Yes,5,0,
+C1722,Male,38,Finland,67,Two year,Bank transfer,Fiber,Yes,No,52.99,3562.18,1,Yes,5,0,
+C1723,Male,31,Finland,68,Month-to-month,Direct debit,Fiber,Yes,Yes,65.87,4454.08,2,No,4,0,
+C1724,Male,21,Finland,0,Month-to-month,Electronic invoice,Mobile,Yes,No,26.5,0.0,1,Yes,5,0,
+C1725,Female,40,Denmark,90,Two year,Electronic invoice,DSL,Yes,No,43.44,3939.97,3,Yes,4,0,
+C1726,Male,59,Denmark,91,Two year,Bank transfer,Fiber,Yes,No,85.38,7781.37,1,Yes,4,0,
+C1727,Female,37,Finland,62,Month-to-month,Credit card,None,No,Yes,45.01,2822.35,0,Yes,5,0,
+C1728,Other,32,Denmark,28,Month-to-month,Credit card,Mobile,Yes,No,39.57,1100.43,4,Yes,4,0,
+C1729,Female,67,Germany,81,Two year,Direct debit,DSL,No,No,27.03,2211.06,1,No,5,0,
+C1730,Female,69,Finland,11,Month-to-month,Electronic invoice,DSL,Yes,No,45.25,477.12,1,Yes,4,0,
+C1731,Male,62,Finland,76,Two year,Bank transfer,Fiber,Yes,Yes,59.4,4531.01,0,No,5,0,
+C1732,Female,46,Denmark,40,One year,Bank transfer,Mobile,Yes,No,36.28,1436.9,1,Yes,5,0,
+C1733,Female,25,Finland,1,Month-to-month,Bank transfer,Fiber,Yes,Yes,79.14,88.28,1,Yes,4,0,
+C1734,Male,58,Norway,36,Two year,Bank transfer,Fiber,No,No,63.79,2306.59,2,No,4,0,
+C1735,Male,65,Finland,44,Month-to-month,Credit card,DSL,Yes,No,25.6,1140.16,1,Yes,5,0,
+C1736,Female,36,Sweden,79,One year,Direct debit,Mobile,Yes,Yes,35.23,2763.01,2,No,5,1,Competitor
+C1737,Male,65,Denmark,47,Two year,Credit card,Mobile,Yes,Yes,44.41,2093.6,2,No,4,0,
+C1738,Male,56,Norway,23,Month-to-month,Credit card,None,Yes,No,52.36,1204.78,2,No,4,0,
+C1739,Male,63,Denmark,98,One year,Direct debit,Fiber,No,No,68.55,6742.99,1,No,5,0,
+C1740,Male,45,Germany,21,One year,Credit card,Mobile,Yes,Yes,61.18,1271.98,3,Yes,4,0,
+C1741,Female,63,Denmark,99,One year,Credit card,Fiber,Yes,No,82.07,8098.81,3,Yes,4,0,
+C1742,Female,74,Norway,10,Month-to-month,Credit card,Fiber,No,No,53.81,505.19,1,Yes,4,0,
+C1743,Female,44,Finland,118,One year,Electronic invoice,Mobile,Yes,No,29.2,3439.89,3,No,5,0,
+C1744,Male,21,Sweden,57,One year,Direct debit,DSL,No,No,21.13,1195.87,3,Yes,4,0,
+C1745,Male,75,Finland,45,Two year,Credit card,Fiber,Yes,Yes,81.76,3673.19,0,No,4,0,
+C1746,Female,32,Denmark,28,Two year,Bank transfer,Mobile,Yes,No,41.29,1150.2,2,Yes,4,0,
+C1747,Male,52,Finland,34,Month-to-month,Credit card,Fiber,No,Yes,78.84,2708.45,2,Yes,4,0,
+C1748,Male,54,Norway,111,Two year,Direct debit,DSL,No,Yes,43.38,4812.24,1,Yes,5,0,
+C1749,Female,18,Finland,117,Two year,Direct debit,Fiber,Yes,Yes,59.43,6975.94,0,Yes,5,0,
+C1750,Male,20,Denmark,14,One year,Electronic invoice,Fiber,Yes,No,70.66,996.93,1,Yes,4,0,
+C1751,Female,64,Germany,59,Two year,Bank transfer,Mobile,No,No,34.21,2000.13,0,Yes,5,0,
+C1752,Male,41,Sweden,94,One year,Electronic invoice,DSL,Yes,Yes,43.62,4100.45,1,Yes,5,1,Other
+C1753,Male,44,Germany,41,Two year,Electronic invoice,Mobile,Yes,No,47.14,1963.65,2,Yes,4,1,Moving
+C1754,Male,57,Finland,104,Two year,Electronic invoice,DSL,Yes,No,26.93,2821.02,1,Yes,5,0,
+C1755,Other,80,Sweden,42,Month-to-month,Direct debit,DSL,Yes,No,56.2,2384.45,3,Yes,4,1,Other
+C1756,Female,78,Germany,79,One year,Bank transfer,DSL,Yes,No,58.1,4600.0,2,No,4,0,
+C1757,Female,53,Finland,73,One year,Bank transfer,Mobile,No,Yes,38.65,2811.9,1,No,5,1,Other
+C1758,Female,51,Germany,48,One year,Credit card,DSL,Yes,Yes,43.79,2134.72,1,Yes,5,0,
+C1759,Male,46,Finland,63,Month-to-month,Credit card,Mobile,No,No,40.97,2592.3,3,Yes,4,1,Other
+C1760,Female,41,Finland,31,Two year,Direct debit,Fiber,Yes,No,69.88,2184.9,0,Yes,4,0,
+C1761,Male,41,Germany,63,Month-to-month,Direct debit,None,Yes,Yes,31.96,2015.65,3,No,4,0,
+C1762,Female,59,Finland,114,One year,Electronic invoice,Mobile,Yes,No,51.11,5805.87,0,Yes,5,0,
+C1763,Male,21,Germany,1,Month-to-month,Credit card,Mobile,Yes,No,31.05,38.95,1,No,5,1,Other
+C1764,Female,20,Germany,23,Month-to-month,Credit card,Mobile,Yes,No,27.44,665.0,3,Yes,4,0,
+C1765,Male,51,Finland,86,Two year,Direct debit,Fiber,Yes,Yes,68.21,5882.23,2,Yes,4,0,
+C1766,Male,74,Sweden,65,Two year,Bank transfer,Mobile,Yes,No,23.48,1537.28,2,No,5,0,
+C1767,Female,66,Finland,37,One year,Credit card,DSL,Yes,No,28.24,1027.68,3,Yes,4,0,
+C1768,Male,40,Sweden,30,One year,Electronic invoice,DSL,Yes,Yes,50.88,1556.86,1,Yes,4,0,
+C1769,Male,70,Finland,114,Month-to-month,Direct debit,Fiber,No,Yes,68.23,7805.16,4,No,4,1,Competitor
+C1770,Male,73,Finland,103,Two year,Bank transfer,Fiber,No,No,67.12,6877.71,1,Yes,5,0,
+C1771,Male,69,Sweden,25,Month-to-month,Electronic invoice,Fiber,Yes,No,93.44,2354.58,0,Yes,4,1,Other
+C1772,Female,40,Sweden,28,Two year,Direct debit,Fiber,Yes,Yes,76.75,2144.01,5,Yes,3,1,Competitor
+C1773,Female,62,Germany,66,Two year,Direct debit,Fiber,Yes,Yes,43.77,2894.65,0,No,5,0,
+C1774,Female,22,Denmark,77,Month-to-month,Electronic invoice,Fiber,No,Yes,62.05,4761.5,1,No,5,0,
+C1775,Female,48,Denmark,24,Two year,Credit card,DSL,Yes,Yes,51.35,1234.82,0,Yes,5,0,
+C1776,Male,79,Sweden,47,Month-to-month,Direct debit,None,Yes,Yes,55.89,2604.82,0,No,5,1,Competitor
+C1777,Female,70,Denmark,64,Two year,Credit card,Mobile,No,No,45.78,2913.86,3,Yes,4,1,Moving
+C1778,Male,79,Finland,52,Month-to-month,Credit card,Mobile,No,No,40.29,2105.43,3,Yes,4,0,
+C1779,Male,58,Denmark,66,Two year,Electronic invoice,Fiber,Yes,No,56.6,3720.46,3,Yes,4,0,
+C1780,Female,74,Germany,117,Month-to-month,Bank transfer,Fiber,Yes,No,50.38,5903.04,3,No,4,1,Other
+C1781,Male,78,Finland,89,Two year,Direct debit,None,Yes,Yes,59.23,5273.66,1,No,5,0,
+C1782,Female,74,Norway,17,One year,Electronic invoice,Mobile,Yes,No,48.44,871.12,2,Yes,4,0,
+C1783,Male,77,Denmark,8,Month-to-month,Electronic invoice,Mobile,Yes,Yes,30.7,232.66,2,Yes,4,0,
+C1784,Female,71,Germany,37,One year,Electronic invoice,Fiber,Yes,Yes,73.2,2701.68,1,No,4,1,Moving
+C1785,Female,23,Denmark,86,One year,Bank transfer,Fiber,Yes,Yes,59.48,5100.95,1,No,5,0,
+C1786,Female,54,Finland,20,One year,Bank transfer,Mobile,Yes,No,37.1,770.59,3,No,4,0,
+C1787,Female,74,Finland,120,Two year,Credit card,DSL,Yes,Yes,31.07,3730.53,2,Yes,5,0,
+C1788,Female,27,Finland,64,One year,Bank transfer,Fiber,No,No,71.2,4553.57,1,No,4,0,
+C1789,Male,57,Denmark,20,Month-to-month,Bank transfer,Mobile,Yes,Yes,56.39,1143.21,2,No,4,1,Other
+C1790,Female,24,Finland,26,Month-to-month,Direct debit,Mobile,No,No,48.12,1233.72,2,No,4,0,
+C1791,Male,56,Germany,105,One year,Direct debit,Fiber,No,No,97.02,10160.26,0,Yes,4,1,Competitor
+C1792,Female,55,Finland,69,One year,Electronic invoice,Fiber,Yes,Yes,75.34,5204.16,3,No,4,0,
+C1793,Female,38,Finland,118,One year,Direct debit,None,Yes,Yes,60.7,7165.84,1,No,5,1,Competitor
+C1794,Female,78,Sweden,43,Month-to-month,Direct debit,Fiber,Yes,No,86.57,3707.78,2,Yes,4,1,Competitor
+C1795,Male,37,Denmark,99,One year,Bank transfer,Mobile,Yes,No,38.77,3845.34,2,No,5,0,
+C1796,Male,20,Finland,27,Two year,Credit card,Mobile,No,Yes,55.3,1530.1,0,No,5,0,
+C1797,Female,68,Sweden,44,Month-to-month,Credit card,Mobile,Yes,Yes,40.94,1810.31,0,Yes,5,0,
+C1798,Male,39,Sweden,16,One year,Direct debit,Mobile,Yes,No,44.4,670.76,3,No,4,0,
+C1799,Male,64,Finland,39,Two year,Credit card,Fiber,Yes,No,59.36,2343.38,0,Yes,5,0,
+C1800,Male,21,Finland,115,Two year,Direct debit,Fiber,Yes,No,74.5,8607.29,1,Yes,5,1,Other
+C1801,Female,45,Denmark,2,Month-to-month,Direct debit,Fiber,Yes,Yes,61.62,133.82,1,Yes,4,1,Other
+C1802,Female,29,Sweden,75,Two year,Credit card,DSL,Yes,No,20.31,1526.68,3,Yes,5,1,Other
+C1803,Male,55,Finland,102,Two year,Credit card,DSL,Yes,Yes,27.38,2761.81,0,No,5,1,Other
+C1804,Male,68,Denmark,75,Month-to-month,Bank transfer,DSL,Yes,No,27.7,2060.19,3,Yes,4,1,Other
+C1805,Male,80,Germany,65,One year,Bank transfer,Mobile,No,No,28.68,1858.06,1,No,5,1,Moving
+C1806,Female,53,Norway,119,Month-to-month,Direct debit,DSL,Yes,Yes,27.81,3294.7,0,Yes,5,0,
+C1807,Female,64,Sweden,45,One year,Direct debit,DSL,Yes,No,26.24,1170.61,3,No,4,0,
+C1808,Male,58,Germany,85,One year,Direct debit,DSL,Yes,No,51.26,4359.57,3,Yes,4,0,
+C1809,Male,22,Germany,86,Two year,Electronic invoice,Fiber,Yes,No,63.58,5454.19,2,Yes,4,0,
+C1810,Male,30,Denmark,29,Month-to-month,Direct debit,DSL,Yes,Yes,59.34,1751.25,1,Yes,4,0,
+C1811,Female,40,Sweden,68,One year,Electronic invoice,Fiber,Yes,Yes,87.11,5924.97,2,Yes,4,0,
+C1812,Female,75,Norway,8,One year,Credit card,DSL,Yes,Yes,33.34,276.81,2,No,4,0,
+C1813,Male,67,Denmark,84,One year,Direct debit,Mobile,Yes,Yes,33.71,2841.83,1,No,5,0,
+C1814,Male,47,Finland,10,One year,Bank transfer,None,Yes,No,33.34,341.05,1,No,5,0,
+C1815,Male,79,Sweden,68,One year,Credit card,None,Yes,No,56.61,3850.43,1,No,5,0,
+C1816,Other,54,Denmark,98,Two year,Credit card,Fiber,Yes,Yes,77.87,7651.25,1,No,4,0,
+C1817,Male,42,Norway,90,One year,Direct debit,Fiber,Yes,Yes,82.26,7427.58,2,Yes,4,0,
+C1818,Female,65,Sweden,112,One year,Credit card,Fiber,Yes,Yes,44.73,4968.5,4,Yes,4,0,
+C1819,Female,44,Norway,65,Two year,Credit card,Fiber,Yes,No,74.48,4812.46,0,No,5,0,
+C1820,Male,68,Finland,87,Month-to-month,Electronic invoice,Fiber,Yes,No,41.57,3605.73,2,Yes,5,0,
+C1821,Male,31,Sweden,30,Month-to-month,Electronic invoice,DSL,Yes,No,41.25,1215.19,3,Yes,4,0,
+C1822,Male,74,Denmark,32,Two year,Direct debit,Mobile,No,No,54.1,1716.5,0,Yes,5,0,
+C1823,Female,79,Finland,38,One year,Direct debit,DSL,Yes,No,42.9,1621.14,0,Yes,5,0,
+C1824,Female,65,Finland,93,Two year,Electronic invoice,Fiber,Yes,No,72.54,6741.08,1,Yes,4,0,
+C1825,Female,76,Germany,45,Two year,Direct debit,Fiber,Yes,Yes,63.39,2822.73,1,Yes,4,0,
+C1826,Female,64,Finland,36,One year,Credit card,Fiber,Yes,No,70.44,2527.56,0,Yes,4,1,Other
+C1827,Male,71,Finland,114,One year,Electronic invoice,Mobile,Yes,Yes,70.05,8014.15,0,Yes,5,0,
+C1828,Other,53,Germany,91,One year,Direct debit,Fiber,Yes,Yes,83.62,7604.39,3,Yes,4,0,
+C1829,Female,56,Denmark,59,One year,Bank transfer,Fiber,Yes,No,70.01,4142.43,1,Yes,4,1,Moving
+C1830,Male,33,Norway,30,Two year,Bank transfer,Fiber,Yes,Yes,68.03,2039.55,2,Yes,4,0,
+C1831,Other,73,Germany,10,One year,Bank transfer,DSL,Yes,No,55.28,555.1,1,No,4,0,
+C1832,Female,39,Finland,86,One year,Electronic invoice,Fiber,Yes,No,57.64,4954.73,1,Yes,5,0,
+C1833,Female,38,Denmark,120,Month-to-month,Bank transfer,None,Yes,Yes,41.72,5021.26,1,No,5,1,Other
+C1834,Female,71,Sweden,1,Month-to-month,Electronic invoice,None,Yes,Yes,50.7,34.28,1,Yes,4,1,Other
+C1835,Female,38,Denmark,103,Month-to-month,Electronic invoice,Mobile,Yes,No,54.6,5627.22,0,Yes,5,0,
+C1836,Female,25,Sweden,104,Two year,Direct debit,DSL,Yes,Yes,70.47,7317.34,1,Yes,5,0,
+C1837,Male,66,Norway,26,Month-to-month,Direct debit,DSL,Yes,Yes,31.54,833.44,1,Yes,5,0,
+C1838,Male,33,Sweden,98,Two year,Bank transfer,Fiber,Yes,No,44.4,4329.04,0,Yes,5,0,
+C1839,Female,76,Sweden,1,Month-to-month,Credit card,Mobile,Yes,No,51.66,64.67,0,No,5,1,Other
+C1840,Male,72,Denmark,102,Two year,Credit card,Mobile,Yes,Yes,36.01,3677.19,2,No,5,0,
+C1841,Male,48,Norway,100,One year,Direct debit,Mobile,Yes,Yes,39.92,3966.71,2,Yes,5,0,
+C1842,Male,59,Norway,20,One year,Bank transfer,Fiber,Yes,No,34.0,714.92,3,Yes,4,0,
+C1843,Male,27,Sweden,57,Two year,Credit card,DSL,Yes,Yes,37.94,2173.74,3,No,4,0,
+C1844,Female,49,Sweden,4,Month-to-month,Credit card,DSL,Yes,Yes,53.06,190.53,2,Yes,4,1,Other
+C1845,Female,76,Denmark,51,One year,Electronic invoice,DSL,Yes,No,37.04,1892.17,1,No,5,0,
+C1846,Male,51,Denmark,44,One year,Bank transfer,Fiber,Yes,Yes,69.07,3006.29,1,No,4,0,
+C1847,Male,80,Norway,84,Two year,Electronic invoice,DSL,No,No,56.69,4727.67,6,No,4,0,
+C1848,Male,79,Germany,92,Month-to-month,Bank transfer,Mobile,Yes,No,16.14,1508.8,1,Yes,5,0,
+C1849,Female,26,Denmark,19,Month-to-month,Bank transfer,Fiber,Yes,Yes,57.17,1062.23,0,Yes,5,1,Competitor
+C1850,Female,34,Norway,60,Two year,Credit card,Fiber,Yes,Yes,83.09,5001.15,1,No,4,0,
+C1851,Male,28,Norway,37,Month-to-month,Bank transfer,DSL,Yes,No,50.99,1909.98,2,Yes,4,0,
+C1852,Female,49,Germany,19,Month-to-month,Direct debit,DSL,Yes,No,30.55,560.77,0,Yes,5,0,
+C1853,Female,27,Norway,113,One year,Credit card,Mobile,Yes,Yes,34.36,3924.28,3,Yes,5,0,
+C1854,Female,39,Denmark,24,Two year,Direct debit,Fiber,No,Yes,72.13,1732.97,2,Yes,4,1,Competitor
+C1855,Female,74,Norway,1,Month-to-month,Direct debit,Fiber,Yes,No,82.47,83.44,0,No,4,1,Moving
+C1856,Male,34,Norway,120,Two year,Direct debit,Mobile,Yes,Yes,33.27,3972.44,2,No,5,0,
+C1857,Female,21,Finland,31,Month-to-month,Direct debit,Fiber,Yes,No,74.2,2280.6,2,No,4,0,
+C1858,Male,65,Sweden,25,Month-to-month,Bank transfer,Fiber,Yes,Yes,70.12,1709.12,1,No,4,0,
+C1859,Female,69,Germany,69,Two year,Direct debit,Mobile,Yes,Yes,56.76,3900.9,2,Yes,4,1,Moving
+C1860,Female,64,Norway,40,One year,Electronic invoice,Mobile,Yes,No,31.6,1287.33,2,Yes,4,0,
+C1861,Female,42,Norway,120,Two year,Electronic invoice,Fiber,Yes,Yes,68.25,8169.64,3,Yes,4,0,
+C1862,Female,76,Germany,66,Month-to-month,Electronic invoice,Fiber,Yes,Yes,45.21,2965.24,2,Yes,4,0,
+C1863,Male,38,Norway,96,One year,Bank transfer,Fiber,No,Yes,67.34,6438.92,3,Yes,4,0,
+C1864,Female,54,Sweden,0,Month-to-month,Direct debit,Mobile,Yes,No,43.66,0.0,1,No,4,1,Other
+C1865,Other,55,Denmark,50,One year,Direct debit,Fiber,Yes,Yes,91.01,4568.25,0,Yes,4,0,
+C1866,Female,66,Denmark,4,One year,Credit card,Mobile,Yes,No,43.45,149.5,3,No,4,1,Other
+C1867,Male,18,Finland,12,Two year,Electronic invoice,Mobile,No,No,43.33,517.33,3,No,4,0,
+C1868,Male,80,Sweden,18,Month-to-month,Direct debit,Mobile,Yes,No,20.27,357.75,3,Yes,4,0,
+C1869,Male,42,Sweden,11,One year,Credit card,DSL,Yes,No,47.74,544.27,3,Yes,4,0,
+C1870,Female,68,Sweden,47,Two year,Credit card,DSL,No,Yes,32.71,1520.64,2,No,5,1,Other
+C1871,Female,53,Sweden,24,Month-to-month,Electronic invoice,DSL,Yes,Yes,36.18,859.7,2,No,4,0,
+C1872,Male,34,Sweden,56,Month-to-month,Credit card,Mobile,Yes,Yes,57.54,3200.39,2,No,4,0,
+C1873,Female,58,Finland,114,Two year,Credit card,Fiber,Yes,Yes,80.22,9132.28,0,Yes,5,0,
+C1874,Female,80,Sweden,34,Two year,Bank transfer,DSL,Yes,Yes,60.24,2030.13,0,Yes,5,1,Other
+C1875,Female,41,Finland,75,Two year,Credit card,DSL,No,Yes,61.94,4642.61,1,Yes,5,0,
+C1876,Female,19,Norway,93,Two year,Electronic invoice,Fiber,Yes,No,76.59,7154.89,2,Yes,4,1,Competitor
+C1877,Female,57,Germany,4,Month-to-month,Bank transfer,DSL,Yes,No,25.39,97.49,0,Yes,5,1,Moving
+C1878,Female,32,Denmark,97,One year,Direct debit,DSL,No,Yes,67.05,6527.34,0,No,5,0,
+C1879,Male,49,Sweden,21,Month-to-month,Electronic invoice,Fiber,Yes,Yes,79.78,1694.28,1,Yes,4,1,Moving
+C1880,Female,56,Finland,102,Month-to-month,Bank transfer,DSL,Yes,Yes,67.13,6846.41,2,No,4,1,Moving
+C1881,Female,76,Finland,76,Two year,Bank transfer,DSL,Yes,Yes,55.32,4223.55,1,Yes,5,0,
+C1882,Female,23,Sweden,56,Two year,Direct debit,Mobile,Yes,Yes,45.52,2553.73,2,Yes,4,0,
+C1883,Female,18,Finland,46,Two year,Bank transfer,Mobile,Yes,No,45.36,2057.98,3,Yes,4,0,
+C1884,Female,64,Sweden,53,Two year,Bank transfer,Fiber,No,Yes,69.95,3706.57,0,Yes,5,1,Competitor
+C1885,Male,40,Finland,2,One year,Direct debit,DSL,Yes,Yes,68.23,140.58,2,No,4,0,
+C1886,Male,75,Denmark,52,Two year,Electronic invoice,Mobile,Yes,Yes,35.23,1867.22,1,Yes,5,1,Other
+C1887,Male,56,Sweden,83,Month-to-month,Direct debit,Fiber,Yes,No,72.28,5980.61,5,No,4,1,Competitor
+C1888,Male,78,Finland,30,Two year,Electronic invoice,DSL,Yes,No,21.25,646.66,2,No,5,0,
+C1889,Female,79,Denmark,68,One year,Direct debit,DSL,Yes,No,30.85,2073.18,2,No,5,1,Competitor
+C1890,Other,74,Finland,87,Month-to-month,Direct debit,DSL,Yes,No,28.73,2530.37,2,Yes,5,0,
+C1891,Male,34,Finland,103,Two year,Electronic invoice,Fiber,No,Yes,45.38,4698.61,0,Yes,5,0,
+C1892,Male,51,Norway,117,Two year,Credit card,Mobile,Yes,Yes,41.29,4806.95,1,Yes,5,0,
+C1893,Female,76,Norway,32,Month-to-month,Bank transfer,Mobile,Yes,No,37.58,1237.38,1,Yes,5,1,Moving
+C1894,Male,58,Denmark,71,Month-to-month,Direct debit,Fiber,Yes,No,49.68,3548.82,3,No,4,1,Competitor
+C1895,Female,46,Finland,87,Two year,Direct debit,Fiber,Yes,Yes,57.93,5065.21,1,Yes,5,0,
+C1896,Female,26,Sweden,49,Two year,Credit card,Fiber,Yes,Yes,82.27,4062.63,1,No,4,0,
+C1897,Female,30,Finland,83,Two year,Bank transfer,Fiber,Yes,No,62.03,5171.01,2,No,4,0,
+C1898,Male,23,Finland,15,Month-to-month,Bank transfer,DSL,Yes,Yes,45.59,677.12,0,No,5,0,
+C1899,Male,23,Germany,113,Month-to-month,Direct debit,Fiber,No,No,40.64,4622.37,0,Yes,5,0,
+C1900,Female,37,Denmark,115,Month-to-month,Electronic invoice,Mobile,Yes,Yes,35.31,4042.78,3,Yes,5,1,Moving
+C1901,Female,69,Finland,75,Month-to-month,Electronic invoice,Fiber,Yes,Yes,89.91,6727.74,1,Yes,4,1,Competitor
+C1902,Male,70,Norway,76,Month-to-month,Direct debit,Mobile,Yes,No,32.79,2482.93,1,No,5,0,
+C1903,Female,20,Finland,108,Two year,Electronic invoice,Fiber,Yes,No,60.73,6565.51,0,Yes,5,1,Moving
+C1904,Male,34,Germany,105,One year,Bank transfer,Fiber,Yes,Yes,69.78,7308.54,3,Yes,4,0,
+C1905,Female,80,Finland,38,One year,Bank transfer,DSL,Yes,Yes,56.72,2131.4,3,Yes,4,0,
+C1906,Male,66,Finland,88,Month-to-month,Bank transfer,Fiber,Yes,Yes,70.6,6194.48,4,Yes,4,0,
+C1907,Female,29,Sweden,45,Month-to-month,Direct debit,Mobile,Yes,No,22.84,1020.54,1,Yes,5,1,Moving
+C1908,Male,65,Norway,95,Two year,Credit card,Fiber,Yes,No,36.44,3463.21,2,Yes,5,0,
+C1909,Male,64,Norway,87,Two year,Direct debit,DSL,Yes,Yes,37.14,3215.96,2,No,5,0,
+C1910,Male,62,Finland,111,Two year,Direct debit,DSL,Yes,Yes,55.93,6184.0,2,Yes,5,0,
+C1911,Male,72,Finland,46,One year,Bank transfer,Fiber,No,No,44.29,2045.14,1,No,5,0,
+C1912,Female,18,Sweden,43,One year,Electronic invoice,Fiber,Yes,No,72.5,3153.6,1,No,4,0,
+C1913,Other,34,Finland,8,Month-to-month,Direct debit,Fiber,Yes,No,56.17,441.07,0,Yes,4,0,
+C1914,Male,20,Germany,103,One year,Credit card,None,Yes,Yes,32.21,3335.47,3,No,5,0,
+C1915,Male,43,Finland,113,Two year,Bank transfer,Mobile,No,Yes,26.35,2977.59,3,Yes,5,0,
+C1916,Female,32,Sweden,86,Month-to-month,Direct debit,Fiber,Yes,No,55.57,4791.77,1,No,5,1,Other
+C1917,Female,53,Norway,49,Two year,Bank transfer,DSL,Yes,No,23.59,1172.22,3,No,4,0,
+C1918,Female,49,Finland,76,Month-to-month,Credit card,DSL,Yes,No,35.76,2717.86,4,No,4,0,
+C1919,Male,49,Norway,59,Two year,Direct debit,Fiber,Yes,Yes,86.85,5104.48,1,Yes,4,1,Moving
+C1920,Male,21,Denmark,95,Two year,Electronic invoice,Mobile,Yes,No,27.01,2541.34,0,Yes,5,1,Competitor
+C1921,Female,35,Finland,113,Two year,Bank transfer,Mobile,Yes,No,45.44,5157.72,0,No,5,0,
+C1922,Male,66,Germany,14,One year,Electronic invoice,Fiber,Yes,No,61.39,872.07,1,No,4,1,Moving
+C1923,Female,36,Norway,35,Two year,Electronic invoice,DSL,Yes,Yes,53.97,1908.54,0,No,5,0,
+C1924,Male,60,Finland,112,Two year,Credit card,None,Yes,No,57.47,6450.17,2,No,5,0,
+C1925,Female,69,Sweden,62,Month-to-month,Direct debit,None,Yes,No,29.49,1849.82,0,Yes,5,0,
+C1926,Male,52,Finland,68,Month-to-month,Bank transfer,Fiber,Yes,No,53.29,3628.16,1,Yes,5,1,Competitor
+C1927,Female,57,Denmark,85,Two year,Credit card,DSL,Yes,No,44.39,3742.76,3,No,4,1,Moving
+C1928,Female,31,Denmark,79,Two year,Direct debit,Fiber,No,No,83.71,6618.72,2,No,4,0,
+C1929,Female,75,Denmark,40,One year,Direct debit,Mobile,Yes,No,31.4,1291.86,0,Yes,5,0,
+C1930,Male,50,Germany,73,One year,Credit card,Fiber,Yes,Yes,62.64,4579.74,4,Yes,4,0,
+C1931,Female,31,Denmark,23,Two year,Electronic invoice,Mobile,Yes,No,34.38,766.15,0,Yes,5,0,
+C1932,Female,51,Norway,81,Month-to-month,Direct debit,DSL,Yes,No,57.31,4656.81,2,Yes,4,1,Other
+C1933,Female,78,Finland,48,One year,Electronic invoice,DSL,Yes,Yes,47.45,2320.96,1,Yes,5,0,
+C1934,Female,72,Sweden,17,Month-to-month,Bank transfer,DSL,Yes,Yes,72.29,1217.76,1,Yes,4,1,Other
+C1935,Female,21,Finland,6,Two year,Electronic invoice,Mobile,No,Yes,37.6,232.12,1,Yes,4,0,
+C1936,Female,41,Denmark,3,Month-to-month,Bank transfer,Fiber,Yes,No,54.53,173.1,0,Yes,4,1,Competitor
+C1937,Male,76,Sweden,89,Two year,Credit card,Mobile,Yes,Yes,40.67,3623.7,3,No,4,1,Moving
+C1938,Female,46,Finland,68,Month-to-month,Direct debit,DSL,No,No,39.78,2720.99,1,Yes,5,0,
+C1939,Female,36,Finland,59,Two year,Direct debit,Mobile,No,No,41.86,2461.64,2,Yes,4,0,
+C1940,Male,23,Sweden,54,Two year,Direct debit,Mobile,Yes,No,39.88,2166.06,1,No,5,0,
+C1941,Male,74,Norway,15,Month-to-month,Bank transfer,DSL,Yes,Yes,46.59,722.2,1,No,4,0,
+C1942,Male,50,Sweden,98,One year,Credit card,Mobile,Yes,No,15.0,1465.28,3,Yes,5,0,
+C1943,Female,66,Norway,89,One year,Direct debit,DSL,Yes,No,30.14,2698.57,2,No,5,0,
+C1944,Female,57,Sweden,81,One year,Bank transfer,DSL,Yes,Yes,39.67,3205.7,0,Yes,5,0,
+C1945,Female,36,Norway,28,Two year,Direct debit,DSL,Yes,No,59.48,1637.9,3,Yes,4,0,
+C1946,Female,70,Finland,22,Month-to-month,Bank transfer,Mobile,No,No,26.9,564.2,0,Yes,5,0,
+C1947,Male,18,Finland,116,Two year,Electronic invoice,Mobile,Yes,Yes,57.94,6730.26,1,No,5,0,
+C1948,Male,22,Norway,13,Month-to-month,Direct debit,Fiber,Yes,No,70.62,880.54,4,Yes,4,0,
+C1949,Male,44,Sweden,78,Month-to-month,Direct debit,Mobile,Yes,Yes,30.2,2357.45,1,Yes,5,1,Competitor
+C1950,Male,33,Finland,48,One year,Electronic invoice,Fiber,Yes,No,68.62,3277.95,0,Yes,5,0,
+C1951,Male,23,Sweden,32,One year,Direct debit,Mobile,Yes,No,25.17,761.56,0,Yes,5,1,Other
+C1952,Male,57,Finland,24,One year,Credit card,DSL,Yes,Yes,71.12,1720.53,2,Yes,4,0,
+C1953,Female,30,Sweden,20,One year,Credit card,Fiber,Yes,No,60.35,1178.94,1,Yes,4,0,
+C1954,Female,65,Sweden,16,Month-to-month,Direct debit,Fiber,Yes,No,82.24,1362.01,0,Yes,4,1,Competitor
+C1955,Other,79,Norway,22,Month-to-month,Credit card,DSL,Yes,No,53.4,1207.54,1,No,4,0,
+C1956,Female,52,Denmark,56,Two year,Direct debit,Fiber,Yes,Yes,69.35,3882.27,2,Yes,4,1,Competitor
+C1957,Female,36,Finland,106,Two year,Credit card,Fiber,Yes,Yes,72.98,7695.69,0,No,5,0,
+C1958,Male,29,Germany,80,Month-to-month,Credit card,DSL,Yes,Yes,51.32,4111.52,1,Yes,5,0,
+C1959,Female,33,Sweden,57,Two year,Bank transfer,None,Yes,No,46.65,2695.74,4,No,4,0,
+C1960,Female,76,Norway,13,Month-to-month,Electronic invoice,DSL,Yes,Yes,38.81,525.76,0,No,5,1,Moving
+C1961,Male,60,Norway,92,Two year,Direct debit,None,Yes,No,36.33,3364.86,0,No,5,1,Other
+C1962,Male,27,Norway,19,Two year,Electronic invoice,DSL,Yes,No,43.7,861.17,2,No,4,1,Other
+C1963,Female,42,Sweden,29,Two year,Electronic invoice,DSL,Yes,No,21.44,596.69,2,Yes,5,0,
+C1964,Male,37,Sweden,18,One year,Credit card,DSL,Yes,No,39.31,729.31,2,Yes,4,1,Moving
+C1965,Female,48,Finland,52,Month-to-month,Bank transfer,Mobile,No,No,51.67,2725.66,2,No,4,0,
+C1966,Female,21,Finland,102,Two year,Direct debit,Mobile,Yes,Yes,43.06,4379.73,0,Yes,5,0,
+C1967,Male,61,Sweden,55,One year,Electronic invoice,DSL,Yes,Yes,49.43,2710.61,0,Yes,5,0,
+C1968,Male,40,Finland,76,Month-to-month,Bank transfer,DSL,Yes,Yes,35.15,2702.46,3,No,4,0,
+C1969,Male,19,Sweden,81,One year,Electronic invoice,Fiber,Yes,Yes,83.7,6807.59,2,Yes,4,0,
+C1970,Male,73,Finland,22,Two year,Credit card,Fiber,Yes,No,74.34,1618.08,0,No,4,0,
+C1971,Male,39,Denmark,61,Two year,Credit card,Mobile,No,Yes,63.49,3847.01,4,No,4,1,Moving
+C1972,Female,68,Germany,109,Month-to-month,Direct debit,DSL,No,No,59.75,6510.47,0,No,5,0,
+C1973,Male,74,Germany,32,Two year,Bank transfer,Fiber,Yes,Yes,97.96,3105.25,0,Yes,4,0,
+C1974,Female,54,Sweden,102,Two year,Credit card,Mobile,No,Yes,27.28,2765.38,0,No,5,0,
+C1975,Male,25,Denmark,103,Month-to-month,Bank transfer,None,Yes,No,33.33,3419.33,2,Yes,5,0,
+C1976,Female,24,Germany,17,Month-to-month,Credit card,Fiber,Yes,Yes,109.53,1884.48,1,Yes,4,0,
+C1977,Male,31,Sweden,72,Two year,Direct debit,DSL,Yes,No,52.18,3784.85,1,No,5,1,Moving
+C1978,Male,73,Finland,32,One year,Electronic invoice,DSL,Yes,No,56.45,1828.96,0,Yes,5,1,Other
+C1979,Female,72,Germany,31,Month-to-month,Electronic invoice,Fiber,Yes,No,75.11,2311.93,0,No,4,1,Other
+C1980,Female,20,Sweden,60,Two year,Direct debit,Fiber,Yes,Yes,86.05,5161.29,1,No,4,0,
+C1981,Male,67,Sweden,53,Two year,Bank transfer,Mobile,Yes,No,20.86,1096.54,1,No,5,0,
+C1982,Female,33,Finland,16,One year,Bank transfer,Mobile,Yes,Yes,59.41,954.83,4,Yes,4,0,
+C1983,Male,72,Finland,18,One year,Credit card,Fiber,Yes,No,79.52,1446.39,1,Yes,4,0,
+C1984,Female,36,Denmark,90,One year,Bank transfer,Fiber,Yes,Yes,67.17,6035.77,1,No,5,0,
+C1985,Male,68,Norway,69,Month-to-month,Credit card,Fiber,Yes,Yes,79.03,5432.78,0,No,5,1,Moving
+C1986,Male,35,Finland,98,Two year,Electronic invoice,DSL,Yes,No,42.29,4175.89,0,No,5,1,Competitor
+C1987,Female,69,Finland,119,One year,Electronic invoice,DSL,Yes,Yes,55.24,6595.03,1,No,5,0,
+C1988,Female,33,Norway,100,Two year,Bank transfer,Fiber,No,No,41.35,4141.79,2,Yes,5,0,
+C1989,Male,25,Norway,33,Month-to-month,Direct debit,DSL,Yes,Yes,35.11,1137.36,2,Yes,4,0,
+C1990,Female,77,Finland,83,One year,Credit card,DSL,No,No,27.72,2318.09,2,Yes,5,0,
+C1991,Female,50,Germany,24,One year,Direct debit,DSL,Yes,No,28.8,687.81,2,No,4,0,
+C1992,Male,66,Finland,67,Two year,Direct debit,DSL,Yes,No,56.83,3763.2,1,Yes,5,0,
+C1993,Female,29,Sweden,73,Month-to-month,Bank transfer,DSL,No,No,48.63,3539.46,0,No,5,1,Other
+C1994,Male,79,Norway,73,Month-to-month,Credit card,Fiber,Yes,No,69.65,5093.62,2,Yes,4,0,
+C1995,Female,70,Finland,87,Month-to-month,Electronic invoice,Fiber,Yes,No,83.16,7230.6,1,Yes,4,0,
+C1996,Female,28,Denmark,84,Two year,Direct debit,Fiber,Yes,Yes,71.57,6022.07,2,Yes,4,0,
+C1997,Female,22,Denmark,10,Month-to-month,Electronic invoice,Fiber,Yes,No,63.91,648.43,4,No,4,1,Moving
+C1998,Male,44,Denmark,90,Month-to-month,Electronic invoice,None,Yes,Yes,64.92,5820.93,3,No,4,1,Moving
+C1999,Male,29,Finland,15,Month-to-month,Electronic invoice,DSL,Yes,Yes,60.15,915.93,2,No,4,1,Competitor
+C2000,Male,34,Finland,89,Two year,Credit card,Fiber,No,Yes,82.12,7324.19,2,Yes,4,0,
