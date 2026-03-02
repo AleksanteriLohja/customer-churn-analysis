@@ -1,4 +1,4 @@
-Customer Churn Analysis (Python · Excel · Tableau)
+# Customer Churn Analysis (Python · Excel · Tableau)
 
 # Executive Summary
 This project analyzes customer churn in a simulated telecom environment using a full analytics workflow across Python, Excel, and Tableau. The goal is to identify the key factors that drive churn and provide actionable business recommendations. The analysis shows that contract type, pricing, satisfaction score, and regional differences are the strongest predictors of churn. The final Tableau dashboard summarizes these insights in a clear, business‑friendly format.
